@@ -1,0 +1,56 @@
+data/
+.cache/*.pkl
+
+# Competition data: the package README forbids sharing it, so it stays out of git
+train+public_test/
+
+# Kaggle staging folders (dataset uploads, generated kernels) and collected outputs
+kernels/
+outputs/
+
+# Docker build inputs: the exported models (several GB) and the packaged transcripts, made before each build
+models/
+package_data/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE settings (JetBrains)
+.idea/
+
+# Raw note-generation data (inputs, model replies, checks): kept outside git; only the instructions are tracked.
+# The final notes used in training are src/lifemate/notes.jsonl and notes_v2.jsonl.
+notes/*
+!notes/GUIDE.md
+notes_v2/*
+!notes_v2/GUIDE.md
+!notes_v2/PROMPT.md
+
+# hearing analysis row dumps (derived from competition data)
+scripts/hearing_analysis/*.json
+lifemate_final*.tar.gz
+lifemate_final/
+
+# Working notes, plans and the experiment log: kept locally, not part of the repo
+/log.md
+/submissions.md
+/eda.md
+/research_report.md
+/improve_plan.md
+/improvment_plan2.md
+/improvment_plan3.md
+/plan3_final.md
+/ASR_IMPROVEMENT_PLAN.md
+/METHODOLOGY_REVIEW.md
+
+# Derived files: scratch analyses, generated submissions and figures (rebuilt by the scripts)
+.cache/
+output/
+figures/

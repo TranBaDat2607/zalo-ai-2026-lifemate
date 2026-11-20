@@ -1,0 +1,4 @@
+{"0":[["export_models","--out","{out}/models","--llm-adapter","auto:lifemate-exp9-adapter","--asr-model","vinai/PhoWhisper-medium","--asr-adapter","auto:asr_medium/full/best"],
+      ["solve","--data","auto:public_test","--out","{out}/e2e_0","--llm","{out}/models/llm","--asr","{out}/models/asr","--shard","0","--shards","2","--denoise"]],
+ "1":[["waitfor","--path","{out}/models/parameters.json","--minutes","90"],
+      ["solve","--data","auto:public_test","--out","{out}/e2e_1","--llm","{out}/models/llm","--asr","{out}/models/asr","--shard","1","--shards","2","--denoise"]]}

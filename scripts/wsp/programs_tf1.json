@@ -1,0 +1,1 @@
+[{"all": 1.0}, {"all": 1.3}, {"all": 0.85}, {"all": 1.15}, {"all": 0.7}, {"all": 1.5}, {"attn": 1.25}, {"mlp": 1.25}, {"attn": 0.8}, {"mlp": 0.8}, {"early": 1.25}, {"mid": 1.25}, {"late": 1.25}, {"early": 0.8}, {"mid": 0.8}, {"late": 0.8}, {"attn:early": 1.3}, {"attn:mid": 1.3}, {"attn:late": 1.3}, {"mlp:early": 1.3}, {"mlp:mid": 1.3}, {"mlp:late": 1.3}]

@@ -1,0 +1,2 @@
+{"0":[["infer","--split","train","--out","{out}/rules_both","--adapter","auto:lifemate-exp9-adapter","--transcripts","auto:medium_train.json","--ids-file","splits","--shard","0","--shards","1","--budget-s","60","--denoise","--broaden-search","--ask-bias","2.0"]],
+ "1":[["infer","--split","train","--out","{out}/rules_broaden","--adapter","auto:lifemate-exp9-adapter","--transcripts","auto:medium_train.json","--ids-file","splits","--shard","0","--shards","1","--budget-s","60","--denoise","--broaden-search"]]}

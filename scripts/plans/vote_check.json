@@ -1,0 +1,2 @@
+{"0":[["infer","--out","{out}/vote_eval","--split","train","--adapter","auto:m1/adapter,auto:m2/adapter","--transcripts","auto:avg5_train.json","--ids-file","splits","--budget-s","180","--denoise","--vote","--shard","0","--shards","2"]],
+ "1":[["infer","--out","{out}/vote_eval","--split","train","--adapter","auto:m1/adapter,auto:m2/adapter","--transcripts","auto:avg5_train.json","--ids-file","splits","--budget-s","180","--denoise","--vote","--shard","1","--shards","2"]]}

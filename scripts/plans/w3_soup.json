@@ -1,0 +1,4 @@
+{"0":[["train","--out","{out}/e1s2","--holdout-file","splits","--transcripts","auto:medium_train.json","--noisy-only","--tool-drop","0.5","--label-history","--synth","package","--denoise","--epochs","2.0","--max-hours","8.3","--snapshot-epochs","1.0,1.5","--mask-names","0.3","--seed","2027"],
+      ["?infer","--split","train","--out","{out}/soup_eval","--adapter","auto:e1/adapter,{out}/e1s2/adapter","--transcripts","auto:medium_train.json","--ids-file","splits","--shard","0","--shards","1","--budget-s","60","--denoise"]],
+ "1":[["waitfor","--path","{out}/e1s2/metrics.json","--minutes","520"],
+      ["infer","--split","train","--out","{out}/e1s2_eval","--adapter","{out}/e1s2/adapter","--transcripts","auto:medium_train.json","--ids-file","splits","--shard","0","--shards","1","--budget-s","60","--denoise"]]}

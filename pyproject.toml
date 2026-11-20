@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lifemate"
+version = "0.1.0"
+description = "Voice-to-action agent for the Zalo AI Challenge 2026 LifeMate track"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "torch",
+    "transformers",
+    "peft",
+    "accelerate",
+    "soundfile",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["lifemate*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

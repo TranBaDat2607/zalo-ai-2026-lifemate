@@ -1,0 +1,2 @@
+{"0":[["infer", "--split", "train", "--out", "{out}/fold2_e1_eval", "--adapter", "auto:fold2/adapter_e1", "--transcripts", "auto:medium_train.json", "--ids-file", "splits", "--shard", "0", "--shards", "1", "--budget-s", "60", "--denoise"]],
+ "1":[["infer", "--split", "train", "--out", "{out}/fold2_e15_eval", "--adapter", "auto:fold2/adapter_e1.5", "--transcripts", "auto:medium_train.json", "--ids-file", "splits", "--shard", "0", "--shards", "1", "--budget-s", "60", "--denoise"]]}

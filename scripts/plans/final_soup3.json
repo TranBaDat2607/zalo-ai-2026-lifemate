@@ -1,0 +1,6 @@
+{"0":[["train","--out","{out}/s2026","--transcripts","auto:medium_train.json","--noisy-only","--tool-drop","0.5","--label-history","--synth","package","--denoise","--epochs","2.0","--max-hours","9.6","--mask-names","0.3","--seed","2026"],
+      ["waitfor","--path","{out}/s2028/metrics.json","--minutes","90"],
+      ["infer","--split","public_test","--out","{out}/public_soup3","--adapter","auto:final1/adapter,{out}/s2026/adapter,{out}/s2028/adapter","--transcripts","auto:avg5_public_test.json","--shard","0","--shards","2","--budget-s","60","--denoise"]],
+ "1":[["train","--out","{out}/s2028","--transcripts","auto:medium_train.json","--noisy-only","--tool-drop","0.5","--label-history","--synth","package","--denoise","--epochs","2.0","--max-hours","9.6","--mask-names","0.3","--seed","2028"],
+      ["waitfor","--path","{out}/s2026/metrics.json","--minutes","90"],
+      ["infer","--split","public_test","--out","{out}/public_soup3","--adapter","auto:final1/adapter,{out}/s2026/adapter,{out}/s2028/adapter","--transcripts","auto:avg5_public_test.json","--shard","1","--shards","2","--budget-s","60","--denoise"]]}

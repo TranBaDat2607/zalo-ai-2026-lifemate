@@ -1,0 +1,4 @@
+{"0":[["synth_filter","--out","{out}","--adapter","auto:asr_medium/fold{fold}/best","--fold","0","--fold","2","--part","a"]],
+ "1":[["synth_filter","--out","{out}","--adapter","auto:asr_medium/fold{fold}/best","--fold","1","--part","b"],
+      ["waitfor","--path","{out}/synth_keep_a.json","--minutes","30"],
+      ["synth_filter","--out","{out}","--merge"]]}

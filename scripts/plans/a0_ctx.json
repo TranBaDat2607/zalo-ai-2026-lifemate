@@ -1,0 +1,2 @@
+{"0":[["asr_ctx_eval","--out","{out}/a0","--adapter","auto:asr_medium/fold{fold}/best","--fold","0","--fold","2"]],
+ "1":[["asr_ctx_eval","--out","{out}/a0","--adapter","auto:asr_medium/fold{fold}/best","--fold","1"]]}

@@ -1,0 +1,6 @@
+{"0":[["asr_train","--out","{out}/asr_m10","--model","vinai/PhoWhisper-medium","--folds","3","--plan","0","--epochs","10","--max-hours","2.3"],
+      ["?asr_train","--out","{out}/asr_m10","--model","vinai/PhoWhisper-medium","--folds","3","--plan","1","--epochs","10","--max-hours","2.3"],
+      ["?waitfor","--path","{out}/asr_m10/public_test.json","--minutes","240"],
+      ["?merge_oof","--dir","{out}/asr_m10","--name","medium10"]],
+ "1":[["asr_train","--out","{out}/asr_m10","--model","vinai/PhoWhisper-medium","--folds","3","--plan","2","--epochs","10","--max-hours","2.3"],
+      ["?asr_train","--out","{out}/asr_m10","--model","vinai/PhoWhisper-medium","--plan","full","--epochs","10","--max-hours","3.2"]]}

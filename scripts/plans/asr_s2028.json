@@ -1,0 +1,4 @@
+{"0":[["asr_train","--out","{out}/s2028","--model","vinai/PhoWhisper-medium","--fold-seed","2026","--seed","2028","--epochs","5","--max-hours","3.2","--folds","3","--plan","0"],
+      ["?asr_train","--out","{out}/s2028","--model","vinai/PhoWhisper-medium","--fold-seed","2026","--seed","2028","--epochs","5","--max-hours","3.2","--folds","3","--plan","1"]],
+ "1":[["asr_train","--out","{out}/s2028","--model","vinai/PhoWhisper-medium","--fold-seed","2026","--seed","2028","--epochs","5","--max-hours","3.2","--folds","3","--plan","2"],
+      ["?asr_train","--out","{out}/s2028","--model","vinai/PhoWhisper-medium","--fold-seed","2026","--seed","2028","--epochs","5","--max-hours","3.2","--plan","full"]]}

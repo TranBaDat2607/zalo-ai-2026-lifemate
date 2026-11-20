@@ -1,0 +1,1055 @@
+{"id": "train_0001", "note": "weather.get_forecast mai 29/11 xem có mưa không; mưa thì calendar.list_events rồi calendar.update_event dời 1 tiếng, contacts.search và sms.send cho Sếp Dũng, không mưa thì thôi."}
+{"id": "train_0004", "note": "smart_home.get_status tìm đèn phòng ngủ nhỏ; khớp đúng một thì smart_home.light_set, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0005", "note": "calendar.list_events lấy địa điểm họp phụ huynh chiều nay; ride_hailing.book xe car4 từ công ty đến địa điểm đó."}
+{"id": "train_0006", "note": "gold_price.get_price sjc xem giá mua vào có dưới 123 triệu không; nếu dưới thì reminders.create nhắc lúc 9:00 ngày 24/11, không thì thôi."}
+{"id": "train_0007", "note": "Người dùng đổi thành 5 rưỡi sáng mai = 5:30 ngày 11/11. alarm.create."}
+{"id": "train_0008", "note": "weather.get_forecast mai 14/11 xem có mưa không; mưa thì alarm.update dời alm_02 từ 7:00 sang 7:30, không mưa thì thôi."}
+{"id": "train_0009", "note": "50 ngàn = 50000; nạp tiền điện thoại cho số 09505360367. ewallet.topup_mobile."}
+{"id": "train_0013", "note": "Mai là 6/11. weather.get_forecast ngày 6/11 xem có mưa không; mưa thì calendar.list_events tìm đá bóng, calendar.update_event lùi 1 tiếng, contacts.search Lan rồi sms.send, không mưa thì thôi."}
+{"id": "train_0014", "note": "smart_home.get_status xem đèn tầng 2 và máy lạnh; smart_home.light_set tắt từng đèn ở phòng không bật máy lạnh, phòng nào đang bật máy lạnh thì giữ nguyên."}
+{"id": "train_0016", "note": "Mai là 25/11. weather.get_forecast xem có mưa không; mưa thì calendar.list_events, calendar.update_event lùi 2 tiếng, contacts.search và sms.send báo Mẹ, không mưa thì thôi."}
+{"id": "train_0017", "note": "tv.guide lấy danh sách kênh trước khi chuyển; tv.tune kênh S+ Sport."}
+{"id": "train_0018", "note": "contacts.search tìm Bố; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0019", "note": "Không có ứng dụng hỗ trợ đặt phòng khách sạn nên không gọi tool."}
+{"id": "train_0020", "note": "smart_home.get_status tầng 2; smart_home.light_set tắt từng đèn ở phòng không bật điều hoà, phòng đang bật điều hoà thì thôi."}
+{"id": "train_0026", "note": "calendar.list_events tìm lịch cà phê với gia đình mai 18/11; khớp đúng một thì calendar.update_event lùi 1 tiếng, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0027", "note": "Tối mai 18/11; 8 giờ kém 15 tối = 19:45. reminders.create."}
+{"id": "train_0028", "note": "calendar.list_events lấy giờ họp team ngày 19/11; lùi 1 tiếng rồi alarm.create."}
+{"id": "train_0029", "note": "gold_price.get_price xem giá mua vào SJC dưới 124 triệu không; đúng thì reminders.create 9:00 4/11, không thì thôi."}
+{"id": "train_0031", "note": "Mai = 6/11; tám rưỡi tối = 20:30. reminders.create nhắc gọi lại cho khách."}
+{"id": "train_0033", "note": "calendar.list_events tìm giờ họp team mai 8/11; alarm.create trước giờ họp 2 tiếng."}
+{"id": "train_0035", "note": "smart_home.get_status tìm đèn phòng khách; khớp đúng một thì smart_home.light_set tắt đèn, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0036", "note": "Người dùng đổi ý không cần tắt đèn nên không gọi tool."}
+{"id": "train_0037", "note": "weather.get_forecast ngày 12/11 tại Đà Nẵng xem có mưa không; có mưa thì calendar.list_events tìm lịch đi chơi công viên rồi calendar.cancel_event, không mưa thì thôi."}
+{"id": "train_0039", "note": "chat_ott.list_chats tìm cuộc trò chuyện Minh; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0040", "note": "calendar.list_events tìm lịch cà phê với gia đình mai 10/11; khớp đúng một thì calendar.update_event dời muộn 30 phút, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0042", "note": "Mai 17/11, 6 rưỡi sáng = 6:30 → alarm.create. contacts.search tìm Minh; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0043", "note": "Thiết bị không có ứng dụng đặt xe nên không gọi tool."}
+{"id": "train_0046", "note": "bill_payment.list_bills hoá đơn truyền hình và ewallet.get_balance xem đủ tiền không; đủ thì bill_payment.pay bằng ví rồi contacts.search Hương và sms.send, không đủ thì bill_payment.pay bằng ngân hàng rồi reminders.create lúc 20:00."}
+{"id": "train_0047", "note": "smart_home.get_status tìm đèn bếp; khớp đúng một thì smart_home.light_set, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0048", "note": "contacts.search tìm Lan; khớp đúng một người thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0050", "note": "gold_price.get_price tra cứu giá vàng loại sjc hôm nay."}
+{"id": "train_0052", "note": "6 rưỡi sáng mai = 3/11 6:30 → alarm.create. contacts.search tìm Minh; khớp đúng một người thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0055", "note": "smart_home.get_status tầng 2 xem phòng nào bật điều hoà; phòng không bật điều hoà thì smart_home.light_set tắt đèn, phòng đang bật thì giữ nguyên."}
+{"id": "train_0057", "note": "Người dùng khen ngợi xã giao nên không gọi tool."}
+{"id": "train_0059", "note": "bill_payment.list_bills lấy hoá đơn điện; ewallet.get_balance xem số dư ví có đủ không; đủ thì bill_payment.pay qua ví, không đủ thì bill_payment.pay qua ngân hàng."}
+{"id": "train_0060", "note": "7 rưỡi sáng mai = 7:30 19/11. alarm.create."}
+{"id": "train_0061", "note": "Tối mai = 7/11; 9 giờ kém 15 tối = 20:45. reminders.create tạo nhắc việc gọi lại cho khách."}
+{"id": "train_0063", "note": "Minh khách hàng ở lượt trước có id c_10. Gửi tin nhắn qua sms.send."}
+{"id": "train_0064", "note": "bill_payment.list_bills tìm hoá đơn tiền điện và ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay từ ví, không thì bill_payment.pay từ ngân hàng."}
+{"id": "train_0066", "note": "Tối mai = 22/11. 9 giờ kém 15 tối = 20:45. reminders.create nhắc gọi lại cho khách."}
+{"id": "train_0068", "note": "Sáng mai 27/11 lúc 6:00 đặt báo thức alarm.create. contacts.search tìm Minh; khớp đúng một người thì phone.call, không có hoặc nhiều người thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0069", "note": "smart_home.get_status tìm đèn phòng ngủ nhỏ rồi smart_home.light_set tắt; contacts.search Hương; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0070", "note": "calendar.list_events tìm giờ và địa điểm hẹn cà phê chiều nay 27/11; ride_hailing.book xe car4 từ công ty đón trước giờ hẹn 30 phút, rồi reminders.create nhắc mang laptop trước giờ đón 15 phút."}
+{"id": "train_0071", "note": "Mai 23/11; năm giờ sáng = 5:00 → alarm.create. contacts.search tìm Bố; thiếu số tiền nên sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0074", "note": "8 giờ tối = 20:00. bill_payment.list_bills và ewallet.get_balance xem ví đủ tiền nước không; đủ thì bill_payment.pay bằng ví và sms.send, không thì bill_payment.pay bằng ngân hàng và reminders.create lúc 20:00."}
+{"id": "train_0075", "note": "smart_home.get_status tìm đèn phòng khách; khớp đúng một thì smart_home.light_set độ sáng 50% rồi smart_home.climate_set điều hoà 26 độ, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0076", "note": "calendar.list_events lấy địa điểm và giờ hẹn cà phê chiều 17/11; ride_hailing.book xe car4 từ công ty đón trước 45 phút, reminders.create nhắc mang laptop trước giờ đón 15 phút."}
+{"id": "train_0078", "note": "smart_home.get_status tầng 2; smart_home.light_set tắt từng đèn ở phòng không chạy quạt, phòng đang chạy quạt thì để nguyên; smart_home.climate_set bật điều hoà phòng ngủ 25 độ."}
+{"id": "train_0081", "note": "bill_payment.list_bills lấy tiền truyền hình và tiền điện; banking.get_balance kiểm tra tài khoản thanh toán; banking.list_beneficiaries; đủ thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tiết kiệm."}
+{"id": "train_0082", "note": "Điều kiện thời tiết ngày mai không thể tự động theo dõi, không gọi tool."}
+{"id": "train_0083", "note": "smart_home.get_status tìm thiết bị phòng khách; khớp đúng một đèn thì smart_home.light_set bật 30% rồi smart_home.climate_set 26 độ, không có hoặc nhiều đèn thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0084", "note": "calendar.list_events lấy địa điểm họp phụ huynh; ride_hailing.book car4 từ công ty tới đó."}
+{"id": "train_0086", "note": "Sáng mai = 23/11 lúc 6:00, alarm.create; contacts.search tìm Minh, khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0088", "note": "bill_payment.list_bills lọc hoá đơn đến hạn trong 5 ngày (đến 9/11); hoá đơn nào từ 500000 trở xuống thì bill_payment.pay từ ngân hàng, quá 500000 hoặc không có thì thôi."}
+{"id": "train_0089", "note": "contacts.search tìm Hương; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0090", "note": "bill_payment.list_bills tìm hoá đơn tiền mạng và ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng; contacts.search Lan rồi sms.send."}
+{"id": "train_0091", "note": "bill_payment.list_bills; bill_payment.pay từng hoá đơn tới hạn trong 5 ngày tới và không quá 500000 qua ngân hàng, chừa hoá đơn trên 500000."}
+{"id": "train_0093", "note": "weather.get_forecast ngày 3/11 xem có mưa không; mưa thì calendar.list_events rồi calendar.cancel_event và contacts.search Lan rồi sms.send, không mưa thì calendar.list_events rồi ride_hailing.book."}
+{"id": "train_0094", "note": "weather.get_forecast ngày 14/11 xem có mưa không; mưa thì calendar.list_events tìm lịch chạy bộ, calendar.update_event lùi 2 tiếng, contacts.search rồi sms.send báo bố, không mưa thì thôi."}
+{"id": "train_0095", "note": "Người đó là Mẹ (c_02 ở lượt trước). phone.call."}
+{"id": "train_0097", "note": "8 giờ kém 15 tối mai = 19:45 25/11. reminders.create nhắc uống thuốc."}
+{"id": "train_0098", "note": "bill_payment.list_bills tìm hoá đơn mạng và ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng; sau đó contacts.search và sms.send cho sếp Dũng."}
+{"id": "train_0103", "note": "Sáng mai = 13/11 6:30; alarm.create. contacts.search tìm Minh; khớp đúng một người thì phone.call, không có hoặc nhiều người thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0104", "note": "bill_payment.list_bills; bill_payment.pay từng hoá đơn đến hạn trong 5 ngày tới không quá 500000 qua ngân hàng, quá 500000 thì thôi."}
+{"id": "train_0106", "note": "weather.get_forecast mai 8/11 xem có mưa không; mưa thì calendar.list_events rồi calendar.cancel_event và sms.send, không mưa thì ride_hailing.book xe 4 chỗ trước 30 phút."}
+{"id": "train_0107", "note": "bill_payment.list_bills lấy hoá đơn mạng và ewallet.get_balance kiểm tra số dư ví; ví đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng; contacts.search tìm cô giáo Mai rồi sms.send."}
+{"id": "train_0108", "note": "smart_home.get_status kiểm tra thiết bị tầng 2; smart_home.light_set tắt từng đèn ở phòng không bật quạt, phòng nào bật quạt thì để đèn; smart_home.climate_set điều hoà phòng ngủ 26 độ."}
+{"id": "train_0109", "note": "weather.get_forecast mai 16/11 xem có mưa không; mưa thì calendar.list_events tìm lịch cà phê rồi calendar.cancel_event và contacts.search gửi sms.send cho anh Tuấn, không mưa thì calendar.list_events rồi ride_hailing.book đón trước 30 phút."}
+{"id": "train_0110", "note": "bill_payment.list_bills lấy tiền điện; contacts.search tìm Sếp Dũng; khớp đúng một người thì ewallet.topup_mobile 50000 rồi contacts.search tìm Mẹ và ewallet.transfer tiền điện, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.topup_mobile, params phone."}
+{"id": "train_0112", "note": "bill_payment.list_bills tìm hoá đơn mạng; ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng."}
+{"id": "train_0115", "note": "chat_ott.list_chats tìm cuộc trò chuyện với Minh; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0116", "note": "reminders.create thiếu thời gian nhắc việc → sys.ask_missing_info cho reminders.create, params time."}
+{"id": "train_0117", "note": "gold_price.get_price xem giá bán SJC có trên 129 triệu không; trên thì reminders.create 9:00 ngày 11/11, không thì banking.list_beneficiaries rồi banking.transfer 2000000 cho Phạm Hùng."}
+{"id": "train_0122", "note": "Giá vàng SJC mua vào 118.1 triệu thấp hơn 119 triệu ở lượt trước. Mai 12/11, 9 giờ sáng = 9:00, reminders.create."}
+{"id": "train_0123", "note": "chín giờ sáng mai = 9:00 7/11. gold_price.get_price sjc xem giá bán có trên 127000000 không; trên thì reminders.create lúc 9:00 7/11, không thì banking.get_balance, banking.list_beneficiaries rồi banking.transfer 2000000 cho Nguyễn Thị Lan."}
+{"id": "train_0124", "note": "Mai = 6/11. calendar.list_events ngày 6/11 tìm lịch khám răng; khớp đúng một thì calendar.update_event lùi 60 phút, rồi alarm.create trước 1 tiếng, contacts.search tìm Bố và sms.send; không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0125", "note": "Lượt trước giá mua vào SJC là 130.8 triệu, không dưới 129 triệu nên không thoả điều kiện, không gọi tool."}
+{"id": "train_0126", "note": "bill_payment.list_bills; bill_payment.pay từng hoá đơn hạn trong 5 ngày tới từ 500000 trở xuống bằng ngân hàng, trên 500000 thì thôi."}
+{"id": "train_0127", "note": "calendar.list_events lấy giờ và điểm hẹn chiều nay; ride_hailing.book đón trước 45 phút xe car4; reminders.create nhắc mang laptop trước khi xe đón 15 phút."}
+{"id": "train_0129", "note": "smart_home.get_status xem thiết bị tầng 2; phòng nào không bật điều hoà thì smart_home.light_set tắt đèn, phòng đang bật điều hoà thì thôi."}
+{"id": "train_0132", "note": "Tối mai = 3/11. 9 giờ kém 15 tối = 20:45. reminders.create nhắc gọi lại cho khách lúc 20:45 ngày 3/11."}
+{"id": "train_0134", "note": "chat_ott.list_chats lấy số người nhóm Gia đình không tính mình; food_delivery.list_restaurants tìm quán bún bò Huế; khớp đúng một thì food_delivery.get_menu rồi food_delivery.place_order, không có hoặc nhiều thì sys.ask_missing_info cho food_delivery.get_menu, params restaurant_id."}
+{"id": "train_0135", "note": "Chưa có giờ báo thức mai 22/11; sys.ask_missing_info cho alarm.create, params time."}
+{"id": "train_0137", "note": "Lượt trước cho thấy mai 24/11 không mưa, theo yêu cầu nếu không mưa thì bỏ qua nên không gọi tool."}
+{"id": "train_0138", "note": "smart_home.get_status tầng 2; smart_home.light_set tắt từng đèn, bỏ phòng quạt đang chạy; smart_home.climate_set bật điều hoà phòng ngủ 27 độ."}
+{"id": "train_0142", "note": "calendar.list_events tìm cà phê gia đình mai 27/11; khớp đúng một thì calendar.update_event lùi 60 phút rồi alarm.create trước 1 tiếng, contacts.search tìm Minh rồi sms.send, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0144", "note": "smart_home.get_status tìm đèn phòng khách; khớp đúng một thì smart_home.light_set rồi smart_home.climate_set, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0145", "note": "Một trăm nghìn = 100000. bill_payment.list_bills lấy tiền nước; contacts.search tìm Sếp Dũng; khớp đúng một thì ewallet.topup_mobile 100000, rồi contacts.search tìm Bố và ewallet.transfer tiền nước; không có hoặc nhiều thì sys.ask_missing_info cho ewallet.topup_mobile, params phone."}
+{"id": "train_0146", "note": "bill_payment.list_bills xem hoá đơn đến hạn trong 5 ngày tới; khoản nào từ 500000 trở xuống thì bill_payment.pay bằng ngân hàng, trên 500000 thì thôi."}
+{"id": "train_0148", "note": "bill_payment.list_bills; bill_payment.pay bằng ngân hàng từng hoá đơn tới hạn trong 5 ngày tới không vượt 500000, hoá đơn vượt 500000 thì thôi."}
+{"id": "train_0149", "note": "calendar.list_events lấy địa điểm và giờ hẹn cà phê chiều nay; ride_hailing.book xe car4 trước giờ hẹn 45 phút, rồi reminders.create nhắc trước giờ xe đón 15 phút."}
+{"id": "train_0151", "note": "bill_payment.list_bills tìm hoá đơn mạng; ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng."}
+{"id": "train_0152", "note": "contacts.search Lan; mai 22/11 lúc 6 giờ sáng = 6:00 → alarm.create; thiếu số tiền nên sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0153", "note": "5 giờ chiều mai = 17:00 3/11 → reminders.create đổ xăng. contacts.search Lan; khớp đúng một người thì sms.send, không có hoặc nhiều người thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0154", "note": "weather.get_forecast mai 5/11 xem có mưa không; mưa thì calendar.list_events, calendar.cancel_event, contacts.search và sms.send; không mưa thì calendar.list_events và ride_hailing.book."}
+{"id": "train_0157", "note": "smart_home.get_status xem quạt các phòng tầng 2; phòng nào quạt không chạy thì smart_home.light_set tắt đèn, quạt đang chạy thì giữ nguyên; smart_home.climate_set bật điều hoà phòng ngủ 26 độ."}
+{"id": "train_0158", "note": "smart_home.get_status kiểm tra thiết bị tầng 2; phòng nào quạt không bật thì smart_home.light_set tắt đèn, quạt bật thì không tắt; rồi smart_home.climate_set phòng ngủ 25 độ."}
+{"id": "train_0159", "note": "smart_home.get_status xem các phòng tầng 2; phòng không bật điều hoà thì smart_home.light_set tắt đèn, phòng đang bật điều hoà thì giữ nguyên đèn."}
+{"id": "train_0161", "note": "Năm giờ chiều mai = 16/11 17:00. reminders.create nhắc đổ xăng. contacts.search tìm Minh; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0162", "note": "Chiều mai 5 giờ = 17:00 ngày 15/11. reminders.create nhắc đổ xăng. contacts.search tìm Hương; khớp đúng một người thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0163", "note": "bill_payment.list_bills lấy tiền mạng, banking.list_beneficiaries tìm Lê Minh; banking.get_balance xem tài khoản thanh toán đủ tiền không; đủ thì banking.transfer từ thanh toán, không đủ thì banking.transfer từ tiết kiệm."}
+{"id": "train_0166", "note": "Lan đồng nghiệp lượt trước là c_08, phone.call gọi. Mai 8/11, 6:00 sáng alarm.create báo thức."}
+{"id": "train_0168", "note": "Tối mai là 19/11; 8 giờ kém 15 tối = 19:45. reminders.create nhắc việc gọi lại cho khách."}
+{"id": "train_0169", "note": "bill_payment.list_bills tìm hoá đơn điện; ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay từ ví, không đủ thì bill_payment.pay từ tài khoản ngân hàng."}
+{"id": "train_0170", "note": "smart_home.get_status phòng làm việc rồi smart_home.light_set tắt đèn; contacts.search Lan, khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0171", "note": "chat_ott.list_chats đếm người nhóm Gia đình rồi food_delivery.list_restaurants tìm Bún bò Huế Cô Ba; khớp đúng một thì food_delivery.get_menu bún bò giò rồi food_delivery.place_order, không có hoặc nhiều thì sys.ask_missing_info cho food_delivery.get_menu, params restaurant_id."}
+{"id": "train_0174", "note": "Sáng mai = 24/11 6:00. alarm.create 6:00 24/11; contacts.search tìm Minh, khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0176", "note": "weather.get_forecast mai 13/11 xem có mưa không; mưa thì calendar.list_events tìm lịch đi chơi công viên rồi calendar.cancel_event, contacts.search Sếp Dũng rồi sms.send; không mưa thì calendar.list_events lấy địa điểm và giờ hẹn rồi ride_hailing.book ô tô 4 chỗ."}
+{"id": "train_0178", "note": "Tối mai là 26/11; 8 giờ kém 15 tối = 19:45. reminders.create nội dung gọi lại cho khách."}
+{"id": "train_0180", "note": "smart_home.get_status tìm đèn phòng làm việc rồi smart_home.light_set; contacts.search Lan tìm Lan; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0181", "note": "alarm.list tìm báo thức 7:00 sáng mai; khớp đúng một thì alarm.delete, không có hoặc nhiều thì sys.ask_missing_info cho alarm.delete, params alarm_id."}
+{"id": "train_0182", "note": "gold_price.get_price xem giá mua vào SJC dưới 120 triệu không; đúng thì reminders.create 9:00 14/11, không thì thôi."}
+{"id": "train_0184", "note": "bill_payment.list_bills; bill_payment.pay từng hoá đơn hạn trong 5 ngày tới từ 500000 trở xuống bằng ngân hàng, trên 500000 thì thôi."}
+{"id": "train_0186", "note": "mai = 11/11. calendar.list_events tìm hẹn cà phê với Minh 11/11; khớp đúng một thì calendar.update_event lùi 45 phút, alarm.create trước 1 tiếng, contacts.search tìm Lan rồi sms.send; không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0187", "note": "Mai = 5/11. calendar.list_events tìm lịch khám răng 5/11; khớp đúng một thì calendar.update_event lùi 45 phút, rồi alarm.create trước 1 tiếng và contacts.search Sếp Dũng để sms.send, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0189", "note": "bill_payment.list_bills lấy hoá đơn mạng, ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay bằng ví, không thì bill_payment.pay qua ngân hàng; contacts.search Lan rồi sms.send."}
+{"id": "train_0190", "note": "bill_payment.list_bills xem từng hoá đơn hạn trong 5 ngày tới (đến 29/11); hoá đơn nào không quá 500000 thì bill_payment.pay từng hoá đơn bằng ngân hàng, nhiều hơn 500000 thì thôi."}
+{"id": "train_0191", "note": "contacts.search tìm Lan; 7 giờ sáng mai 14/11 = 7:00 → alarm.create; thiếu amount nên sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0193", "note": "calendar.list_events lấy địa điểm và giờ họp team chiều 25/11; ride_hailing.book xe car4 đón trước giờ hẹn 45 phút; reminders.create nhắc mang laptop trước giờ đón 15 phút."}
+{"id": "train_0194", "note": "Mai là 19/11. calendar.list_events tìm lịch cà phê với gia đình; khớp đúng một thì calendar.update_event dời muộn 30 phút, rồi alarm.create trước 1 tiếng, contacts.search tìm Bác Ba và sms.send, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0195", "note": "chat_ott.list_chats tìm Tuấn; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0197", "note": "gold_price.get_price xem giá SJC bán ra; trên 124000000 thì reminders.create lúc 9:00 ngày 23/11, không thì banking.get_balance, banking.list_beneficiaries tìm Lê Minh rồi banking.transfer 2000000."}
+{"id": "train_0199", "note": "smart_home.get_status tìm đèn và điều hoà phòng khách; khớp đúng một đèn thì smart_home.light_set độ sáng 30 rồi smart_home.climate_set 26 độ, không có hoặc nhiều đèn thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0200", "note": "9 giờ sáng mai = 9:00 16/11. gold_price.get_price sjc xem giá bán có trên 134000000 không; trên thì reminders.create lúc 9:00 16/11, không thì banking.get_balance, banking.list_beneficiaries rồi banking.transfer 2000000 cho Nguyễn Thị Lan."}
+{"id": "train_0201", "note": "Mai = 10/11. calendar.list_events tìm lịch họp team 10/11; khớp đúng một thì calendar.update_event lùi 45 phút, rồi alarm.create trước 1 tiếng và contacts.search Cô giáo Mai để sms.send, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0202", "note": "smart_home.get_status xem điều hoà các phòng tầng 2; phòng không bật điều hoà thì smart_home.light_set tắt đèn, phòng bật điều hoà thì thôi."}
+{"id": "train_0203", "note": "tám giờ tối = 20:00. bill_payment.list_bills lấy tiền mạng, ewallet.get_balance xem ví có đủ không; đủ thì bill_payment.pay bằng ví rồi contacts.search và sms.send cho Hương, không thì bill_payment.pay bằng ngân hàng và reminders.create lúc 20:00."}
+{"id": "train_0207", "note": "smart_home.get_status tìm đèn phòng khách rồi smart_home.light_set tắt; contacts.search Hương, khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0209", "note": "bill_payment.list_bills và ewallet.get_balance xem ví đủ trả tiền nước không; đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng; sau đó contacts.search tìm Sếp Dũng rồi sms.send."}
+{"id": "train_0210", "note": "weather.get_forecast ngày 27/11 xem mai có mưa không; mưa thì calendar.list_events tìm lịch đi chợ hoa rồi calendar.update_event lùi 2 tiếng, contacts.search tìm mẹ rồi sms.send, không mưa thì thôi."}
+{"id": "train_0213", "note": "bill_payment.list_bills lấy hoá đơn nước và ewallet.get_balance xem đủ tiền không; đủ thì bill_payment.pay bằng ví và contacts.search để sms.send cho Sếp Dũng, không đủ thì bill_payment.pay bằng ngân hàng và reminders.create 20:00 nạp ví."}
+{"id": "train_0214", "note": "bill_payment.list_bills tìm hoá đơn; ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay bằng ví, không thì bill_payment.pay bằng ngân hàng; contacts.search Sếp Dũng rồi sms.send."}
+{"id": "train_0216", "note": "bill_payment.list_bills tìm hoá đơn truyền hình; ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng tài khoản ngân hàng."}
+{"id": "train_0217", "note": "Mai = 4/11, 8 giờ sáng = 8:00 → reminders.create nhắc đổ xăng. contacts.search tìm Lan; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0219", "note": "Thiếu thời gian nhắc việc nên gọi sys.ask_missing_info cho reminders.create, params time."}
+{"id": "train_0220", "note": "Yêu cầu nhắc gọi mẹ nhưng thiếu thời gian nhắc → sys.ask_missing_info cho reminders.create, params time."}
+{"id": "train_0221", "note": "bill_payment.list_bills xem hoá đơn đến hạn trong 5 ngày tới; bill_payment.pay từng hoá đơn không quá 500000 bằng ngân hàng, quá 500000 thì thôi."}
+{"id": "train_0222", "note": "Mai là 21/11. weather.get_forecast ngày 21/11 xem có mưa không; mưa thì calendar.list_events rồi calendar.cancel_event họp team và contacts.search, sms.send cho Bố; không mưa thì calendar.list_events rồi ride_hailing.book xe 4 chỗ."}
+{"id": "train_0225", "note": "Hương khách hàng là c_10 từ lượt trước. sms.send gửi nội dung chiều nay gặp ở quán cũ tới c_10."}
+{"id": "train_0226", "note": "bill_payment.list_bills lấy tiền nước và truyền hình, banking.get_balance kiểm tra số dư và banking.list_beneficiaries tìm Nguyễn Thị Lan, Phạm Hùng; đủ cả hai thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tài khoản tiết kiệm."}
+{"id": "train_0227", "note": "smart_home.get_status tìm thiết bị phòng khách; khớp đúng một đèn thì smart_home.light_set sáng 50% rồi smart_home.climate_set 26 độ, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0229", "note": "bill_payment.list_bills lấy tiền mạng; banking.get_balance xem số dư; banking.list_beneficiaries tìm Trần Văn Tuấn; tài khoản thanh toán đủ tiền thì banking.transfer từ thanh toán, không đủ thì banking.transfer từ tiết kiệm."}
+{"id": "train_0230", "note": "bill_payment.list_bills lấy tiền nước, banking.get_balance xem tài khoản thanh toán có đủ không, banking.list_beneficiaries tìm Nguyễn Thị Lan; đủ thì banking.transfer từ tài khoản thanh toán, không thì banking.transfer từ tài khoản tiết kiệm."}
+{"id": "train_0231", "note": "bill_payment.list_bills lấy hoá đơn điện; ewallet.get_balance xem ví đủ tiền không, đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng, rồi contacts.search và sms.send cho Bố."}
+{"id": "train_0232", "note": "Giá vàng SJC mua vào 124.9 triệu không dưới 123 triệu nên điều kiện không thoả, không gọi tool."}
+{"id": "train_0233", "note": "smart_home.get_status phòng ngủ rồi smart_home.light_set tắt đèn; contacts.search tìm Hương; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0236", "note": "bill_payment.list_bills tìm hoá đơn tv và ewallet.get_balance kiểm tra số dư; đủ thì bill_payment.pay từ ví rồi contacts.search tìm Dũng và sms.send; không đủ thì bill_payment.pay từ ngân hàng và reminders.create lúc 20:00."}
+{"id": "train_0240", "note": "contacts.search tìm Bố; 7 giờ sáng mai = 7:00 ngày 10/11 → alarm.create; thiếu số tiền nên sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0241", "note": "weather.get_forecast mai 15/11 xem có mưa không; mưa thì calendar.list_events tìm lịch đi chơi công viên rồi calendar.cancel_event, không mưa thì thôi."}
+{"id": "train_0242", "note": "bill_payment.list_bills xem hoá đơn đến hạn trong 5 ngày tới (đến 9/11); bill_payment.pay từng hoá đơn từ 500000 trở xuống bằng ngân hàng, hoá đơn nào trên 500000 thì giữ lại."}
+{"id": "train_0243", "note": "Sáng mai 27/11, sáu rưỡi = 6:30, alarm.create. contacts.search tìm Lan; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0244", "note": "Sáng mai = 13/11 6:30. contacts.search Minh; alarm.create lúc 6:30; thiếu số tiền nên sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0245", "note": "contacts.search tìm Minh; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0246", "note": "smart_home.get_status kiểm tra quạt các phòng tầng 2; quạt tắt thì smart_home.light_set tắt đèn, quạt đang chạy thì giữ nguyên; smart_home.climate_set bật điều hoà phòng ngủ 26 độ."}
+{"id": "train_0247", "note": "Tối mai 17/11, 9 giờ kém 15 = 20:45. reminders.create nhắc uống thuốc lúc 20:45."}
+{"id": "train_0248", "note": "Không có ứng dụng gọi xe được cài đặt nên không gọi tool."}
+{"id": "train_0249", "note": "bill_payment.list_bills tìm hoá đơn điện và ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng; sau đó contacts.search tìm Bố và sms.send."}
+{"id": "train_0251", "note": "calendar.list_events tìm lịch cà phê chiều 16/11; ride_hailing.book xe car4 từ công ty đón trước 30 phút, rồi reminders.create nhắc mang laptop trước đón 15 phút."}
+{"id": "train_0252", "note": "smart_home.get_status tìm đèn phòng khách; khớp đúng một thì smart_home.light_set độ sáng 30 rồi smart_home.climate_set 26 độ điều hoà phòng khách, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0253", "note": "smart_home.get_status tìm đèn phòng làm việc rồi smart_home.light_set tắt; contacts.search Lan; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0254", "note": "weather.get_forecast mai 6/11 xem có mưa không; mưa thì calendar.list_events tìm họp phụ huynh rồi calendar.cancel_event và contacts.search tìm Hương rồi sms.send, không mưa thì ride_hailing.book ô tô bốn chỗ."}
+{"id": "train_0255", "note": "9 giờ sáng mai = 9:00 25/11. gold_price.get_price sjc xem giá bán ra trên 122 triệu không; trên thì reminders.create lúc 9:00 25/11, chưa tới thì banking.get_balance, banking.list_beneficiaries tìm Lê Minh rồi banking.transfer 2000000."}
+{"id": "train_0258", "note": "smart_home.get_status tầng 2; phòng nào không bật điều hoà thì smart_home.light_set tắt đèn, phòng đang bật điều hoà thì để nguyên."}
+{"id": "train_0259", "note": "bill_payment.list_bills lấy tiền nước và truyền hình, banking.get_balance kiểm tra số dư, banking.list_beneficiaries tìm Nguyễn Thị Lan, Phạm Hùng; đủ cả hai thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tài khoản tiết kiệm."}
+{"id": "train_0260", "note": "bill_payment.list_bills lấy hoá đơn tiền điện, ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng."}
+{"id": "train_0261", "note": "bill_payment.list_bills xem hoá đơn tiền điện, ewallet.get_balance xem số dư ví; ví đủ tiền thì bill_payment.pay bằng ví, không thì bill_payment.pay bằng ngân hàng; contacts.search rồi sms.send cho Hương."}
+{"id": "train_0263", "note": "contacts.search tìm Bố. Năm rưỡi sáng mai = 5:30 14/11 → alarm.create. Chưa có số tiền chuyển ví → sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0265", "note": "smart_home.get_status tìm đèn phòng ngủ nhỏ để smart_home.light_set tắt; contacts.search Lan tìm liên hệ, khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0266", "note": "Dự báo thời tiết mai không mưa (rain = false từ lượt trước) nên không thoả điều kiện dời lịch, không gọi tool."}
+{"id": "train_0267", "note": "bill_payment.list_bills lấy tiền điện và truyền hình; banking.get_balance xem tài khoản thanh toán đủ cả hai không; banking.list_beneficiaries tìm Phạm Hùng và Trần Văn Tuấn; đủ thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tài khoản tiết kiệm."}
+{"id": "train_0268", "note": "5 giờ sáng mai = 8/11 5:00 → alarm.create. contacts.search tìm Tuấn; ewallet.transfer thiếu amount nên sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0269", "note": "Sáu rưỡi sáng mai = 6:30 ngày 12/11 → alarm.create. contacts.search tìm Lan; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0270", "note": "smart_home.get_status xem phòng nào tầng 2 bật quạt; phòng không bật quạt thì smart_home.light_set tắt đèn, phòng bật quạt thì giữ nguyên; rồi smart_home.climate_set điều hoà phòng ngủ 26 độ."}
+{"id": "train_0271", "note": "smart_home.get_status tìm đèn và điều hoà phòng khách; khớp đúng một đèn thì smart_home.light_set sáng 40% rồi smart_home.climate_set 26 độ, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0272", "note": "gold_price.get_price xem giá bán SJC trên 124000000; đúng thì reminders.create 9:00 4/11, không thì banking.get_balance tìm tài khoản thanh toán, banking.list_beneficiaries tìm Nguyễn Thị Lan rồi banking.transfer 2000000."}
+{"id": "train_0273", "note": "contacts.search Hương; khớp đúng một người thì phone.call, không có hoặc nhiều người thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0276", "note": "calendar.list_events tìm giờ và địa điểm hẹn đi chơi công viên; rồi ride_hailing.book car4 đón sớm 45 phút, và reminders.create nhắc mang laptop trước giờ đón 15 phút."}
+{"id": "train_0278", "note": "weather.get_forecast ngày mai 16/11 xem có mưa không; mưa thì alarm.update báo thức alm_01 dời từ 7:30 sang 8:00, không mưa thì thôi."}
+{"id": "train_0279", "note": "Sáng mai = 29/11. gold_price.get_price xem giá SJC bán ra có hơn 131000000 không; đúng thì reminders.create nhắc 9:00 ngày 29/11 bán vàng, không thì banking.get_balance, banking.list_beneficiaries và banking.transfer 2000000."}
+{"id": "train_0280", "note": "smart_home.get_status tìm đèn phòng ngủ rồi smart_home.light_set tắt; contacts.search tìm Minh; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0283", "note": "bill_payment.list_bills lấy hoá đơn và ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay bằng ví rồi sms.send, không đủ thì bill_payment.pay bằng ngân hàng rồi reminders.create lúc 20:00."}
+{"id": "train_0284", "note": "bill_payment.list_bills lấy tiền nước và tiền điện; banking.get_balance xem tài khoản thanh toán đủ cả hai không, banking.list_beneficiaries tìm Nguyễn Thị Lan và Phạm Hùng; đủ thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tài khoản tiết kiệm."}
+{"id": "train_0285", "note": "smart_home.get_status tìm đèn bếp rồi smart_home.light_set tắt; contacts.search tìm Lan; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0286", "note": "bill_payment.list_bills lấy hoá đơn điện; ewallet.get_balance xem ví đủ không; đủ thì bill_payment.pay nguồn ví, không đủ thì bill_payment.pay nguồn ngân hàng; rồi contacts.search tìm Sếp Dũng để sms.send."}
+{"id": "train_0287", "note": "reminders.create thiếu thời gian time, gọi sys.ask_missing_info cho reminders.create params time."}
+{"id": "train_0290", "note": "smart_home.get_status tầng 2; smart_home.light_set tắt từng đèn đang bật trừ phòng có máy lạnh đang chạy."}
+{"id": "train_0291", "note": "Mai là 18/11, sáu rưỡi sáng = 6:30; alarm.create. contacts.search tìm Minh; khớp đúng một người thì phone.call, không có hoặc nhiều người thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0293", "note": "Lượt trước mai 26/11 mưa. calendar.list_events xem có lịch chạy bộ sáng mai không; có thì calendar.update_event dời 2 tiếng rồi contacts.search Minh để sms.send, không thì thôi."}
+{"id": "train_0294", "note": "smart_home.get_status tìm điều hoà phòng ngủ; khớp đúng một thì smart_home.climate_set, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.climate_set, params device_id. Sau đó reminders.create lúc 7:00 ngày 21/11."}
+{"id": "train_0295", "note": "weather.get_forecast mai 11/11 xem có mưa không; mưa thì calendar.list_events rồi calendar.cancel_event và contacts.search tìm Bác Ba để sms.send, không mưa thì calendar.list_events rồi ride_hailing.book xe 4 chỗ."}
+{"id": "train_0296", "note": "smart_home.get_status phòng khách; khớp đúng một đèn thì smart_home.light_set bật 50% rồi smart_home.climate_set 26 độ, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0297", "note": "smart_home.get_status tìm đèn phòng làm việc để smart_home.light_set tắt; contacts.search tìm Lan; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0299", "note": "bill_payment.list_bills lấy tiền mạng và tiền nước; banking.get_balance xem tài khoản thanh toán đủ cả hai không, banking.list_beneficiaries tìm Trần Văn Tuấn và Lê Minh; đủ thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tài khoản tiết kiệm."}
+{"id": "train_0301", "note": "8 giờ kém 15 sáng mai 10/11 = 7:45. reminders.create nội dung tắt bếp."}
+{"id": "train_0303", "note": "bill_payment.list_bills và ewallet.get_balance xem ví đủ trả tiền mạng không; đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng; sau đó contacts.search tìm Sếp Dũng rồi sms.send."}
+{"id": "train_0304", "note": "7 giờ sáng = 7:00, 7 giờ tối = 19:00 → medication.add thuốc dạ dày; 8 giờ sáng mai = 4/11 8:00 → reminders.create đi mua thuốc."}
+{"id": "train_0307", "note": "smart_home.get_status tầng 2; smart_home.light_set tắt từng đèn ở phòng quạt không quay, phòng quạt quay thì thôi; smart_home.climate_set bật điều hoà phòng ngủ 27 độ."}
+{"id": "train_0308", "note": "smart_home.get_status tầng 2; smart_home.light_set tắt từng đèn ở phòng không bật điều hoà, phòng đang bật điều hoà thì thôi."}
+{"id": "train_0309", "note": "bill_payment.list_bills xem hoá đơn nào tới hạn trong 5 ngày tới và không quá 500000; có thì bill_payment.pay bằng ngân hàng, hoá đơn trên 500000 hoặc không tới hạn thì thôi."}
+{"id": "train_0311", "note": "calendar.list_events lấy địa điểm và giờ hẹn cà phê với Minh chiều nay 14/11; ride_hailing.book xe car4 đón trước 45 phút, reminders.create nhắc mang laptop trước đón 15 phút."}
+{"id": "train_0312", "note": "bill_payment.list_bills; bill_payment.pay từng hoá đơn đến hạn trong 5 ngày tới có số tiền từ 500000 trở xuống bằng ngân hàng, hoá đơn nào trên 500000 thì bỏ qua."}
+{"id": "train_0313", "note": "bill_payment.list_bills tìm hoá đơn nước và ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay từ ví, không đủ thì bill_payment.pay qua ngân hàng."}
+{"id": "train_0314", "note": "8 giờ sáng mai = 8:00 12/11. reminders.create nhắc việc; contacts.search Minh; khớp đúng một người thì sms.send, không có hoặc nhiều người thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0316", "note": "contacts.search tìm Mẹ; 7 giờ sáng mai = 7:00 ngày 24/11, alarm.create; thiếu số tiền nên sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0317", "note": "bill_payment.list_bills tìm hoá đơn nước; ewallet.get_balance xem ví đủ tiền không; đủ thì bill_payment.pay trả bằng ví, không thì bill_payment.pay trả bằng ngân hàng."}
+{"id": "train_0319", "note": "smart_home.get_status tầng 2 xem trạng thái đèn và điều hoà; smart_home.light_set tắt đèn các phòng, trừ phòng đang bật điều hoà thì giữ nguyên."}
+{"id": "train_0322", "note": "weather.get_forecast mai 19/11 xem có mưa không; không mưa thì calendar.list_events lấy giờ và chỗ hẹn rồi ride_hailing.book, không thì calendar.list_events, calendar.cancel_event hẹn Minh, contacts.search sếp Dũng và sms.send."}
+{"id": "train_0323", "note": "bill_payment.list_bills lấy tiền nước và truyền hình; banking.get_balance và banking.list_beneficiaries; đủ tiền cả hai thì banking.transfer từ thanh toán cho Nguyễn Thị Lan và Trần Văn Tuấn, không đủ thì banking.transfer từ tiết kiệm."}
+{"id": "train_0324", "note": "smart_home.get_status tầng 2; smart_home.light_set tắt từng đèn trừ phòng quạt đang chạy, rồi smart_home.climate_set phòng ngủ 27 độ."}
+{"id": "train_0325", "note": "8 giờ tối nay = 20:00. bill_payment.list_bills và ewallet.get_balance xem ví đủ tiền mạng không; đủ thì bill_payment.pay bằng ví, contacts.search anh Tuấn rồi sms.send; không đủ thì bill_payment.pay bằng ngân hàng và reminders.create lúc 20:00."}
+{"id": "train_0327", "note": "Giá vàng SJC mua vào đã có trong lịch sử trò chuyện (128.9 triệu) nên trả lời trực tiếp, không gọi tool."}
+{"id": "train_0330", "note": "Mai = 8/11. calendar.list_events tìm lịch họp phụ huynh; khớp đúng một thì calendar.update_event lùi 45 phút, rồi alarm.create trước 1 tiếng, contacts.search tìm Tuấn rồi sms.send, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0332", "note": "bill_payment.list_bills lấy hoá đơn và ewallet.get_balance kiểm tra số dư; ví đủ tiền thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng tài khoản ngân hàng."}
+{"id": "train_0333", "note": "bill_payment.list_bills tìm hoá đơn truyền hình; ewallet.get_balance kiểm tra ví; ví đủ thì bill_payment.pay bằng ví, không đủ thì bill_payment.pay bằng ngân hàng; rồi contacts.search mẹ và sms.send thông báo."}
+{"id": "train_0334", "note": "contacts.search tìm Minh; khớp đúng một người thì phone.call, không có hoặc nhiều người thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0336", "note": "Sáng mai 21/11 8:00 reminders.create nhắc việc. contacts.search tìm Lan; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0339", "note": "mai = 25/11. gold_price.get_price sjc; bán ra trên 127000000 thì reminders.create lúc 9:00 25/11, không thì banking.get_balance, banking.list_beneficiaries rồi banking.transfer 2000000 cho Nguyễn Thị Lan."}
+{"id": "train_0340", "note": "bill_payment.list_bills tìm hoá đơn truyền hình và ewallet.get_balance kiểm tra số dư ví; nếu đủ thì bill_payment.pay bằng ví và sms.send cho anh Tuấn, không đủ thì bill_payment.pay bằng ngân hàng và reminders.create lúc 20:00."}
+{"id": "train_0341", "note": "contacts.search tìm Lan; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0342", "note": "gold_price.get_price sjc xem giá bán ra có hơn 127 triệu không; hơn thì reminders.create nhắc bán vàng mai 20/11 lúc 9:00, không thì banking.get_balance và banking.list_beneficiaries tìm Nguyễn Thị Lan rồi banking.transfer 2000000."}
+{"id": "train_0343", "note": "bill_payment.list_bills lấy tiền mạng và tiền nước; banking.get_balance kiểm tra tài khoản thanh toán; banking.list_beneficiaries; đủ thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tiết kiệm."}
+{"id": "train_0346", "note": "bill_payment.list_bills lấy tiền mạng và nước, banking.get_balance kiểm tra số dư và banking.list_beneficiaries tìm Phạm Hùng, Lê Minh; đủ cả hai thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tài khoản tiết kiệm."}
+{"id": "train_0347", "note": "bill_payment.list_bills xem hoá đơn đến hạn trong 5 ngày tới (đến 8/11); bill_payment.pay từng hoá đơn từ 500000 trở xuống bằng ngân hàng, hoá đơn nào trên 500000 thì giữ lại."}
+{"id": "train_0349", "note": "smart_home.get_status xem thiết bị phòng khách; có đèn và điều hoà thì smart_home.light_set bật 30% và smart_home.climate_set 26 độ, không có thì thôi."}
+{"id": "train_0350", "note": "contacts.search tìm Lan; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0351", "note": "contacts.search tìm Lan; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0353", "note": "Thiếu thời gian nhắc nhở, gọi sys.ask_missing_info cho reminders.create, params time."}
+{"id": "train_0354", "note": "calendar.list_events lấy địa điểm và giờ hẹn đá bóng; ride_hailing.book xe car4 đón trước 30 phút từ công ty; reminders.create nhắc mang laptop trước giờ đón 15 phút."}
+{"id": "train_0355", "note": "smart_home.get_status lấy đèn phòng ngủ nhỏ rồi smart_home.light_set tắt; contacts.search Minh, khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0356", "note": "smart_home.get_status tầng 2; smart_home.light_set tắt từng đèn ở phòng không bật điều hoà, phòng đang bật điều hoà thì thôi."}
+{"id": "train_0357", "note": "smart_home.get_status tầng 2; phòng nào không chạy quạt thì smart_home.light_set tắt đèn, phòng chạy quạt thì để nguyên, rồi smart_home.climate_set bật điều hoà phòng ngủ 26 độ."}
+{"id": "train_0358", "note": "Sáng mai năm rưỡi = 5:30 ngày 25/11. alarm.create đặt báo thức lúc 5:30 ngày 25/11."}
+{"id": "train_0359", "note": "smart_home.get_status xem điều hoà phòng nào ở tầng 2 đang chạy; điều hoà đang chạy thì giữ nguyên đèn, không chạy thì smart_home.light_set tắt đèn phòng đó."}
+{"id": "train_0362", "note": "mai = 9/11. gold_price.get_price sjc; bán ra trên 121000000 thì reminders.create lúc 9:00 9/11, không thì banking.get_balance, banking.list_beneficiaries rồi banking.transfer 2000000 cho Trần Văn Tuấn."}
+{"id": "train_0363", "note": "6 giờ sáng mai = 5/11 6:00 → alarm.create. contacts.search tìm Tuấn; ewallet.transfer thiếu amount nên sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0364", "note": "Mai là 5/11, 8 giờ sáng = 8:00, reminders.create nhắc đổ xăng. contacts.search tìm Minh; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0365", "note": "Sáu giờ sáng mai = 18/11 6:00. alarm.create; contacts.search Lan; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0366", "note": "alarm.create 6:00 ngày mai 13/11. contacts.search tìm Lan; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0367", "note": "bill_payment.list_bills xem hoá đơn đến hạn trong 5 ngày tới; bill_payment.pay từng hoá đơn không quá 500000 bằng ngân hàng, hoá đơn nào hơn 500000 thì thôi."}
+{"id": "train_0369", "note": "Sáu giờ sáng mai = 29/11 6:00. alarm.create lúc 6:00 ngày 29/11; contacts.search Lan, khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0370", "note": "calendar.list_events tìm lịch ăn sáng ngày 11/11; khớp đúng một thì calendar.update_event dời muộn 30 phút, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0371", "note": "contacts.search tìm Minh; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0372", "note": "smart_home.get_status xem phòng tầng 2 nào bật quạt; phòng không bật quạt thì smart_home.light_set tắt đèn, bật quạt thì giữ nguyên; smart_home.climate_set bật điều hoà phòng ngủ 25 độ."}
+{"id": "train_0374", "note": "contacts.search tìm Sếp Dũng; khớp đúng một người thì phone.call, không có hoặc nhiều người thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0375", "note": "smart_home.get_status xem quạt các phòng tầng 2 có đang chạy không; quạt không chạy thì smart_home.light_set tắt đèn, quạt chạy thì để sáng; rồi smart_home.climate_set bật điều hoà phòng ngủ 27 độ."}
+{"id": "train_0376", "note": "bill_payment.list_bills xem hoá đơn tới hạn trong 5 ngày tới; bill_payment.pay từng hoá đơn từ 500000 trở xuống bằng ngân hàng, quá 500000 thì thôi."}
+{"id": "train_0377", "note": "calendar.list_events lấy giờ hẹn cà phê; ride_hailing.book xe car4 đón trước 45 phút từ công ty, reminders.create nhắc mang laptop trước giờ đón 15 phút."}
+{"id": "train_0378", "note": "Dự báo mai 10/11 không mưa (lượt trước) nên không gọi tool."}
+{"id": "train_0379", "note": "bill_payment.list_bills lấy tiền mạng và tiền điện; banking.get_balance kiểm tra tài khoản thanh toán; banking.list_beneficiaries; đủ thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tiết kiệm."}
+{"id": "train_0380", "note": "weather.get_forecast mai 6/11 xem có mưa không; mưa thì calendar.list_events rồi calendar.cancel_event lịch ăn sáng và sms.send cho Tuấn, không mưa thì calendar.list_events lấy địa chỉ rồi ride_hailing.book xe đón trước 30 phút."}
+{"id": "train_0381", "note": "Mai = 19/11. calendar.list_events tìm lịch đá bóng 19/11; khớp đúng một thì calendar.update_event lùi 1 tiếng, rồi alarm.create trước 1 tiếng và contacts.search Tuấn để sms.send, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0382", "note": "smart_home.get_status; smart_home.light_set tắt từng đèn tầng hai, trừ phòng quạt đang quay; smart_home.climate_set điều hoà phòng ngủ 26 độ."}
+{"id": "train_0383", "note": "weather.get_forecast ngày 4/11 xem có mưa không; mưa thì calendar.list_events rồi calendar.cancel_event, contacts.search rồi sms.send cho anh Tuấn; không mưa thì calendar.list_events lấy giờ và ride_hailing.book xe 4 chỗ đón trước 30 phút."}
+{"id": "train_0384", "note": "calendar.list_events tìm lịch đi chơi công viên mai 5/11; khớp đúng một thì calendar.update_event lùi 1 tiếng 30 phút, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0386", "note": "bill_payment.list_bills lấy tiền truyền hình và mạng; banking.get_balance xem số dư; banking.list_beneficiaries tìm Nguyễn Thị Lan và Lê Minh; thanh toán đủ cả hai thì banking.transfer từ thanh toán, không đủ thì banking.transfer từ tiết kiệm."}
+{"id": "train_0387", "note": "gold_price.get_price sjc xem giá bán ra có vượt 123000000 không; vượt thì reminders.create nhắc bán vàng lúc 9:00 ngày 11/11, không vượt thì banking.get_balance, banking.list_beneficiaries rồi banking.transfer 2000000."}
+{"id": "train_0388", "note": "bill_payment.list_bills lấy tiền nước và điện; banking.get_balance và banking.list_beneficiaries; đủ tiền cả hai thì banking.transfer từ thanh toán cho Nguyễn Thị Lan và Phạm Hùng, không đủ thì banking.transfer từ tiết kiệm."}
+{"id": "train_0389", "note": "chat_ott.list_chats đếm người nhóm Gia đình trừ tôi; food_delivery.list_restaurants tìm Bún bò Huế Cô Ba, khớp đúng một thì food_delivery.get_menu tìm bún bò giò rồi food_delivery.place_order, không có hoặc nhiều thì sys.ask_missing_info cho food_delivery.get_menu, params restaurant_id."}
+{"id": "train_0390", "note": "Sáng mai = 19/11 9:00; reminders.create đổ xăng. contacts.search tìm Lan; khớp đúng một người thì sms.send, không có hoặc nhiều người thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0391", "note": "9 giờ sáng mai = 9:00 4/11. gold_price.get_price sjc xem giá bán ra trên 121 triệu không; trên thì reminders.create lúc 9:00 4/11, chưa tới thì banking.get_balance, banking.list_beneficiaries tìm Chủ nhà Phạm Hùng rồi banking.transfer 2000000."}
+{"id": "train_0392", "note": "Mai 3/11, năm rưỡi sáng = 5:30 → alarm.create. contacts.search tìm Bác Ba; chưa có số tiền chuyển nên sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0393", "note": "6 giờ sáng mai = 6:00 20/11. alarm.create lúc 6:00; contacts.search Lan, khớp đúng một người thì phone.call, không có hoặc nhiều người thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0394", "note": "Giá vàng SJC mua vào ở lượt trước là 119 triệu, không dưới 118 triệu nên không gọi tool."}
+{"id": "train_0396", "note": "bill_payment.list_bills xem hoá đơn tới hạn trong 5 ngày tới; bill_payment.pay từng hoá đơn không quá 500000 qua ngân hàng, cái nào quá 500 nghìn thì thôi."}
+{"id": "train_0397", "note": "smart_home.get_status tìm đèn bếp để smart_home.light_set; contacts.search tìm Lan; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0398", "note": "bill_payment.list_bills lấy hoá đơn truyền hình; ewallet.get_balance xem ví đủ tiền không: đủ thì bill_payment.pay từ ví, không đủ thì bill_payment.pay từ ngân hàng; contacts.search Tuấn rồi sms.send."}
+{"id": "train_0400", "note": "bill_payment.list_bills; bill_payment.pay từng hoá đơn đến hạn trong 5 ngày tới không quá 500000 bằng ngân hàng, bỏ hoá đơn trên 500000."}
+{"id": "train_0401", "note": "calendar.list_events lấy giờ và địa điểm đá bóng; ride_hailing.book xe car4 từ công ty đón trước 30 phút; reminders.create nhắc mang laptop trước đón 15 phút."}
+{"id": "train_0402", "note": "weather.get_forecast mai 21/11 xem có mưa không; mưa thì calendar.list_events tìm lịch đá bóng, calendar.update_event lùi 2 tiếng rồi contacts.search Tuấn và sms.send báo giờ mới, không mưa thì thôi."}
+{"id": "train_0404", "note": "smart_home.get_status tìm đèn phòng ngủ nhỏ rồi smart_home.light_set tắt; contacts.search Minh, khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0405", "note": "smart_home.get_status kiểm tra thiết bị tầng 2; phòng nào không bật điều hoà thì smart_home.light_set tắt đèn, phòng đang bật điều hoà thì để nguyên."}
+{"id": "train_0407", "note": "bill_payment.list_bills lấy tiền điện và tiền mạng; banking.get_balance kiểm tra tài khoản thanh toán; banking.list_beneficiaries; đủ thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tiết kiệm."}
+{"id": "train_0408", "note": "bill_payment.list_bills lấy tiền nước và mạng; banking.get_balance kiểm tra số dư; banking.list_beneficiaries tìm Lê Minh và Trần Văn Tuấn; thanh toán đủ cả hai khoản thì banking.transfer từ thanh toán, không đủ thì banking.transfer từ tiết kiệm."}
+{"id": "train_0410", "note": "calendar.list_events tìm họp team mai 25/11; khớp đúng một thì calendar.update_event lùi 60 phút, rồi alarm.create trước 1 tiếng và contacts.search Bác Ba rồi sms.send, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0411", "note": "gold_price.get_price sjc xem giá bán ra; trên 122000000 thì reminders.create nhắc 9:00 ngày 6/11 bán vàng, chưa tới thì banking.list_beneficiaries rồi banking.transfer 2000000."}
+{"id": "train_0413", "note": "Sáng mai 27/11 lúc 6:30; alarm.create. contacts.search tìm Lan; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0414", "note": "smart_home.get_status tìm đèn bếp rồi smart_home.light_set; contacts.search Lan, khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_0415", "note": "smart_home.get_status tìm thiết bị phòng khách; khớp đúng một đèn thì smart_home.light_set bật sáng 40% rồi smart_home.climate_set điều hoà 26 độ, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0416", "note": "Mai chín giờ sáng = 5/11 9:00. gold_price.get_price sjc xem giá bán có trên 121000000 không; trên thì reminders.create, không thì banking.list_beneficiaries rồi banking.transfer 2000000 cho Phạm Hùng."}
+{"id": "train_0417", "note": "bill_payment.list_bills; bill_payment.pay từng hoá đơn đến hạn trong 5 ngày tới (đến 12/11) dưới hoặc bằng 500000 bằng ngân hàng, hoá đơn nào hơn 500000 thì không trả."}
+{"id": "train_0419", "note": "Sáu rưỡi sáng mai = 11/11 6:30. alarm.list tìm báo thức 6:30; khớp đúng một thì alarm.delete, không có hoặc nhiều thì sys.ask_missing_info cho alarm.delete, params alarm_id."}
+{"id": "train_0421", "note": "Mai = 16/11, 9 giờ sáng = 9:00. gold_price.get_price xem giá SJC bán ra có quá 121000000 không; quá thì reminders.create nhắc bán vàng lúc 9:00 ngày 16/11, không thì banking.get_balance và banking.list_beneficiaries rồi banking.transfer 2000000."}
+{"id": "train_0422", "note": "bill_payment.list_bills lấy tiền mạng và tiền điện; banking.list_beneficiaries; banking.get_balance xem tài khoản thanh toán đủ cả hai khoản không; đủ thì banking.transfer từ tài khoản thanh toán, không đủ thì banking.transfer từ tài khoản tiết kiệm."}
+{"id": "train_0423", "note": "weather.get_forecast mai 26/11 xem có mưa không; mưa thì calendar.list_events tìm lịch đá bóng, calendar.cancel_event rồi phone.call báo cho Lan, không mưa thì thôi."}
+{"id": "train_0426", "note": "calendar.list_events mai 26/11 tìm lịch ăn sáng; khớp đúng một thì calendar.update_event lùi 30 phút, rồi alarm.create trước 1 tiếng, contacts.search Bố rồi sms.send; không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0427", "note": "smart_home.get_status kiểm tra thiết bị tầng 2; smart_home.light_set tắt các đèn ở phòng không bật điều hoà, phòng đang bật điều hoà thì giữ nguyên."}
+{"id": "train_0428", "note": "Không có ứng dụng hỗ trợ đặt vé tàu nên không gọi tool."}
+{"id": "train_0429", "note": "contacts.search tìm An; chưa có email người nhận nên sys.ask_missing_info cho email.create_draft, params to."}
+{"id": "train_0430", "note": "Thiếu giờ họp ngày mai 25/9; sys.ask_missing_info cho video_meeting.create, params start."}
+{"id": "train_0432", "note": "Người dùng huỷ yêu cầu tạo ghi chú nên không gọi tool."}
+{"id": "train_0433", "note": "mười giờ = 10:00. weather.get_current xem Hà Nội có mưa không; mưa thì reminders.create nhắc lúc 10:00, không mưa thì thôi."}
+{"id": "train_0434", "note": "Yêu cầu sao chép nguyên văn toàn bộ tác phẩm vi phạm bản quyền nên không gọi tool."}
+{"id": "train_0436", "note": "Tám giờ tối = 20:00. news.search tìm tin thiên văn, rồi reminders.create nhắc đọc bài lúc 20:00."}
+{"id": "train_0437", "note": "maps.search_place tìm thư viện; maps.get_route chỉ đường từ nhà đến Thư viện Quốc gia Việt Nam."}
+{"id": "train_0440", "note": "Xe đạp có giỏ ở trạm Yên Phụ là bike_07 (lượt trước). bike_rental.reserve giữ xe bike_07."}
+{"id": "train_0443", "note": "Đèn trần phòng khách từ lượt trước là light_living. smart_home.light_set bật đèn."}
+{"id": "train_0444", "note": "contacts.search tìm Bình; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0445", "note": "Lời khen xã giao, không có yêu cầu công việc cụ thể nên không gọi tool."}
+{"id": "train_0446", "note": "Người dùng huỷ yêu cầu chuyển tiền nên không gọi tool."}
+{"id": "train_0454", "note": "contacts.search tìm Tuấn; khớp đúng một thì ewallet.transfer 180000, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0457", "note": "Hoá đơn mạng Vitech tháng 9 là bill_03 (lượt trước). bill_payment.pay thanh toán bill_03 qua ví ewallet."}
+{"id": "train_0458", "note": "Không có ứng dụng ngân hàng hay ví điện tử để chuyển tiền nên không gọi tool."}
+{"id": "train_0459", "note": "Lời chào xã giao nên không gọi tool."}
+{"id": "train_0460", "note": "Người dùng huỷ yêu cầu tạo phòng họp nên không gọi tool."}
+{"id": "train_0462", "note": "contacts.search tìm số của Lan trong danh bạ."}
+{"id": "train_0463", "note": "chat_ott.list_chats tìm cuộc trò chuyện với chị Lan; khớp đúng một thì chat_ott.read_chat, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.read_chat, params chat_id."}
+{"id": "train_0464", "note": "Xem trạng thái thiết bị phòng khách. smart_home.get_status phòng khách."}
+{"id": "train_0465", "note": "weather.get_current xem thời tiết hiện tại ở Hà Nội."}
+{"id": "train_0468", "note": "Tám giờ tối nay = 20:00 25/9. news.search lấy bài mới nhất về năng lượng mặt trời, rồi reminders.create nhắc đọc bài vào 20:00."}
+{"id": "train_0469", "note": "home_security.list_alerts xem cảnh báo cửa sổ phòng làm việc, rồi notes.create tạo ghi chú An ninh buổi sáng với cảnh báo mới nhất."}
+{"id": "train_0470", "note": "calendar.list_events tìm buổi tổng duyệt sản phẩm; khớp đúng một thì calendar.cancel_event, rồi contacts.search Thảo và email.create_draft, không có hoặc nhiều thì sys.ask_missing_info cho calendar.cancel_event, params event_id."}
+{"id": "train_0471", "note": "28/9 9:00 tới 10:00 tạo lịch đào tạo an toàn bằng calendar.create_event; 27/9 hạn 17:00 thêm việc bằng tasks.add."}
+{"id": "train_0472", "note": "calendar.list_events tìm lịch rà soát quý; khớp đúng một thì calendar.update_event sang 10:00 ngày 29/9 rồi video_meeting.create, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0475", "note": "chat_ott.list_chats tìm nhóm Dự án Mây; khớp đúng một thì chat_ott.read_chat lấy thời gian rồi calendar.create_event Bàn giao Dự án Mây, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.read_chat, params chat_id."}
+{"id": "train_0479", "note": "Chuyến đi Ninh Bình là ngày 28/9 (lượt trước). weather.get_forecast xem thời tiết ngày 28/9 tại Ninh Bình."}
+{"id": "train_0480", "note": "chat_ott.list_chats tìm cuộc trò chuyện với chị Lan; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0482", "note": "Lịch Họp nhà cung cấp ngày 1/10 lúc 16:00 từ lượt trước. video_meeting.create tạo phòng họp."}
+{"id": "train_0483", "note": "Chỗ làm đổ bánh quy là bếp (lượt trước). robot_vacuum.start phòng bếp."}
+{"id": "train_0484", "note": "smart_home.get_status tìm quạt phòng ngủ; khớp đúng một thì home_automation.create_rule, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.create_rule, params device_id."}
+{"id": "train_0486", "note": "Máy giặt ban công là appl_06 (lượt trước). appliances.start_cycle chạy chế độ quick."}
+{"id": "train_0490", "note": "Mưa trên phố nhỏ là trk_07 (lượt trước). music.play."}
+{"id": "train_0491", "note": "podcast_radio.search tìm tập 12 Thành phố xanh; khớp đúng một thì podcast_radio.queue, không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.queue, params episode_id."}
+{"id": "train_0493", "note": "Buổi chia sẻ chuyên đề là evt_02 từ lượt trước. calendar.cancel_event evt_02."}
+{"id": "train_0495", "note": "Cơm gà nấm lượt trước là rest_05_m2 của rest_05, số lượng 1. food_delivery.place_order."}
+{"id": "train_0496", "note": "Không có ứng dụng phát nhạc hay album nên không gọi tool."}
+{"id": "train_0497", "note": "contacts.search tìm email Thảo; chưa có địa chỉ email nên sys.ask_missing_info cho email.create_draft, params to."}
+{"id": "train_0498", "note": "Thiếu số tiền cần chuyển, gọi sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0499", "note": "Yêu cầu theo dõi vị trí trái phép vi phạm quyền riêng tư nên không gọi tool."}
+{"id": "train_0500", "note": "contacts.search tìm Hòa; khớp đúng một thì ewallet.transfer 120000, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0502", "note": "Gọi tổng đài hỗ trợ số 19001234. phone.call."}
+{"id": "train_0503", "note": "contacts.search tìm Dung phòng Mua hàng rồi chat_ott.list_chats; khớp đúng một thì chat_ott.send_message báo giá được duyệt rồi email.create_draft, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0506", "note": "Tám giờ sáng mai = 26/9 8:00. news.search logistics xanh lấy tiêu đề bài mới nhất; tasks.add việc đọc bài đó hạn 8:00."}
+{"id": "train_0509", "note": "contacts.search tìm Quân; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0510", "note": "Chín giờ tối = 21:00. smart_home.get_status tìm quạt phòng ngủ; khớp đúng một thì home_automation.create_rule rồi robot_vacuum.get_status, robot_vacuum.start, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.create_rule, params device_id."}
+{"id": "train_0513", "note": "Bài báo nông nghiệp là Nông trại dùng cảm biến nước (lượt trước). notes.create ghi chú Tin cần đọc."}
+{"id": "train_0514", "note": "Điểm đến là Nhà thủ công Bờ Sông (15 Chương Dương Độ), đón tại nhà 25 Láng Hạ. ride_hailing.book xe car4."}
+{"id": "train_0515", "note": "Kiểm kê kho 29/9 là evt_03 (14:00 tới 15:00 = 1 tiếng). 4 giờ chiều = 16:00 → 17:00. calendar.update_event."}
+{"id": "train_0516", "note": "contacts.search tìm email chị Hà Minh Phát, rồi email.create_draft lưu nháp email xác nhận giao hàng ngày 2/10 lúc 8:00."}
+{"id": "train_0517", "note": "contacts.search tìm Khánh; khớp đúng một thì ewallet.transfer 260000, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0523", "note": "bill_payment.list_bills tìm hoá đơn nước quý ba; khớp đúng một thì bill_payment.pay qua ví, không có hoặc nhiều thì sys.ask_missing_info cho bill_payment.pay, params bill_id."}
+{"id": "train_0527", "note": "Học phí tháng 10 là bill_05 (lượt trước), trừ tài khoản ngân hàng → bill_payment.pay bill_id bill_05 nguồn bank."}
+{"id": "train_0529", "note": "Chuyến RV301 là fl_05 (lượt trước), đặt 1 ghế: flights.book với flight_id fl_05, passengers 1."}
+{"id": "train_0530", "note": "Không có ứng dụng ngân hàng hay ví điện tử để chuyển tiền nên không gọi tool."}
+{"id": "train_0531", "note": "Người dùng chào tạm biệt và chúc ngày mới, không yêu cầu tác vụ nên không gọi tool."}
+{"id": "train_0532", "note": "Người dùng rút lại yêu cầu tạo phòng họp nên không gọi tool."}
+{"id": "train_0533", "note": "weather.get_current xem nhiệt độ có dưới 20 độ không; có thì smart_home.get_status tìm máy sưởi rồi smart_home.climate_set bật máy sưởi phòng khách, không thì thôi."}
+{"id": "train_0534", "note": "contacts.search tìm số điện thoại và email của chị Lan trong danh bạ."}
+{"id": "train_0535", "note": "smart_home.get_status phòng khách để kiểm tra thiết bị đang bật."}
+{"id": "train_0537", "note": "Tám giờ tối nay = 25/9 20:00. news.search tìm bài mới nhất về điện mặt trời, rồi reminders.create nhắc đọc bài đó lúc 20:00."}
+{"id": "train_0538", "note": "home_security.list_alerts xem có cảnh báo ở cửa sổ phòng làm việc không; có thì notes.create ghi chú An ninh buổi sáng, không thì thôi."}
+{"id": "train_0539", "note": "Chiều nay = 25/9. calendar.list_events tìm lịch duyệt gian hàng 25/9; khớp đúng một thì calendar.cancel_event, rồi email.list tìm thư gửi lịch hôm qua 24/9 để email.create_draft nháp báo huỷ, không có hoặc nhiều thì sys.ask_missing_info cho calendar.cancel_event, params event_id."}
+{"id": "train_0540", "note": "calendar.list_events tìm họp kế hoạch tháng 28/9; khớp đúng một thì calendar.update_event sang 29/9 rồi video_meeting.create, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_0545", "note": "appliances.list tìm máy rửa bát; khớp đúng một thì appliances.start_cycle rồi household_chores.list_chores và household_chores.assign việc cất bát cho Khoa, không có hoặc nhiều thì sys.ask_missing_info cho appliances.start_cycle, params appliance_id."}
+{"id": "train_0546", "note": "T2 tuần sau là 28/9. weather.get_forecast tại Ninh Bình ngày 28/9."}
+{"id": "train_0548", "note": "Đèn trần phòng khách là light_living (lượt trước). smart_home.light_set chỉnh sáng 30."}
+{"id": "train_0550", "note": "Họp đối tác ngày 1/10 lúc 16:00 (evt_03). video_meeting.create phòng họp Họp đối tác bắt đầu 1/10 16:00."}
+{"id": "train_0551", "note": "Chỗ bàn ăn nhiều vụn bánh là khu bàn ăn (lượt trước). robot_vacuum.start dọn phòng khu bàn ăn."}
+{"id": "train_0554", "note": "Xe đạp xanh số 24 là bike_07 từ lượt trước. bike_rental.reserve xe bike_07."}
+{"id": "train_0557", "note": "music.list_tracks tìm Sớm mai ngoài hiên; khớp đúng một thì music.play, không có hoặc nhiều thì sys.ask_missing_info cho music.play, params track_id."}
+{"id": "train_0558", "note": "podcast_radio.search Sống xanh tìm tập số 18; khớp đúng một tập thì podcast_radio.queue, không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.queue, params episode_id."}
+{"id": "train_0559", "note": "Đèn trần phòng khách là light_living (lượt trước). smart_home.light_set bật đèn."}
+{"id": "train_0562", "note": "Không có ứng dụng phát nhạc nào được cài đặt nên không gọi tool."}
+{"id": "train_0563", "note": "contacts.search tìm Ngân; chưa có email người nhận nên sys.ask_missing_info cho email.create_draft, params to."}
+{"id": "train_0565", "note": "Người dùng dừng yêu cầu nên không gọi tool."}
+{"id": "train_0567", "note": "contacts.search tìm Yến; khớp đúng một người thì ewallet.transfer 120000, không có hoặc nhiều người thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0568", "note": "bill_payment.list_bills tìm hoá đơn điện tháng 9; khớp đúng một thì bill_payment.pay, không có hoặc nhiều thì sys.ask_missing_info cho bill_payment.pay, params bill_id."}
+{"id": "train_0572", "note": "5 m = 500 cm. calculator.convert_unit quy đổi 5 m sang cm, rồi shopping_list.add 1 tấm vải 500 cm."}
+{"id": "train_0573", "note": "10 giờ sáng mai = 10:00 ngày 26/9. news.search tìm tin giảm phát thải, lấy tiêu đề bài viết rồi tasks.add việc đọc với hạn 10:00 26/9."}
+{"id": "train_0574", "note": "chín trăm nghìn = 900000; contacts.search Trang; khớp đúng một thì ewallet.transfer 900000 rồi notes.create ghi chú tiền thuê nhà tháng 9, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0577", "note": "Chín giờ tối = 21:00. robot_vacuum.get_status rồi robot_vacuum.start phòng ngủ; smart_home.get_status tìm quạt phòng ngủ; khớp đúng một thì home_automation.create_rule, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.create_rule, params device_id."}
+{"id": "train_0579", "note": "phone.call gọi đến số 09870001117 cho Bình bên đội giao nhận."}
+{"id": "train_0581", "note": "Bài báo ở lượt trước là \"Vườn rau dùng tưới nhỏ giọt\". notes.create tạo ghi chú mới với tiêu đề Tin cần đọc và nội dung này."}
+{"id": "train_0583", "note": "Lịch đối chiếu hàng là evt_03 ngày 29/9; 4 giờ chiều = 16:00, giữ 1 tiếng → 17:00. calendar.update_event."}
+{"id": "train_0584", "note": "Xác nhận giao hàng sáng T6 2/10 từ lượt trước. email.create_draft gửi vendor@example.test."}
+{"id": "train_0588", "note": "flights.search ngày 4/10 từ Hà Nội đi Cần Thơ tìm RV219; khớp đúng một thì flights.book 2 người, không có hoặc nhiều thì sys.ask_missing_info cho flights.book, params flight_id."}
+{"id": "train_0593", "note": "Tiền mạng quý ba là bill_04 (lượt trước). bill_payment.pay từ ewallet."}
+{"id": "train_0595", "note": "T3 tuần sau = 29/9. flights.search tìm chuyến RV183 từ HAN đi HUI ngày 29/9; khớp đúng một chuyến thì flights.book, không có hoặc nhiều thì sys.ask_missing_info cho flights.book, params flight_id."}
+{"id": "train_0597", "note": "bill_payment.list_bills tìm hoá đơn học phí tháng 10; khớp đúng một thì bill_payment.pay qua ngân hàng, không có hoặc nhiều thì sys.ask_missing_info cho bill_payment.pay, params bill_id."}
+{"id": "train_0599", "note": "Thứ sáu tuần sau = 2/10. flights.search tìm chuyến RV305; khớp đúng một thì flights.book, không có hoặc nhiều thì sys.ask_missing_info cho flights.book, params flight_id."}
+{"id": "train_0600", "note": "Thiếu ứng dụng ngân hàng hoặc ví điện tử để chuyển tiền nên không gọi tool."}
+{"id": "train_0601", "note": "Không có ứng dụng đặt khám bệnh nên không gọi tool."}
+{"id": "train_0602", "note": "Lời chúc xã giao, không yêu cầu tác vụ nên không gọi tool."}
+{"id": "train_0603", "note": "weather.get_current xem trời có mưa không; mưa thì tasks.add thêm việc che chậu cây ban công, không mưa thì thôi."}
+{"id": "train_0604", "note": "home_energy.get_usage hôm nay xem điện dùng quá 15 kWh chưa; quá 15 số thì notes.create ghi chú kiểm tra thiết bị, không quá thì thôi."}
+{"id": "train_0605", "note": "chat_ott.list_chats tìm Minh; khớp đúng một thì chat_ott.send_message nội dung dời sang 15:00, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0606", "note": "Người dùng hủy yêu cầu tạo phòng họp nên không gọi tool."}
+{"id": "train_0608", "note": "podcast_radio.search tìm Sơ cứu khi cắm trại; khớp đúng một thì podcast_radio.queue, không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.queue, params episode_id."}
+{"id": "train_0609", "note": "2 giờ chiều mai = 14:00 2/10. contacts.search tìm chị Lan, chat_ott.list_chats tìm chat; khớp đúng một thì chat_ott.send_message rồi calendar.create_event Bàn giao ca 14:00 2/10, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0610", "note": "Thứ Bảy này = 3/10, năm giờ chiều = 17:00. calculator.convert_unit đổi 4 m sang cm, rồi shopping_list.add 1 cuộn dây dù theo kết quả và tasks.add hạn 3/10 17:00."}
+{"id": "train_0611", "note": "CN tuần này = 4/10. weather.get_forecast ngày 4/10 xem có mưa không; mưa thì calendar.list_events tìm buổi tập rồi calendar.cancel_event, không mưa thì thôi."}
+{"id": "train_0612", "note": "Thứ bảy = 3/10, 3 giờ chiều = 15:00. calendar.list_events ngày 3/10 xem 15:00 có trống không; trống thì video_meeting.create phòng họp, không thì thôi."}
+{"id": "train_0613", "note": "5 giờ chiều mai = 17:00 ngày 2/10. email.create_draft gửi team.qa@example.test rồi tasks.add hạn 17:00."}
+{"id": "train_0616", "note": "bike_rental.find_bikes xem trạm Cổng Tây còn xe không; còn xe thì bike_rental.reserve và maps.get_route tới sân tập Bách Thảo, không còn thì thôi."}
+{"id": "train_0617", "note": "Sáng mai chín giờ = 9:00 ngày 2/10. robot_vacuum.get_status lấy danh sách phòng rồi robot_vacuum.start phòng tiếp khách; tasks.add việc kiểm tra hạn 9:00 ngày 2/10."}
+{"id": "train_0620", "note": "Tám giờ tối = 20:00. smart_home.get_status tìm đèn góc đọc; khớp đúng một thì home_automation.create_rule bật lúc 20:00 rồi smart_home.light_set chỉnh sáng 45, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.create_rule, params device_id."}
+{"id": "train_0621", "note": "4 giờ chiều 6/10 = 16:00 ngày 6/10. reminders.create nội dung Nộp bản thảo chuyên đề."}
+{"id": "train_0622", "note": "notes.create lưu kết luận từ lượt trước với tiêu đề \"Tổng kết họp\", nội dung nhóm chọn phương án B và thử nghiệm trong hai tuần."}
+{"id": "train_0623", "note": "Món sữa từ lượt trước là sữa yến mạch không đường Oat Farm, số lượng 2. shopping_list.add."}
+{"id": "train_0624", "note": "Việc rửa bát tối thứ sáu là chore_05 (lượt trước); household_chores.assign giao chore_05 cho Hà."}
+{"id": "train_0625", "note": "Bản piano nhẹ nhàng chọn ở lượt trước là trk_07. music.play phát bài trk_07."}
+{"id": "train_0627", "note": "Hẹn gửi bản bố cục vào 5 giờ chiều = 17:00 thứ hai tuần sau = 5/10 (lượt trước). tasks.add tạo việc."}
+{"id": "train_0629", "note": "maps.search_place tìm quán chay ở Trúc Bạch, rồi maps.get_route từ nhà."}
+{"id": "train_0631", "note": "Xe đạp thường ở Trạm Cổng Nam là bike_07 (lượt trước). bike_rental.reserve giữ bike_07, rồi maps.get_route từ Trạm Cổng Nam công viên Thủ Lệ đến Nhà thi đấu Quần Ngựa."}
+{"id": "train_0632", "note": "Đèn phòng đọc nhỏ tầng 2 là light_reading2 (lượt trước). smart_home.light_set với brightness 55."}
+{"id": "train_0633", "note": "Thứ ba tuần sau = 6/10; 3 giờ chiều = 15:00; thời lượng mặc định 1 tiếng → 16:00. video_meeting.create rồi calendar.create_event."}
+{"id": "train_0634", "note": "Lan chị gái là c_01 (lượt trước). Sửa số điện thoại 09123456785. contacts.update."}
+{"id": "train_0635", "note": "weather.get_forecast thứ Bảy 3/10 xem có mưa không; mưa thì calendar.cancel_event huỷ evt_04, không mưa thì thôi."}
+{"id": "train_0636", "note": "weather.get_current xem trời có đang mưa không; mưa thì smart_home.light_set bật đèn hiên light_porch, không mưa thì thôi."}
+{"id": "train_0637", "note": "Sáu giờ chiều = 18:00. home_energy.get_usage xem 7 ngày qua có quá 70 số điện; nếu quá thì smart_home.get_status phòng khách tìm ổ cắm thiết bị phụ; khớp đúng một thì home_automation.create_rule lúc 18:00, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.create_rule, params device_id; không quá thì dừng."}
+{"id": "train_0638", "note": "home_security.list_alerts kiểm tra cảnh báo; chat_ott.list_chats tìm nhóm trực ca sáng, khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0641", "note": "news.search xe điện tìm bài đăng sau 30/9; tasks.add đọc bài đó với hạn 20:00 4/10."}
+{"id": "train_0642", "note": "maps.search_place tìm hiệu thuốc phố Huế, rồi ride_hailing.book xe máy từ 25 Láng Hạ, Đống Đa, Hà Nội tới địa chỉ tìm được."}
+{"id": "train_0643", "note": "5 giờ chiều thứ Hai 5/10 = 17:00 ngày 5/10. tasks.add tạo việc gửi bảng dự toán ngân sách cho Lan."}
+{"id": "train_0645", "note": "Cuộc Trao đổi đối tác từ lượt trước ngày 8/10 lúc 16:00. video_meeting.create tạo phòng họp."}
+{"id": "train_0647", "note": "Bài đọc ở lượt trước là art_05. Lưu tóm tắt kèm tên bài vào ghi chú Vườn cộng đồng. notes.create."}
+{"id": "train_0651", "note": "contacts.search tìm Hương; khớp đúng một người thì ewallet.transfer 180000, không có hoặc nhiều người thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0652", "note": "contacts.search Bác sĩ An; khớp đúng một người thì phone.call, không có hoặc nhiều người thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_0653", "note": "Thiếu ngày bay; sys.ask_missing_info cho flights.search, params date."}
+{"id": "train_0654", "note": "Chuyển tiền cho Quân thiếu số tiền amount; sys.ask_missing_info cho ewallet.transfer, params amount."}
+{"id": "train_0655", "note": "Người dùng đổi ý không huỷ gói lưu trữ nữa nên không gọi tool."}
+{"id": "train_0657", "note": "Số điện thoại cần gọi là 09870011220. phone.call gọi ngay."}
+{"id": "train_0665", "note": "contacts.search Cô Hạnh; khớp đúng một thì ewallet.transfer 720000, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0666", "note": "Hóa đơn Internet tháng 9 là bill_05 (lượt trước). Trừ tài khoản ngân hàng → bill_payment.pay với bill_id bill_05, source bank."}
+{"id": "train_0668", "note": "flights.search tìm chuyến bay 12/10; khớp đúng một chuyến RV236 thì flights.book, không có hoặc nhiều thì sys.ask_missing_info cho flights.book, params flight_id."}
+{"id": "train_0671", "note": "Vé RV180 là fl_05, 1 người hạng business → flights.book. Đón tại nhà ra Sân bay Nội Bài lúc 5:00 ngày 6/10 bằng car4 → ride_hailing.book."}
+{"id": "train_0672", "note": "An bác sĩ gia đình là c_01 (lượt trước). phone.call c_01 rồi notes.create ghi chú cuộc gọi."}
+{"id": "train_0678", "note": "chat_ott.list_chats và chat_ott.read_chat nhóm hạ tầng xem có tin nước vào phòng máy chủ không; đúng thì phone.call số 09887755447, không thì thôi."}
+{"id": "train_0679", "note": "Sáng hôm đó = 14/10, bốn giờ bốn lăm = 4:45, xe bốn chỗ = car4. ride_hailing.book từ nhà đến Sân bay Nội Bài."}
+{"id": "train_0680", "note": "Lấy thông tin chuyển 850000 cho cô Mai từ lượt trước. notes.create tiêu đề Đối soát địa điểm."}
+{"id": "train_0681", "note": "Gói đó là Báo cáo tuần (sub_06 lượt trước). Soạn nháp gửi ops@example.test: email.create_draft."}
+{"id": "train_0682", "note": "chat_ott.list_chats tìm cuộc trò chuyện chị Ly; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0683", "note": "video_meeting.create thiếu thời gian bắt đầu start, gọi sys.ask_missing_info."}
+{"id": "train_0684", "note": "Chưa có địa chỉ nhà ông bà ngoại làm điểm xuất phát; sys.ask_missing_info cho maps.get_route, params origin."}
+{"id": "train_0685", "note": "Người dùng huỷ yêu cầu tạo lại lịch họp nên không gọi tool."}
+{"id": "train_0686", "note": "Người dùng đổi ý không thêm đồ vào danh sách đi chợ nên không gọi tool."}
+{"id": "train_0687", "note": "Yêu cầu đặt lịch trong quá khứ lúc tám giờ sáng hôm qua và không có ứng dụng phù hợp nên không gọi tool."}
+{"id": "train_0688", "note": "Độ sáng đèn bàn âm 10% không hợp lệ nên không gọi tool."}
+{"id": "train_0689", "note": "Không có ứng dụng thanh toán tiền nhà hay ngân hàng nên không gọi tool."}
+{"id": "train_0690", "note": "calendar.list_events ngày 6/10 tìm buổi tập huấn xem có đang bị hủy không; nếu bị hủy thì calendar.update_event khôi phục lại, không thì thôi."}
+{"id": "train_0691", "note": "calendar.list_events tìm sự kiện Phối hợp phân công tình nguyện ngày 17/10 lấy giờ cũ; calendar.create_event đúng thời gian đó."}
+{"id": "train_0692", "note": "chat_ott.list_chats tìm cuộc trò chuyện với Mai Anh; khớp đúng một thì chat_ott.read_chat, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.read_chat, params chat_id."}
+{"id": "train_0693", "note": "contacts.search tìm Mai Anh; khớp đúng một thì contacts.update, không có hoặc nhiều thì sys.ask_missing_info cho contacts.update, params contact_id."}
+{"id": "train_0695", "note": "8:00 đến 9:00 ngày 21/10. calendar.create_event tập huấn an toàn kho; chat_ott.list_chats tìm Mai Anh, khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0699", "note": "contacts.search tìm Mai Anh; khớp đúng một thì contacts.update rồi chat_ott.list_chats tìm đoạn chat để chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho contacts.update, params contact_id."}
+{"id": "train_0700", "note": "smart_home.get_status phòng đọc phía đông tìm đèn đọc sách; khớp đúng một thì smart_home.light_set 64% rồi notes.create, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0704", "note": "appliances.list tìm máy rửa bát; khớp đúng một thì appliances.start_cycle chế độ quick rồi household_chores.list_chores và household_chores.assign cho Thành việc cất bát đĩa, không có hoặc nhiều thì sys.ask_missing_info cho appliances.start_cycle, params appliance_id."}
+{"id": "train_0706", "note": "5 giờ chiều 21/10 = 17:00 ngày 21/10. robot_vacuum.get_status lấy danh sách phòng; robot_vacuum.start góc đọc sách; tasks.add hạn 17:00 ngày 21/10."}
+{"id": "train_0707", "note": "video_meeting.create họp lúc 15:00 22/10; calendar.list_events tìm họp điều phối kho, có thì calendar.update_event sang 15:00 22/10, không thì thôi."}
+{"id": "train_0708", "note": "Khôi phục lịch 21/10 từ 8:00 đến 10:00 tại Kho Ngọc Hồi bằng cách tạo lại. calendar.create_event."}
+{"id": "train_0709", "note": "Mai Anh là chat_01 (lượt trước). chat_ott.send_message gửi tin nhắn tới chat_01."}
+{"id": "train_0710", "note": "Chị Mai Anh hậu cần là c_01 từ lượt trước, cập nhật email mai.anh41@example.test; contacts.update."}
+{"id": "train_0712", "note": "Xe chở hàng có giá chở đồ là bike_08 (lượt trước). bike_rental.reserve bike_08."}
+{"id": "train_0713", "note": "Bản Nhịp thở chậm là trk_07 (lượt trước). music.play."}
+{"id": "train_0715", "note": "Đặt 2 suất cháo gà không hành rest_05_m2 tại quán rest_05 (lượt trước). food_delivery.place_order."}
+{"id": "train_0716", "note": "Máy rửa bát appl_04 từ lượt trước, chạy chu trình quick bằng appliances.start_cycle."}
+{"id": "train_0719", "note": "Mai Anh bên hậu cần là c_01 từ lượt trước; contacts.update cập nhật email mai.anh51@example.test."}
+{"id": "train_0720", "note": "Vùng kệ sách từ lượt trước là kệ sách cạnh cửa sổ. robot_vacuum.start."}
+{"id": "train_0725", "note": "Thứ Ba tuần sau = 6/10. calendar.list_events xem buổi tập huấn an toàn kho có bị huỷ không; bị huỷ thì calendar.create_event tạo lại theo thông tin đọc được."}
+{"id": "train_0729", "note": "Email nhóm tuyển sinh tuyensinh.nhom@example.test (lượt trước). Soạn thư nháp dùng email.create_draft."}
+{"id": "train_0730", "note": "Lấy tiền điện hôm nay từ lượt trước (7,1 kWh, 20.600 đồng), notes.create tạo ghi chú theo dõi tiền điện."}
+{"id": "train_0731", "note": "Mười giờ tối = 22:00. Đèn đọc sách là light_reading từ lượt trước; home_automation.create_rule tắt light_reading lúc 22:00."}
+{"id": "train_0732", "note": "Buổi đầu khoá học lúc 9:00 ngày 16/10, kết thúc 10:00 (+1 giờ). calendar.create_event tiêu đề Sơ cứu cộng đồng cơ bản."}
+{"id": "train_0734", "note": "Sách đã giữ là Sửa đồ gia dụng căn bản (lượt trước). Năm giờ chiều 19/10 = 17:00 19/10. tasks.add hạn 17:00 19/10."}
+{"id": "train_0736", "note": "Không có ứng dụng hỗ trợ đăng ký khoá học nên không gọi tool."}
+{"id": "train_0738", "note": "Người dùng chia sẻ cảm nghĩ, không yêu cầu tác vụ nên không gọi tool."}
+{"id": "train_0739", "note": "home_energy.get_usage xem điện hôm qua có quá 18 số không; quá thì contacts.search tìm chú quản lý tòa nhà rồi phone.call, không quá thì thôi."}
+{"id": "train_0740", "note": "Người dùng hủy yêu cầu đặt vé nên không gọi tool."}
+{"id": "train_0741", "note": "household_chores.list_chores tìm việc sắp lại kệ dụng cụ; khớp đúng một việc thì household_chores.assign cho Thành, không có hoặc nhiều thì sys.ask_missing_info cho household_chores.assign, params chore_id."}
+{"id": "train_0743", "note": "bike_rental.find_bikes tìm xe đạp chở hàng ở Chợ Hôm; khớp đúng một xe thì bike_rental.reserve, không có hoặc nhiều xe thì sys.ask_missing_info cho bike_rental.reserve, params bike_id."}
+{"id": "train_0746", "note": "phone.call 09024180240. contacts.search tìm Mai Anh; khớp đúng một thì contacts.update, không có hoặc nhiều thì sys.ask_missing_info cho contacts.update, params contact_id."}
+{"id": "train_0747", "note": "Ba giờ chiều 12/10 = 15:00 12/10. reminders.create nhắc việc lúc 15:00, rồi phone.call gọi 09020000270."}
+{"id": "train_0748", "note": "food_delivery.list_restaurants tìm quán cháo gà; khớp đúng một thì food_delivery.get_menu rồi food_delivery.place_order 2 suất, rồi bill_payment.list_bills và bill_payment.pay tiền nước qua ngân hàng, rồi notes.create; không có hoặc nhiều thì sys.ask_missing_info cho food_delivery.get_menu, params restaurant_id."}
+{"id": "train_0749", "note": "household_chores.list_chores tìm việc sắp lại kệ dụng cụ; khớp đúng một thì household_chores.assign cho Thành rồi music.list_tracks tìm Nhịp thở chậm và music.play, không có hoặc nhiều thì sys.ask_missing_info cho household_chores.assign, params chore_id."}
+{"id": "train_0751", "note": "contacts.search Mai tìm chị Mai hậu cần; khớp đúng một thì ewallet.transfer 50000, rồi chat_ott.list_chats và chat_ott.send_message báo đã chuyển; không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0752", "note": "Chị Mai hậu cần là c_07 (lượt trước). ewallet.transfer contact_id c_07, amount 50000."}
+{"id": "train_0755", "note": "Kỳ tiền nước tháng 9 là bill_05 (lượt trước). Nguồn ngân hàng → bill_payment.pay với bill_id bill_05 và source bank."}
+{"id": "train_0757", "note": "Vé phổ thông linh hoạt RV221 là fl_06 (lượt trước). Đặt 2 vé: flights.book flight_id fl_06, passengers 2."}
+{"id": "train_0760", "note": "Hải trực ca tối là c_06 (lượt trước). phone.call."}
+{"id": "train_0764", "note": "home_security.list_alerts kiểm tra cảnh báo mới nhất; phone.call gọi số trực ca 09020000652 như đã dặn."}
+{"id": "train_0765", "note": "Hóa đơn nước vừa trả 285.000 đồng; năm giờ chiều ngày 11/10 = 17:00 11/10. tasks.add."}
+{"id": "train_0766", "note": "chat_ott.list_chats tìm cuộc trò chuyện với chị Mai; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0767", "note": "Chuyến bay RV221 đã đặt ở lượt trước. notes.create ghi chú chuyến bay với tiêu đề Chuyến công tác RV221."}
+{"id": "train_0769", "note": "Soạn thư nháp gửi nhom73@example.test thông báo hủy gói lưu trữ Nhóm Plus. email.create_draft."}
+{"id": "train_0771", "note": "smart_home.get_status phòng khách xem máy lọc không khí đang chạy công suất dưới 50W; đúng thì home_automation.create_rule tắt lúc 23:15 hàng ngày, không thì thôi."}
+{"id": "train_0773", "note": "Tập Sao Hỏa ep_08 dài 38 phút vừa 45 phút rảnh: podcast_radio.queue ep_08. 18:20 + 38 phút = 18:58: calendar.create_event từ 18:20 đến 18:58, reminders.create lúc 18:58."}
+{"id": "train_0776", "note": "chat_ott.list_chats tìm nhóm nhà cung cấp Minh Hà; khớp đúng một thì chat_ott.read_chat lấy số mới rồi contacts.search, contacts.update và phone.call, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.read_chat, params chat_id."}
+{"id": "train_0777", "note": "Mai là 18/10. weather.get_forecast xem ngày 18/10 có mưa không; không mưa thì bike_rental.reserve giữ xe bike_08 và calendar.update_event dời buổi chụp ảnh, mưa thì thôi."}
+{"id": "train_0778", "note": "Bên đang giao dịch là c_01, email mới billing@minhha.example. contacts.update cho c_01, email.create_draft tạo thư nháp, rồi chat_ott.send_message cho chị Mai qua chat_03."}
+{"id": "train_0779", "note": "home_energy.get_usage xem điện hôm nay; còn đủ thì appliances.list rồi appliances.start_cycle chạy máy đã dặn, không đủ thì thôi; rồi notes.create ghi chú."}
+{"id": "train_0781", "note": "10 giờ rưỡi tối = 22:30. home_energy.get_usage xem hôm qua có quá 18 số điện không; quá thì smart_home.get_status tìm bình nóng lạnh rồi home_automation.create_rule tắt lúc 22:30, không thì thôi."}
+{"id": "train_0785", "note": "tasks.add việc chốt ảnh hạn 10/10 17:00 và việc soát thông cáo. Hạn sớm nhất 10/10 + 1 ngày = 11/10, calendar.create_event lúc 9:00 kiểm tra tiến độ."}
+{"id": "train_0786", "note": "Bài hát là trk_07. music.play trk_07; smart_home.get_status tìm đèn phòng khách; khớp đúng một thì home_automation.create_rule, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.create_rule, params device_id."}
+{"id": "train_0788", "note": "Không có ứng dụng đặt phòng khách sạn nên không gọi tool."}
+{"id": "train_0797", "note": "Lời cảm ơn xã giao nên không gọi tool."}
+{"id": "train_0798", "note": "Không có ứng dụng RemitNow hay chuyển tiền quốc tế được cài đặt nên không gọi tool."}
+{"id": "train_0799", "note": "weather.get_current xem có mưa hoặc lạnh dưới 18 độ không; thoả mãn thì appliances.list tìm máy sấy chăn rồi appliances.start_cycle chế độ sấy nhanh, không thì thôi."}
+{"id": "train_0800", "note": "Mai là 6/10. calendar.list_events ngày 6/10 lấy địa chỉ và giờ khám răng, rồi ride_hailing.book xe máy từ nhà tới phòng khám đón trước giờ khám 30 phút."}
+{"id": "train_0801", "note": "contacts.search tìm chị Mai bên pháp chế; khớp đúng một người thì video_meeting.create lúc 15:00 hôm nay, không có hoặc nhiều thì sys.ask_missing_info cho video_meeting.create, params attendees."}
+{"id": "train_0803", "note": "home_energy.get_usage xem điện tiêu thụ hôm nay có quá 12 số không; quá 12 số thì tasks.add, không thì thôi."}
+{"id": "train_0804", "note": "news.search metro xem tin; podcast_radio.search metro xem có tập podcast không, có thì podcast_radio.queue tập đó, không có thì thôi."}
+{"id": "train_0807", "note": "weather.get_forecast mai 6/10 xem có mưa không; mưa thì home_automation.delete_rule và home_automation.create_rule lùi giờ tưới sang 7:00, không mưa thì thôi."}
+{"id": "train_0809", "note": "Minh pháp chế là minh.legal@example.test (lượt trước); ngày 4/10; email.create_draft lưu thư nháp."}
+{"id": "train_0811", "note": "music.play trk_07; smart_home.get_status tìm đèn bàn; khớp đúng một thì home_automation.create_rule, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.create_rule, params device_id."}
+{"id": "train_0813", "note": "home_security.list_alerts xem có cảnh báo mở cửa sau trái phép không; đúng thì household_chores.list_chores tìm việc kiểm tra pin rồi household_chores.assign cho anh Dũng, không thì thôi."}
+{"id": "train_0814", "note": "Tám giờ tối mai = 6/10 20:00. home_energy.get_usage xem tiền điện tuần này có vượt 350000 không; vượt thì tasks.add và notes.create ghi do máy sấy, không vượt thì thôi."}
+{"id": "train_0815", "note": "food_delivery.order_history lấy địa chỉ cũ; food_delivery.place_order đặt 2 phần rest_05_m1 tại rest_05."}
+{"id": "train_0816", "note": "Tập số 9 là ep_11 (lượt trước): podcast_radio.queue ep_11. Chủ nhật là 11/10, tám giờ tối = 20:00: tasks.add hạn 11/10 20:00."}
+{"id": "train_0817", "note": "Thứ năm = 8/10, hai giờ chiều = 14:00 tới 15:00. calendar.create_event; chat_ott.list_chats tìm nhóm An Bình; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0819", "note": "8:30 + 42 phút = 9:12, muộn hơn 9:00 ngày 7/10. video_meeting.create tạo phòng họp lúc 9:00 ngày 7/10."}
+{"id": "train_0820", "note": "Máy giặt tầng hai là appl_06 (lượt trước), giặt thường 55 phút: 9:00 + 55 phút = 9:55 5/10. appliances.start_cycle appl_06, rồi reminders.create lúc 9:55."}
+{"id": "train_0821", "note": "robot_vacuum.get_status rồi robot_vacuum.start dọn bếp; home_energy.get_usage xem điện hôm nay có quá 14 số không; nếu quá thì tasks.add việc kiểm tra bộ lọc, không thì thôi."}
+{"id": "train_0822", "note": "chat_ott.list_chats tìm cuộc trò chuyện với anh Bình vận chuyển; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0823", "note": "Chưa có giờ bắt đầu cho cuộc họp thứ bảy nên sys.ask_missing_info cho calendar.create_event, params start."}
+{"id": "train_0824", "note": "Người dùng chưa quyết định và hẹn bàn thêm nên không gọi tool."}
+{"id": "train_0825", "note": "Người dùng tự ghi chép và dặn chưa cần lưu hay nhắc gì nên không gọi tool."}
+{"id": "train_0830", "note": "contacts.search tìm Cô Hạnh; khớp đúng một thì ewallet.transfer rồi chat_ott.send_message cho chat_01, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0831", "note": "bill_payment.pay hoá đơn bill_03 bằng bank. Hạn 12/10 trước 1 ngày = 11/10 lúc 9:00: reminders.create."}
+{"id": "train_0832", "note": "Chuyến RV217 là fl_05, đặt cho 1 người. Sáu giờ sáng = 6:00 11/10. flights.book đặt fl_05 cho 1 khách, rồi tasks.add lúc 6:00."}
+{"id": "train_0834", "note": "Tuấn gara số 09063334446 từ lượt trước. phone.call rồi notes.create ghi chú lại."}
+{"id": "train_0837", "note": "bill_payment.list_bills lấy hoá đơn điện kho Long Biên rồi bill_payment.pay qua ngân hàng; nếu tiền điện lớn hơn 550000 thì notes.create ghi chênh lệch, không thì thôi."}
+{"id": "train_0840", "note": "Chị Ngân pháp lý là c_05 (lượt trước). phone.call c_05, rồi email.create_draft gửi tài liệu NDA."}
+{"id": "train_0846", "note": "chat_ott.list_chats tìm cuộc trò chuyện với Minh; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0847", "note": "Mai là 21/9. weather.get_forecast xem thời tiết Đà Nẵng."}
+{"id": "train_0848", "note": "Sáng mai = 21/9, tám giờ mười lăm = 8:15. maps.get_route từ nhà đến Bệnh viện Bạch Mai, reminders.create lúc 21/9 8:15."}
+{"id": "train_0849", "note": "Sáu rưỡi chiều = 18:30 ngày 20/9. robot_vacuum.get_status kiểm tra danh sách phòng rồi robot_vacuum.start phòng khách; reminders.create lúc 18:30 ngày 20/9."}
+{"id": "train_0851", "note": "Quán đầu tiên ở lượt trước là Cà phê Mộc Miên. maps.get_route chỉ đường từ nhà 25 Láng Hạ đến Cà phê Mộc Miên."}
+{"id": "train_0853", "note": "calendar.list_events tìm lịch chạy bộ sáng thứ tư 23/9; khớp đúng một sự kiện thì calendar.cancel_event, không có hoặc nhiều thì sys.ask_missing_info cho calendar.cancel_event, params event_id."}
+{"id": "train_0855", "note": "Tạo nhắc việc gọi điện chúc mừng sinh nhật mẹ lúc 8:00 ngày 22/9 bằng reminders.create."}
+{"id": "train_0860", "note": "weather.get_current xem ngoài trời có dưới 20 độ không; nếu có thì reminders.create lúc 10:00 nhắc mặc áo khoác, không thì thôi."}
+{"id": "train_0862", "note": "weather.get_forecast ngày 21/9 xem có mưa không; không mưa thì calendar.create_event chạy bộ lúc 6:00, mưa thì thôi."}
+{"id": "train_0863", "note": "Không có ứng dụng camera hay nhận diện người trước cửa nên không gọi tool."}
+{"id": "train_0864", "note": "smart_home.get_status tìm đèn trần phòng khách; khớp đúng một thì smart_home.light_set, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0865", "note": "home_energy.get_usage xem số điện tuần này với period week."}
+{"id": "train_0866", "note": "news.search tìm tin tức khoa học."}
+{"id": "train_0867", "note": "Quy đổi 3 cây số (km) sang mét (m). calculator.convert_unit."}
+{"id": "train_0868", "note": "7 giờ tối = 19:00. smart_home.get_status tìm đèn ngoài hiên; khớp đúng một thì home_automation.create_rule bật lúc 19:00 rồi home_security.list_alerts, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.create_rule, params device_id."}
+{"id": "train_0873", "note": "bike_rental.find_bikes tìm xe đạp số 18 trạm Công viên Thống Nhất; khớp đúng một thì bike_rental.reserve rồi maps.get_route từ công viên ra Hồ Gươm, không có hoặc nhiều thì sys.ask_missing_info cho bike_rental.reserve, params bike_id."}
+{"id": "train_0874", "note": "Một trăm rưỡi = 150000. contacts.search tìm Huy; khớp đúng một thì ewallet.transfer, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0876", "note": "music.list_tracks tìm bài Mùa thu nhỏ; khớp đúng một thì music.play rồi podcast_radio.search Chuyện Nghề và podcast_radio.queue tập 12, không có hoặc nhiều thì sys.ask_missing_info cho music.play, params track_id."}
+{"id": "train_0877", "note": "smart_home.get_status kiểm tra thiết bị phòng ngủ; home_energy.get_usage xem lượng điện dùng hôm nay."}
+{"id": "train_0878", "note": "contacts.search tìm số chị Lan trong danh bạ; notes.create tạo ghi chú với ba nội dung cần hỏi."}
+{"id": "train_0879", "note": "Lưu ghi chú về pin thể rắn từ tin tức vừa đọc. notes.create."}
+{"id": "train_0881", "note": "Họp đối tác mai 21/9 lúc 15:00 là evt_02 (lượt trước). calendar.cancel_event."}
+{"id": "train_0884", "note": "Đèn phòng khách là light_living từ lượt trước; giảm độ sáng còn 40: smart_home.light_set."}
+{"id": "train_0885", "note": "Sáng mai = 21/9. Bảy giờ sáng = 7:00, mặc định thêm 1 tiếng → 8:00. calendar.create_event đặt lịch đạp xe."}
+{"id": "train_0886", "note": "Chị Hạnh có email hanh.legal@example.test (lượt trước). email.create_draft tạo thư nháp gửi hanh.legal@example.test báo đã nhận hợp đồng và phản hồi trước thứ Tư."}
+{"id": "train_0887", "note": "Chuyến sớm hơn là RV151 lúc 7:00 fl_05 (lượt trước). Đặt 1 ghế bằng flights.book."}
+{"id": "train_0890", "note": "Lau ban công là chore_06 (lượt trước). household_chores.assign giao cho An."}
+{"id": "train_0891", "note": "Anh Tuấn là c_06 (lượt trước), hai trăm nghìn = 200000. ewallet.transfer chuyển tiền."}
+{"id": "train_0892", "note": "Trước 24/9 một ngày là 23/9, 6 giờ tối = 18:00. reminders.create tạo nhắc việc mua hoa."}
+{"id": "train_0893", "note": "Hạn nộp 30/9 - 2 ngày = 28/9, 5 giờ chiều = 17:00. tasks.add."}
+{"id": "train_0894", "note": "Gọi bác Bình theo số điện thoại 09881234566 từ lượt trước. phone.call."}
+{"id": "train_0895", "note": "Tối mai = 21/9, 9 giờ tối = 21:00. Uống thuốc từ lượt trước là Amlodipine 5 mg. reminders.create nhắc Uống Amlodipine 5 mg vào 21/9 21:00."}
+{"id": "train_0896", "note": "Chiều hôm đó là 23/9 (lượt trước). 4 giờ chiều = 16:00. calendar.create_event."}
+{"id": "train_0897", "note": "Lưu câu mẹo từ lượt trước vào ghi chú; notes.create với tiêu đề Cà phê rang."}
+{"id": "train_0899", "note": "Chiếc xe có yên em bé ở Trúc Bạch là bike_07 (lượt trước). bike_rental.reserve."}
+{"id": "train_0902", "note": "Ghi chú lại thông tin lượng điện tiêu thụ cao ở lượt trước; notes.create."}
+{"id": "train_0903", "note": "Ba giờ chiều mai = 21/9 15:00. video_meeting.create phòng họp Họp dự án bắt đầu 21/9 15:00."}
+{"id": "train_0904", "note": "Quạt phòng ngủ là fan_bedroom (lượt trước). smart_home.fan_set bật quạt."}
+{"id": "train_0906", "note": "Điểm đón nhà là 25 Láng Hạ, điểm đến là Hiệu thuốc An Tâm (lượt trước). Ô tô bốn chỗ = car4. ride_hailing.book."}
+{"id": "train_0907", "note": "chat_ott.list_chats tìm cuộc trò chuyện với Quân c_01; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_0908", "note": "Sáng mai = 22/9 9:00. maps.get_route từ nhà đến Bệnh viện Bạch Mai bằng xe máy lấy thời gian di chuyển; reminders.create nhắc rời nhà trước 9:00 thời gian đó cộng 15 phút."}
+{"id": "train_0910", "note": "calendar.list_events và weather.get_forecast ngày 22/9 xem có mưa không; mưa thì calendar.cancel_event buổi chạy sớm nhất và reminders.create nhắc tập trong nhà, không mưa thì thôi."}
+{"id": "train_0911", "note": "9:00 + 1 tiếng = 10:00. weather.get_current và smart_home.get_status xem nhiệt độ và quạt phòng ngủ; từ 28 độ trở lên và quạt đang tắt thì smart_home.fan_set rồi reminders.create lúc 10:00, không thì thôi."}
+{"id": "train_0913", "note": "maps.get_route từ nhà tới Bệnh viện E bằng xe máy; khám 9:30 mai 22/9 - 20 phút = 9:10, reminders.create nhắc rời nhà lúc 9:10 trừ thời gian đi."}
+{"id": "train_0920", "note": "Người dùng đổi ý không đổi vé nữa nên không gọi tool."}
+{"id": "train_0923", "note": "Người dùng đổi ý chọn e5 → fuel_price.get_price tra giá loại e5."}
+{"id": "train_0926", "note": "Người dùng huỷ yêu cầu tạo mã mở cổng nên không gọi tool."}
+{"id": "train_0929", "note": "Người dùng đổi ý không huỷ lịch khám mắt nữa nên không gọi tool."}
+{"id": "train_0930", "note": "Hôm ấy là thứ Năm 17/12. medication.list lấy các cữ thuốc buổi sáng, rồi alarm.create tạo báo thức ngày 17/12 theo các giờ đó."}
+{"id": "train_0933", "note": "maps.get_route tính giờ về nhà từ 19:30; tv.guide tìm trận kênh S+ lúc đó; khớp đúng một trận thì tv.record, không có hoặc nhiều thì sys.ask_missing_info cho tv.record, params program_id."}
+{"id": "train_0934", "note": "calendar.list_events 23/11 tìm hẹn Anh Sáu; ride_hailing.get_quotes xem giá 4 chỗ dưới 90000 thì ride_hailing.book xe 4 chỗ, không thì ride_hailing.book xe máy."}
+{"id": "train_0938", "note": "Không có ứng dụng hỗ trợ tham gia cuộc họp trực tuyến nên không gọi tool."}
+{"id": "train_0939", "note": "video_meeting.list_meetings tìm cuộc họp phường trưa nay; khớp đúng một thì video_meeting.join, không có hoặc nhiều thì sys.ask_missing_info cho video_meeting.join, params meeting_id."}
+{"id": "train_0940", "note": "exchange_rate.get_rate từ JPY sang VND."}
+{"id": "train_0942", "note": "podcast_radio.search Khoa học mỗi ngày tìm tập có thời lượng bằng thời gian đi xe lượt trước; khớp đúng một thì podcast_radio.play, không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.play, params episode_id."}
+{"id": "train_0943", "note": "xăng 95 = ron95. fuel_price.get_price lấy giá; contacts.search tìm anh Lộc; khớp đúng một thì ewallet.transfer, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_0944", "note": "Người dùng đổi ý chưa nhắn tin. appliances.list tìm máy dưới bếp; khớp đúng một thì appliances.stop, không có hoặc nhiều thì sys.ask_missing_info cho appliances.stop, params appliance_id."}
+{"id": "train_0945", "note": "home_automation.list_rules tìm hẹn giờ bật đèn phòng khách buổi chiều; khớp đúng một thì home_automation.delete_rule, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.delete_rule, params rule_id."}
+{"id": "train_0946", "note": "medication.list tìm lịch uống thuốc dạ dày cữ sáng; khớp đúng một thì medication.log_taken, không có hoặc nhiều thì sys.ask_missing_info cho medication.log_taken, params schedule_id."}
+{"id": "train_0950", "note": "bike_rental.find_bikes ở Biển Đông; khớp đúng một xe thì bike_rental.reserve, không có hoặc nhiều xe thì sys.ask_missing_info cho bike_rental.reserve, params bike_id."}
+{"id": "train_0951", "note": "chat_ott.list_chats tìm Minh; khớp đúng một thì chat_ott.read_chat đọc bài hát rồi music.list_tracks và music.add_to_playlist vào nhạc chill buổi tối, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.read_chat, params chat_id."}
+{"id": "train_0952", "note": "loyalty.list_vouchers xem hạn voucher; reminders.create lúc 9:00 trước ngày hết hạn 1 ngày cho voucher hết hạn tuần này, notes.create ghi chú 2 voucher MinhMart."}
+{"id": "train_0956", "note": "Không có ứng dụng tra cứu phạt nguội nên không gọi tool."}
+{"id": "train_0957", "note": "Chưa chạy nên không ghi nhận buổi tập. fitness.set_goal thiếu số bước steps, gọi sys.ask_missing_info."}
+{"id": "train_0958", "note": "tv.control chỉnh âm lượng về 10."}
+{"id": "train_0961", "note": "Hạn chủ nhật 29/11 có hai hoá đơn truyền hình và internet, chưa rõ loại hoá đơn nên sys.ask_missing_info cho bill_payment.schedule_autopay, params type."}
+{"id": "train_0962", "note": "robot_vacuum.stop để dừng máy hút bụi và cho về trạm sạc."}
+{"id": "train_0963", "note": "food_delivery.order_history lấy quán trưa nay; reminders.list tìm nhắc việc đặt quán đó; khớp đúng một thì reminders.delete, không có hoặc nhiều thì sys.ask_missing_info cho reminders.delete, params reminder_id."}
+{"id": "train_0964", "note": "Ngưỡng đang để là 300 số; 300 - 50 = 250. home_energy.set_alert đặt ngưỡng 250."}
+{"id": "train_0965", "note": "bike_rental.find_bikes tìm xe đạp thể thao trạm Lê Văn Sỹ; khớp đúng một thì bike_rental.reserve, không có hoặc nhiều thì sys.ask_missing_info cho bike_rental.reserve, params bike_id."}
+{"id": "train_0968", "note": "podcast_radio.search Thành phố xanh xem tập mới nhất có dài quá 30 phút không; quá 30 phút thì podcast_radio.play tập trước đó, không thì podcast_radio.play tập mới nhất."}
+{"id": "train_0969", "note": "home_automation.list_rules tìm quy tắc tắt đèn bếp 10 giờ; có thì home_automation.delete_rule, không có thì thôi; phone.recent_calls tìm cuộc gọi nhỡ trưa nay rồi phone.call."}
+{"id": "train_0970", "note": "Người dùng đổi ý chọn chế độ tiếp khách. Chế độ tiếp khách là scn_73 từ lượt trước; smart_home.scene_run scn_73."}
+{"id": "train_0971", "note": "loyalty.get_points CineViệt; khớp đúng một thì loyalty.redeem, không có hoặc nhiều thì sys.ask_missing_info cho loyalty.redeem, params program. Bảy rưỡi tối = 19:30 - 30 phút = 19:00, alarm.create."}
+{"id": "train_0972", "note": "exchange_rate.get_rate xem tỷ giá USD/VND có trên 25500 không; trên thì ride_hailing.book xe bốn chỗ ra tiệm vàng, không thì thôi."}
+{"id": "train_0973", "note": "Từ lượt trước: xe điện là bike_7299, xe thường là bike_764. bike_rental.reserve bike_7299, bike_rental.reserve bike_764, rồi reminders.create lúc 8:00."}
+{"id": "train_0975", "note": "shopping_list.get; shopping_list.check từng món táo và dầu ăn; calendar.list_events sáng 31/10 xem có trống không; trống thì calendar.create_event lúc 8:00, không thì calendar.create_event lúc 15:00."}
+{"id": "train_0976", "note": "tasks.list tìm việc tập hát hôm nay; music.list_tracks tìm bài đó; khớp đúng một thì music.play, không có hoặc nhiều thì sys.ask_missing_info cho music.play, params track_id."}
+{"id": "train_0977", "note": "Tắt tiếng tivi. tv.control với action mute."}
+{"id": "train_0978", "note": "Người dùng đổi ý gửi vị trí qua Zalo nhưng không có ứng dụng Zalo hay tin nhắn OTT nên không gọi tool."}
+{"id": "train_0979", "note": "Kênh du lịch nói về Đà Nẵng là Phố biển kể chuyện (show_264, lượt trước). podcast_radio.subscribe theo dõi kênh show_264."}
+{"id": "train_0980", "note": "Người dùng đổi ý nghe VOV3 thay vì VOV Giao thông. Gọi podcast_radio.play với station VOV3."}
+{"id": "train_0981", "note": "medication.list tìm lịch kháng sinh; khớp đúng một thì medication.remove, không có hoặc nhiều thì sys.ask_missing_info cho medication.remove, params schedule_id."}
+{"id": "train_0982", "note": "Không có ứng dụng báo động chống trộm nên không gọi tool."}
+{"id": "train_0984", "note": "robot_vacuum.stop; người dùng chưa nói rõ phòng ngủ nào nên sys.ask_missing_info cho robot_vacuum.start, params rooms."}
+{"id": "train_0990", "note": "Người dùng đổi sang đọc tin nhắn SMS nhưng không có ứng dụng SMS, không gọi tool."}
+{"id": "train_0992", "note": "Chỉ hỏi số bài hát của Hoài Lâm trong máy; music.list_tracks kiểm tra thư viện."}
+{"id": "train_0994", "note": "robot_vacuum.stop; smart_home.get_status tìm đèn dưới nhà; khớp đúng một thì smart_home.light_set, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_0995", "note": "Góc Phố 24h có merchant_id mch_2648 từ lượt trước. Bốn mươi hai nghìn = 42000. Gọi ewallet.pay_qr thanh toán."}
+{"id": "train_0998", "note": "food_delivery.order_history xem đơn bún bò sáng nay có đang giao tới không; đang giao thì robot_vacuum.stop, không thì thôi."}
+{"id": "train_0999", "note": "video_meeting.list_meetings hôm nay 16/10 và reminders.create nhắc trước 15 phút; smart_home.get_status tìm quạt phòng khách; khớp đúng một thì home_automation.create_rule bật vào giờ họp tối, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.create_rule, params device_id."}
+{"id": "train_1000", "note": "Không có ứng dụng lưu trữ và chia sẻ file đám mây nên không gọi tool."}
+{"id": "train_1002", "note": "video_meeting.list_meetings xem chiều nay có họp online không; có thì smart_home.fan_set bật quạt fan_office, không thì thôi."}
+{"id": "train_1004", "note": "Không cài ứng dụng phát nhạc nên không gọi tool."}
+{"id": "train_1005", "note": "lottery.get_results đài Đà Nẵng xem vé của mạ có trúng không; trúng thì sms.send cho mạ, không trúng thì thôi."}
+{"id": "train_1009", "note": "reminders.list xem có nhắc việc đón người không; có thì smart_home.get_status trên lầu, smart_home.light_set tắt từng đèn đang mở, rồi contacts.search tìm người đó và phone.call; không có thì thôi."}
+{"id": "train_1011", "note": "news.save lưu art_702 và art_997; contacts.search và video_meeting.list_meetings lấy giờ họp thầy Phong mai 23/11, rồi alarm.create trước giờ họp 1 tiếng."}
+{"id": "train_1012", "note": "flights.my_bookings tìm vé bay Sài Gòn sáng mai; khớp đúng một thì flights.check_in, không có hoặc nhiều thì sys.ask_missing_info cho flights.check_in, params booking_id; ba rưỡi sáng = 3:30, alarm.create."}
+{"id": "train_1013", "note": "calendar.list_events ngày 7/12 xem có lịch xem phim với anh Long không; có thì loyalty.get_points CineViệt rồi loyalty.redeem lấy combo bắp nước, không thì thôi."}
+{"id": "train_1014", "note": "fuel_price.get_price loại ron95 xem giá có đắt hơn 22500 (15000 × 1.5 thuê bike_3610) không; đắt hơn thì bike_rental.reserve xe bike_3610, không thì thôi."}
+{"id": "train_1015", "note": "tasks.list kiểm tra việc gọi thợ sửa máy giặt trễ hơn 1 ngày; contacts.search Mạ, khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_1019", "note": "Tuần ni = tuần này, 7 ngày qua là period week. home_energy.get_usage."}
+{"id": "train_1020", "note": "tasks.list tìm việc gặp khách lấy giờ hẹn trừ 30 phút; weather.get_forecast ngày 16/10 xem có nắng không; nắng thì ride_hailing.get_quotes rồi ride_hailing.book 4 chỗ, không thì ride_hailing.get_quotes rồi ride_hailing.book xe máy."}
+{"id": "train_1021", "note": "tasks.list kiểm tra việc gọi thợ sửa máy giặt; chưa xong thì household_chores.assign việc giặt và phơi đồ cho bé Na, xong rồi thì thôi."}
+{"id": "train_1022", "note": "lottery.get_results dò hai vé Hà Nội và Đà Nẵng; trúng vé nào thì ewallet.transfer 200000 cho Tuấn vé đó, trượt cả hai thì thôi."}
+{"id": "train_1023", "note": "Kiểm tra trạng thái camera ở vị trí cổng bằng home_security.get_camera."}
+{"id": "train_1024", "note": "Xe điện bến Ninh Kiều 1.5h = 25000 × 1.5 = 37500 lớn hơn 30000 nên chọn xe thể thao bike_585. bike_rental.reserve."}
+{"id": "train_1025", "note": "loyalty.list_vouchers Cao Nguyên xem có voucher dùng được không; không có thì loyalty.get_points rồi loyalty.redeem đổi ly phin sữa đá, có thì thôi."}
+{"id": "train_1029", "note": "Có hai mail sao kê nên chưa rõ xoá mail nào; sys.ask_missing_info cho email.archive, params email_id."}
+{"id": "train_1030", "note": "exchange_rate.get_rate tỷ giá USD sang VND; tính 200 USD ra VND; chat_ott.list_chats tìm Ba và Chị Hai rồi chat_ott.send_message gửi số tiền cho từng người."}
+{"id": "train_1032", "note": "Không có ứng dụng thể thao hoặc tra cứu bóng đá nên không gọi tool."}
+{"id": "train_1034", "note": "appliances.list tìm máy lọc không khí phòng khách; khớp đúng một thì appliances.stop, không có hoặc nhiều thì sys.ask_missing_info cho appliances.stop, params appliance_id."}
+{"id": "train_1035", "note": "news.search tìm bài báo về bão dặn ngư dân vô bờ; khớp đúng một thì news.save, không có hoặc nhiều thì sys.ask_missing_info cho news.save, params article_id."}
+{"id": "train_1036", "note": "Yêu cầu dừng robot hút bụi → robot_vacuum.stop."}
+{"id": "train_1041", "note": "chat_ott.list_chats tìm Nhi rồi chat_ott.read_chat đọc tin tối qua; music.list_tracks tìm bài hát và playlist chill buổi tối; music.add_to_playlist từng bài hát Nhi gửi vào playlist."}
+{"id": "train_1046", "note": "maps.save_place lưu place_3307 nhãn bến xe về quê. home_automation.list_rules; home_automation.delete_rule từng quy tắc hẹn đèn phòng khách."}
+{"id": "train_1049", "note": "bike_rental.find_bikes Hồ Gươm xem còn đủ 2 xe không; đủ thì bike_rental.reserve từng xe rẻ nhất và sms.send lúc 15:30, không thì thôi."}
+{"id": "train_1052", "note": "ride_hailing.get_ride kiểm tra chuyến xe Út; food_delivery.order_history kiểm tra 2 đơn đồ ăn; tasks.list tìm việc; mục nào tới nơi rồi thì tasks.complete việc đó, chưa tới thì giữ nguyên."}
+{"id": "train_1054", "note": "home_energy.get_usage xem điện tháng này quá 250 kWh chưa; quá rồi thì home_energy.set_alert 350, chưa quá thì home_energy.set_alert 300."}
+{"id": "train_1056", "note": "home_automation.list_rules xem đèn phòng khách có hẹn tự bật không; có thì appliances.list rồi appliances.start_cycle nồi cơm theo giờ đó, chưa có thì home_automation.create_rule hẹn đèn 18:00 và appliances.list rồi appliances.start_cycle nấu lúc 18:00."}
+{"id": "train_1057", "note": "podcast_radio.search tìm kênh Thành phố xanh; khớp đúng một thì podcast_radio.subscribe rồi notes.list, notes.append tập mới nhất vào Nghe sau, maps.search_place Trạm Sách và maps.save_place; không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.subscribe, params show_id."}
+{"id": "train_1060", "note": "robot_vacuum.get_status xem pin; pin trên nửa thì robot_vacuum.start dọn phòng khách (chỗ học nhóm), không thì thôi."}
+{"id": "train_1061", "note": "Tra cứu thông tin lịch uống siro ho để xem số lần và giờ uống. medication.list."}
+{"id": "train_1062", "note": "household_chores.list_chores tìm việc nhà chưa làm; khớp đúng một thì household_chores.assign cho mẹ, không có hoặc nhiều thì sys.ask_missing_info cho household_chores.assign, params chore_id."}
+{"id": "train_1063", "note": "appliances.list xem máy giặt, máy rửa chén có đang chạy không; có máy chạy thì appliances.stop rồi reminders.create nhắc mở lại lúc 22:00, không có thì thôi."}
+{"id": "train_1064", "note": "Mai 27/11 và T7 28/11 lúc ba rưỡi chiều = 15:30 calendar.create_event. loyalty.get_points Cao Nguyên; khớp đúng một thì loyalty.redeem, không có hoặc nhiều thì sys.ask_missing_info cho loyalty.redeem, params reward_id."}
+{"id": "train_1066", "note": "Họp phụ huynh là meet_706 (lượt trước), video_meeting.join meet_706. chat_ott.list_chats rồi chat_ott.read_chat nhóm Gia đình xem ai gửi link chưa; chưa gửi thì chat_ott.send_message gửi link cho Chú Năm, gửi rồi thì thôi."}
+{"id": "train_1067", "note": "Người dùng huỷ yêu cầu ghi hình chương trình nên không gọi tool."}
+{"id": "train_1070", "note": "fuel_price.get_price lấy giá dầu; contacts.search tìm Tí, khớp đúng một thì sms.send kèm giá và 19.2 km, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_1071", "note": "podcast_radio.search tìm Nhà giả kim xem có kênh đọc truyện không; có thì podcast_radio.subscribe kênh đó, không có thì thôi."}
+{"id": "train_1072", "note": "Hạ cảnh báo về 300 số: home_energy.set_alert. Đặt xe bốn chỗ = car4 từ vựa về nhà: ride_hailing.book."}
+{"id": "train_1074", "note": "ewallet.get_balance xem số dư ví có đủ 220000 không; đủ thì reminders.list tìm nhắc nạp ví rồi reminders.complete, không đủ thì thôi."}
+{"id": "train_1075", "note": "Chưa có mức cảnh báo cụ thể. sys.ask_missing_info cho home_energy.set_alert, params threshold_kwh."}
+{"id": "train_1076", "note": "smart_home.get_status tìm máy bơm bếp; khớp đúng một thì smart_home.switch_set tắt, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.switch_set, params device_id."}
+{"id": "train_1077", "note": "maps.search_place tìm cây xăng gần Phong Điền; khớp đúng một thì maps.save_place, không có hoặc nhiều thì sys.ask_missing_info cho maps.save_place, params place_id."}
+{"id": "train_1078", "note": "home_security.list_alerts tìm camera mất kết nối và home_security.get_camera xem trạng thái; chưa ghi hình thì home_security.arm bật chế độ đi vắng, đã ghi hình thì thôi."}
+{"id": "train_1079", "note": "flights.my_bookings tìm vé Đà Nẵng chuyến gần nhất; khớp đúng một chuyến thì flights.check_in, không có hoặc nhiều chuyến thì sys.ask_missing_info cho flights.check_in, params booking_id."}
+{"id": "train_1080", "note": "contacts.search tìm tài xế xe đoàn; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_1081", "note": "tám giờ tối = 20:00. tv.guide kênh VTV6 tìm trận đá banh lúc 20:00; khớp đúng một thì tv.record, không có hoặc nhiều thì sys.ask_missing_info cho tv.record, params program_id."}
+{"id": "train_1082", "note": "Tối ni = tối nay. Kiểm tra tin nhắn Zalo: chat_ott.list_chats."}
+{"id": "train_1083", "note": "lottery.check_ticket Đồng Nai ngày 9/11 vé 315287 xem trúng không; trúng thì maps.search_place tìm đại lý gần vựa rồi maps.save_place, contacts.search tìm bà Hồng rồi sms.send, trớt thì thôi."}
+{"id": "train_1084", "note": "tasks.list tìm việc bảo hiểm xe; khớp đúng một thì tasks.complete, không có hoặc nhiều thì sys.ask_missing_info cho tasks.complete, params task_id."}
+{"id": "train_1086", "note": "ewallet.get_balance xem số dư có đủ 3650000 không; đủ thì sms.send báo trả bằng ví cho Anh Lộc (c_914), không đủ thì thôi."}
+{"id": "train_1087", "note": "robot_vacuum.get_status xem robot đã xong chưa; xong rồi thì robot_vacuum.start hút cả nhà, chưa xong thì thôi."}
+{"id": "train_1088", "note": "home_energy.set_alert 400. smart_home.get_status tìm đèn phòng khách; khớp đúng một thì smart_home.light_set, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_1089", "note": "video_meeting.list_meetings lấy giờ demo mai 3/11, lùi 30 phút rồi alarm.create."}
+{"id": "train_1091", "note": "Không có ứng dụng ghi hình TV nên không gọi tool."}
+{"id": "train_1093", "note": "home_security.acknowledge_alert cho alert_1515. calendar.list_events ngày 19/10 xem chiều có hẹn Tuấn không; contacts.search Tuấn; có hẹn thì sms.send nhờ xem camera gara, không thì sms.send hẹn tối qua xem."}
+{"id": "train_1094", "note": "medication.list xem có cữ thuốc trước 6:30 sáng mai 10/12 không; có thì chat_ott.list_chats rồi chat_ott.send_message cho Hằng, không có thì thôi."}
+{"id": "train_1095", "note": "chat_ott.list_chats rồi chat_ott.read_chat bé Na xem có nói ở ký túc xá không; có thì home_automation.delete_rule rule_5521 hẹn đèn phòng bé Na, chưa thì contacts.search tìm số bé Na rồi phone.call."}
+{"id": "train_1098", "note": "smart_home.get_status tìm chế độ dịu hơn; khớp đúng một thì smart_home.scene_run, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.scene_run, params scene_id."}
+{"id": "train_1099", "note": "Bài Quang Lê chưa có trong Bolero trữ tình pl_5318 là Đập vỡ cây đàn trk_639. music.add_to_playlist vào pl_5318, rồi music.control âm lượng 60."}
+{"id": "train_1103", "note": "chat_ott.send_message gửi Vy qua chat_6253. flights.my_bookings tìm vé Đà Lạt; khớp đúng một vé thì flights.cancel, không có hoặc nhiều thì sys.ask_missing_info cho flights.cancel, params booking_id."}
+{"id": "train_1104", "note": "Lượt trước có 2 phim chiếu trưa nay (VTV3 và SCTV9), chưa rõ muốn xem kênh nào; sys.ask_missing_info cho tv.tune, params channel."}
+{"id": "train_1107", "note": "Chưa rõ chọn cuốn nào của Nguyễn Nhật Ánh nên sys.ask_missing_info cho library.reserve, params book_id."}
+{"id": "train_1109", "note": "reminders.list tìm nhắc đóng tiền học tuần sau; khớp đúng một thì reminders.complete, không có hoặc nhiều thì sys.ask_missing_info cho reminders.complete, params reminder_id."}
+{"id": "train_1110", "note": "loyalty.get_points xem điểm thẻ rạp CineViệt; đủ điểm đổi vé thì loyalty.redeem vé xem phim, còn đủ tiếp thì loyalty.redeem bắp nước, không đủ thì thôi."}
+{"id": "train_1111", "note": "Có 2 thư Muado trong lịch sử nhưng chưa rõ thư nào; sys.ask_missing_info cho email.archive, params email_id."}
+{"id": "train_1114", "note": "Người dùng đổi ý không cần tìm sách nữa nên không gọi tool."}
+{"id": "train_1115", "note": "exchange_rate.convert 500 USD sang VND xem có hơn 12500000 không; hơn thì 8:00 - 12 phút = 7:48 ngày 21/10 nhắc bằng reminders.create, không thì thôi."}
+{"id": "train_1116", "note": "Không có ứng dụng quản lý công việc hay tin nhắn để giao việc, không gọi tool."}
+{"id": "train_1117", "note": "Họp lớp online 9:30 T2 23/11 (meet_816); từ 9:00 20/11 là 3 ngày 30 phút. calculator.calculate biểu thức 3*24+0.5."}
+{"id": "train_1118", "note": "Hôm nay 24/10, đài TP.HCM; bảy hai không chín một một = 720911. lottery.check_ticket dò vé 720911 ngày 24/10; chục = 10, shopping_list.add thêm 10 hột gà."}
+{"id": "train_1119", "note": "sms.read_recent đọc tin nhắn A Chen lấy 2 đợt tiền đô, cộng lại rồi exchange_rate.convert đổi USD sang VND."}
+{"id": "train_1121", "note": "MinhPoint có 500 điểm không đủ 1000 đổi phiếu 100000, chuyển sang đổi vé xem phim: loyalty.redeem prog_5710 với rw_01_1."}
+{"id": "train_1122", "note": "news.search xem hôm nay có tin cắt điện không; có thì appliances.list tìm máy đang chạy rồi appliances.stop, không thì thôi."}
+{"id": "train_1125", "note": "Năm giờ rưỡi sáng = 5:30; bảy giờ tối = 19:00; hàng ngày = daily. medication.add."}
+{"id": "train_1128", "note": "tv.guide kênh VTV6 lấy giờ đá; tasks.add việc Coi đá banh hạn trước giờ đá 30 phút, ưu tiên high giống việc mua quà (lượt trước)."}
+{"id": "train_1130", "note": "weather.get_forecast ngày kia 28/10 xem có mưa không; mưa thì medication.list tìm rồi medication.remove lịch thuốc say xe, không mưa thì thôi."}
+{"id": "train_1131", "note": "phone.recent_calls xem có số lạ gọi nhỡ hai cuộc không; có thì phone.call gọi lại số đó, không thì thôi."}
+{"id": "train_1133", "note": "exchange_rate.get_rate lấy tỷ giá EUR sang VND, chat_ott.list_chats tìm Hùng; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_1134", "note": "smart_home.light_set tắt light_living. home_automation.list_rules tìm quy tắc bật đèn buổi sáng; khớp đúng một thì home_automation.delete_rule, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.delete_rule, params rule_id."}
+{"id": "train_1135", "note": "Người dùng đổi ý để lát nữa mới check nên không gọi tool."}
+{"id": "train_1136", "note": "calendar.list_events tìm ngày workshop ở Đà Nẵng, rồi flights.check_in cho vé bk_1188."}
+{"id": "train_1140", "note": "news.search tìm bài giá xăng sắp giảm 300 đồng; khớp đúng một bài thì news.save, không có hoặc nhiều bài thì sys.ask_missing_info cho news.save, params article_id."}
+{"id": "train_1141", "note": "loyalty.get_points xem điểm thành viên Cao Nguyên và Góc Phố 24h để so sánh."}
+{"id": "train_1142", "note": "Người dùng huỷ đặt vé. Tra cứu vé đã đặt bằng flights.my_bookings để xem giờ đến Hà Nội."}
+{"id": "train_1143", "note": "Không có ứng dụng nào hỗ trợ tra cứu điểm thành viên hay MinhPoint nên không gọi tool."}
+{"id": "train_1144", "note": "exchange_rate.convert quy đổi 80000 JPY và 300 USD sang VND."}
+{"id": "train_1145", "note": "flights.my_bookings tìm chuyến Sen Air trừ tiền sáng nay; khớp đúng một thì flights.check_in, không có hoặc nhiều thì sys.ask_missing_info cho flights.check_in, params booking_id."}
+{"id": "train_1147", "note": "podcast_radio.search vàng; khớp đúng một kênh thì podcast_radio.subscribe, không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.subscribe, params show_id."}
+{"id": "train_1148", "note": "Tập phần 1 là ep_106, phần 2 là ep_684, kênh là show_4989 (lượt trước). podcast_radio.queue cho ep_106 và ep_684; podcast_radio.subscribe show_4989; lottery.get_results đài Hà Nội."}
+{"id": "train_1149", "note": "Ba trăm rưỡi = 350 kWh. home_energy.set_alert ngưỡng 350."}
+{"id": "train_1151", "note": "maps.get_route xem thời gian đi xe buýt tới Mọt Sách có dưới 30 phút không; dưới 30 phút thì maps.save_place cả hai quán, không thì maps.save_place Nhã Văn."}
+{"id": "train_1153", "note": "Tài khoản lương còn 35200000 - 33000000 = 2200000 không đủ 3000000, nên dùng acc_944 chuyển ben_352. banking.transfer 3000000, sau đó chat_ott.call chat_8860."}
+{"id": "train_1155", "note": "Bỏ qua mở podcast Nhà giả kim; podcast_radio.search tìm kiếm với từ khoá gửi tiết kiệm."}
+{"id": "train_1157", "note": "household_chores.list_chores xem việc nào chưa ai nhận; có việc thì household_chores.assign cho em Quân rồi smart_home.get_status và smart_home.light_set tắt hết đèn trên lầu, không có việc thì chỉ tắt đèn."}
+{"id": "train_1160", "note": "Thứ Ba tuần sau = 22/12. flights.my_bookings tìm vé 22/12; khớp đúng một thì flights.cancel, không có hoặc nhiều thì sys.ask_missing_info cho flights.cancel, params booking_id."}
+{"id": "train_1161", "note": "Không có ứng dụng email để hồi âm nên không gọi tool."}
+{"id": "train_1162", "note": "news.headlines đọc tin thể thao; contacts.search tìm Tuấn; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_1165", "note": "email.read mail_2093 xem Hằng có về chiều nay không; nếu về thì smart_home.climate_set phòng ngủ và smart_home.fan_set phòng khách, không thì thôi."}
+{"id": "train_1167", "note": "Người dùng huỷ yêu cầu nên không gọi tool."}
+{"id": "train_1169", "note": "calendar.list_events tìm lịch tập sáng nay; thiếu loại bài tập nên sys.ask_missing_info cho fitness.log_workout, params type."}
+{"id": "train_1172", "note": "Không có ứng dụng hỗ trợ check-in chuyến bay nên không gọi tool."}
+{"id": "train_1173", "note": "Người dùng huỷ phát nhạc, chỉ cần kiểm tra bài trùng giữa hai danh sách: music.list_tracks."}
+{"id": "train_1175", "note": "news.save art_164 và art_1572. news.search điện thoại xem có tin không; có tin thì news.save, không thì thôi."}
+{"id": "train_1176", "note": "news.headlines lấy thời gian trận với Thái Lan, rồi calendar.create_event đặt lịch Xem bóng với Trang vào giờ đó."}
+{"id": "train_1177", "note": "Tin giải trí tương ứng topic entertainment. news.headlines."}
+{"id": "train_1180", "note": "Tối nay 19/10. calendar.list_events xem giờ họp tổ ngày 19/10, podcast_radio.search tìm Khoa học mỗi ngày để so thời lượng."}
+{"id": "train_1181", "note": "chat_ott.list_chats tìm chat với vợ; khớp đúng một thì chat_ott.read_chat xem dặn dò, ngưng thì medication.remove thuốc med_427, uống tiếp thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.read_chat, params chat_id."}
+{"id": "train_1183", "note": "loyalty.get_points xem Góc Phố 24h có đủ điểm đổi mì ly nước ngọt không; đủ thì loyalty.redeem, không đủ thì thôi."}
+{"id": "train_1184", "note": "ewallet.get_balance xem số dư ví; trên 3000000 thì home_security.arm bật vắng nhà, không thì home_security.arm bật ở nhà."}
+{"id": "train_1185", "note": "Người dùng rút lại yêu cầu nên không gọi tool."}
+{"id": "train_1191", "note": "flights.my_bookings tìm vé chiều đi; khớp đúng một thì flights.check_in, không có hoặc nhiều thì sys.ask_missing_info cho flights.check_in, params booking_id."}
+{"id": "train_1192", "note": "Người dùng đổi ý không dẹp hẹn giờ máy lạnh nữa nên không gọi tool."}
+{"id": "train_1193", "note": "reminders.list và tasks.list để xem toàn bộ danh sách việc cần làm."}
+{"id": "train_1194", "note": "Xem điểm tích lũy Cao Nguyên: loyalty.get_points."}
+{"id": "train_1196", "note": "5 giờ chiều hôm nay 13/10 = 17:00. reminders.create tạo nhắc việc lúc 17:00. bike_rental.find_bikes xem trạm gần Láng Hạ có xe đạp thường không; có thì bike_rental.reserve, không thì thôi."}
+{"id": "train_1197", "note": "chat_ott.list_chats tìm nhóm phòng 204; khớp đúng một thì chat_ott.send_location, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_location, params chat_id."}
+{"id": "train_1202", "note": "exchange_rate.convert đổi 300 USD sang VND xem có hơn 7600000 không; hơn thì 19:30 - 2 giờ = 17:30 mai 19/10 calendar.create_event ra tiệm vàng, không thì thôi."}
+{"id": "train_1203", "note": "loyalty.redeem prog_340 đổi rw_02_2; loyalty.list_vouchers xem hạn VivuFood; chat_ott.list_chats tìm Minh; khớp đúng một thì chat_ott.send_message và alarm.create 11:30, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_1204", "note": "news.search xem điểm MinhPoint có bị xoá không; đúng thì loyalty.redeem đổi voucher 100000 và email.reply trả lời Thảo (mail_7302), không thì thôi."}
+{"id": "train_1205", "note": "Âm lượng 80 giảm một nửa: 80 / 2 = 40. music.control với volume 40."}
+{"id": "train_1206", "note": "Tìm podcast về chủ đề giấc ngủ. podcast_radio.search."}
+{"id": "train_1207", "note": "exchange_rate.convert đổi 400 USD; banking.get_balance xem tài khoản thanh toán đủ không; đủ thì banking.transfer, không đủ thì thôi."}
+{"id": "train_1208", "note": "loyalty.get_points CineViệt xem đủ điểm đổi vé xem phim không; đủ thì báo người dùng, không thì thôi."}
+{"id": "train_1209", "note": "exchange_rate.get_rate xem tỷ giá JPY sang VND có dưới 171 không; dưới 171 thì contacts.search tìm Út rồi sms.send nhắn tin, không thì thôi."}
+{"id": "train_1210", "note": "loyalty.get_points tìm voucher MinhMart của MinhPoint; khớp đúng một thì loyalty.redeem, không có hoặc nhiều thì sys.ask_missing_info cho loyalty.redeem, params reward_id."}
+{"id": "train_1211", "note": "Ăn tối với Vy lúc 19:30 - 21:00 mai 9/11 (lượt trước). Kiểm tra thiết bị hẹn giờ bằng home_automation.list_rules."}
+{"id": "train_1212", "note": "robot_vacuum.get_status xem pin robot; pin dưới 70% thì robot_vacuum.stop, không thì thôi."}
+{"id": "train_1215", "note": "Bỏ qua dừng nhạc vì người dùng rút lại. Hôm nay 20/11. lottery.check_ticket đài Đồng Nai ngày 20/11 cho 240789 và 531942; tasks.add việc đổi vé 240789."}
+{"id": "train_1216", "note": "Hai rưỡi sáng = 2:30. banking.list_transactions xem tiền điện tháng này có quá 1500000 không; quá thì home_automation.create_rule tắt máy lạnh lúc 2:30, không thì thôi."}
+{"id": "train_1218", "note": "reminders.list; reminders.complete từng nhắc việc về robot và coi ví."}
+{"id": "train_1221", "note": "exchange_rate.convert 30000 JPY sang VND; chat_ott.list_chats tìm Thảo, khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_1222", "note": "Mai là 2/11. video_meeting.list_meetings xem danh sách các cuộc họp online sắp tới."}
+{"id": "train_1223", "note": "Cao Nguyên có 2 voucher khả dụng rw_02_1 và rw_02_2, chưa chọn voucher nào nên sys.ask_missing_info cho loyalty.redeem, params reward_id."}
+{"id": "train_1224", "note": "8 giờ tối = 20:00. contacts.search tìm Minh; khớp đúng một thì sms.send dời cà phê sang 20:00, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_1226", "note": "sms.read_recent đọc trạm Thảo nhắn; bike_rental.find_bikes tìm xe rẻ nhất còn trống; khớp đúng một thì bike_rental.reserve, rồi banking.get_balance, banking.list_beneficiaries và banking.transfer tiền thuê 3 tiếng, không có hoặc nhiều thì sys.ask_missing_info cho bike_rental.reserve, params bike_id."}
+{"id": "train_1227", "note": "email.list tìm mail của chị Hằng; khớp đúng một thì email.reply, không có hoặc nhiều thì sys.ask_missing_info cho email.reply, params email_id."}
+{"id": "train_1228", "note": "Bỏ qua gọi điện; music.list_tracks xem danh sách bài hát của Hoài Lâm."}
+{"id": "train_1229", "note": "appliances.list tìm nồi cơm điện; khớp đúng một thì appliances.start_cycle nấu cháo lúc 5:30 ngày 1/12, không có hoặc nhiều thì sys.ask_missing_info cho appliances.start_cycle, params appliance_id."}
+{"id": "train_1231", "note": "reminders.list ngày 12/11 tìm nhắc việc nghe podcast rồi podcast_radio.search; khớp đúng một show thì podcast_radio.subscribe, không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.subscribe, params show_id."}
+{"id": "train_1233", "note": "Hai vé Cần Thơ ở lượt trước là bk_362 và bk_719. chat Thảo là chat_413. flights.cancel từng vé, rồi chat_ott.send_message."}
+{"id": "train_1234", "note": "Chưa rõ gửi người nhận nào trong hai bên, thiếu to; gọi sys.ask_missing_info cho email.create_draft, params to."}
+{"id": "train_1237", "note": "banking.list_transactions tìm giao dịch cọc hôm qua; thiếu điểm đến nên sys.ask_missing_info cho ride_hailing.book, params dropoff."}
+{"id": "train_1238", "note": "smart_home.get_status tìm đèn đang sáng giữa phòng ngủ và phòng khách; khớp đúng một thì smart_home.light_set rồi reminders.complete, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_1240", "note": "music.list_tracks tìm bài Diễm xưa và playlist nhạc nhẹ; khớp đúng một thì music.add_to_playlist, không có hoặc nhiều thì sys.ask_missing_info cho music.add_to_playlist, params track_id."}
+{"id": "train_1241", "note": "310 + 50 = 360; home_energy.set_alert 360. loyalty.get_points xem đủ điểm đổi voucher 50000 không; đủ thì loyalty.redeem đổi voucher, không đủ thì loyalty.redeem lấy ly phin sữa đá."}
+{"id": "train_1242", "note": "Không có ứng dụng nhắc nhở được cài đặt, không gọi tool."}
+{"id": "train_1246", "note": "chat_ott.list_chats tìm chat bà Sáu; khớp đúng một thì chat_ott.read_chat, rồi video_meeting.list_meetings tìm họp hội phụ nữ và video_meeting.join, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.read_chat, params chat_id."}
+{"id": "train_1247", "note": "Người dùng muốn hạ mục tiêu nhưng chưa cho số bước cụ thể. sys.ask_missing_info cho fitness.set_goal, params steps."}
+{"id": "train_1248", "note": "tv.guide xem phim Hạ cánh nơi anh đang chiếu kênh nào; có thì tv.tune, không thì tv.record tập tối nay."}
+{"id": "train_1249", "note": "lottery.check_ticket ngày 20/10 vé 332052 đài Đồng Nai; trúng từ giải nhất trở lên thì calendar.cancel_event huỷ hẹn evt_320 sáng mai, không trúng hoặc giải thấp hơn thì thôi."}
+{"id": "train_1252", "note": "loyalty.get_points tìm Rồng Việt Air; khớp đúng một thì loyalty.redeem, không có hoặc nhiều thì sys.ask_missing_info cho loyalty.redeem, params program."}
+{"id": "train_1253", "note": "exchange_rate.get_rate USD sang VND xem tỷ giá có dưới 26000 không; đúng thì alarm.create lúc 7:30 ngày 12/10, không thì thôi."}
+{"id": "train_1256", "note": "Tắt máy lạnh 5:30 sáng là rule_511 từ lượt trước. home_automation.delete_rule rule_511."}
+{"id": "train_1259", "note": "home_energy.get_usage xem điện tháng này có quá trăm số không; quá thì home_energy.set_alert 250, không thì home_energy.set_alert 300."}
+{"id": "train_1260", "note": "Chuyến bay mai là bk_205 (lượt trước). flights.check_in bk_205. banking.list_beneficiaries tìm Út; khớp đúng một thì banking.transfer từ acc_981 số tiền 300000, không có hoặc nhiều thì sys.ask_missing_info cho banking.transfer, params beneficiary_id."}
+{"id": "train_1261", "note": "Bỏ qua gọi điện. Khung 20:00 có hai phim nên thiếu thông tin, sys.ask_missing_info cho tv.record, params program_id."}
+{"id": "train_1263", "note": "Món thứ hai trong ghi chú là máy massage cầm tay. shopping_list.get xem có máy massage cầm tay chưa; chưa có thì shopping_list.add, có rồi thì thôi."}
+{"id": "train_1265", "note": "tv.control tắt tivi; lottery.get_results Đà Nẵng; contacts.search tìm bà Sáu và Thảo; khớp đúng một thì ewallet.transfer, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_1266", "note": "loyalty.list_vouchers xem voucher nào hết hạn trong tuần này đến 8/11; có thì maps.search_place rồi maps.save_place lưu cửa hàng, không có thì thôi."}
+{"id": "train_1268", "note": "Kiểm tra xem hai việc ngày mai đã được tạo nhắc việc chưa. reminders.list."}
+{"id": "train_1270", "note": "Bé dậy nên cho robot dừng và về dock. robot_vacuum.stop."}
+{"id": "train_1271", "note": "Hai hoá đơn còn lại là bill_801 và bill_932. bill_payment.pay từng hoá đơn bằng ví, rồi home_energy.set_alert ngưỡng 300."}
+{"id": "train_1274", "note": "smart_home.light_set tắt light_living và light_kitchen. ride_hailing.get_ride lấy giờ rước, rồi reminders.create nhắc ra xe trước giờ đón 15 phút."}
+{"id": "train_1275", "note": "80 × 65000 + 5400000; calculator.calculate; 7 giờ tối = 19:00; reminders.create lúc 19:00."}
+{"id": "train_1276", "note": "Chuyến xe T6 13/11 là ride_02, hủy bằng ride_hailing.cancel; số lạ hồi trưa 09093184622, gọi bằng phone.call."}
+{"id": "train_1277", "note": "shopping_list.get; shopping_list.check từng món táo và trứng; còn món chưa mua thì chat_ott.list_chats rồi chat_ott.send_message cho Lan, không thì thôi."}
+{"id": "train_1279", "note": "lottery.check_ticket vé 512327 Đà Nẵng và 834520 Đồng Nai ngày 10/10 xem có trúng không; trúng thì contacts.search Long rồi ewallet.transfer 200000, không trúng thì thôi."}
+{"id": "train_1280", "note": "Người dùng đổi ý tự kiểm tra danh sách đi chợ nên không gọi tool."}
+{"id": "train_1281", "note": "shopping_list.get xem có rau muống không; có thì shopping_list.remove rồi shopping_list.add giá đỗ, không có thì thôi; notes.append thêm ghi chú vào note_611."}
+{"id": "train_1282", "note": "Chưa có thời gian hẹn lại giao hàng, gọi sys.ask_missing_info cho package_tracking.reschedule_delivery, params time."}
+{"id": "train_1283", "note": "shopping_list.get xem dầu ăn chưa gạch không; chưa gạch thì sms.send cho Hùng qua số 09834271600 nhờ mua dầu, đã gạch hoặc không có thì thôi."}
+{"id": "train_1284", "note": "exchange_rate.get_rate lấy tỷ giá JPY tính tiền 12000 JPY; contacts.search tìm anh Hùng; khớp đúng một thì ewallet.transfer, rồi tasks.complete task_2718 và sms.send, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_1286", "note": "Người dùng bảo thôi khỏi làm mã cửa nên không gọi tool."}
+{"id": "train_1287", "note": "Xem lịch uống thuốc bằng medication.list."}
+{"id": "train_1289", "note": "Mail anh Sáu là mail_5520 (lượt trước). email.reply cho mail_5520 nội dung chiều mai 24/10 lúc 14:00 đem xe qua, 45000 cây."}
+{"id": "train_1290", "note": "Việc thứ hai mới kể ở lượt trước là Đóng học phí cho con (task_9400). tasks.complete hoàn thành task_9400."}
+{"id": "train_1291", "note": "robot_vacuum.stop dừng hút. smart_home.get_status tìm đèn bếp; khớp đúng một thì smart_home.light_set, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_1293", "note": "Chuyến chín giờ 6/12 là fl_5340 (lượt trước). flights.book fl_5340 2 vé; exchange_rate.get_rate USD sang VND; chat_ott.list_chats; chat_ott.send_message từng người Hằng và Út."}
+{"id": "train_1294", "note": "Mức cảnh báo cũ 350 số, thêm 100 = 450 số. Gọi home_energy.set_alert."}
+{"id": "train_1295", "note": "smart_home.light_set tắt light_kitchen; fuel_price.get_price xem giá dầu có dưới 20000 không; có thì alarm.create 4:00, không thì thôi."}
+{"id": "train_1296", "note": "Không rõ tắt máy giặt hay máy sấy, thiếu appliance_id nên sys.ask_missing_info cho appliances.stop, params appliance_id."}
+{"id": "train_1297", "note": "household_chores.list_chores; household_chores.assign từng việc của người dùng cho Tí; gold_price.get_price tra giá vàng nhẫn."}
+{"id": "train_1299", "note": "Không có ứng dụng hỗ trợ gửi tệp tin hay tin nhắn nên không gọi tool."}
+{"id": "train_1301", "note": "smart_home.light_set tắt light_office và light_bedroom. tasks.list tìm việc học phí thằng Bi; khớp đúng một thì tasks.complete, không có hoặc nhiều thì sys.ask_missing_info cho tasks.complete, params task_id."}
+{"id": "train_1303", "note": "reminders.list tìm nhắc việc đi chợ; khớp đúng một thì reminders.delete, không có hoặc nhiều thì sys.ask_missing_info cho reminders.delete, params reminder_id."}
+{"id": "train_1310", "note": "Vé xem phim là rw_03_1 thuộc chương trình prog_560 (lượt trước). loyalty.redeem."}
+{"id": "train_1311", "note": "Lịch sử có 2 buổi họp nhóm đồ án (10/12 và 12/12) nên chưa rõ ngày. sys.ask_missing_info cho video_meeting.create, params start."}
+{"id": "train_1313", "note": "Có 2 cửa sau chưa rõ mở cửa nào; năm giờ = 17:00; sys.ask_missing_info cho door_lock.grant_guest_code, params lock_id."}
+{"id": "train_1314", "note": "phone.recent_calls tìm cuộc gọi 6:00 sáng; khớp đúng một thì sms.send hẹn gặp ở ga, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params phone_number."}
+{"id": "train_1315", "note": "Bật đèn phòng khách là rule_2403 (lượt trước). Sáng mai sáu rưỡi = 17/10 6:30. home_automation.delete_rule rule_2403, reminders.create nhắc gọi mạ."}
+{"id": "train_1316", "note": "Không có công cụ quy đổi ngoại tệ nên không gọi tool."}
+{"id": "train_1317", "note": "Hai giờ chiều nay 6/12 = 14:00. ride_hailing.book xe máy lúc 14:00; lottery.check_ticket đài Đồng Nai ngày 6/12 số 248392."}
+{"id": "train_1318", "note": "Hôm nay 12/12, 5 giờ 45 chiều = 17:45. alarm.create lúc 17:45 nhãn Ra Thu Trang mua vé; lottery.get_results xem kết quả Hà Nội."}
+{"id": "train_1319", "note": "Emily Carter là c_9526 từ tin nhắn. ewallet.transfer 200000 cho c_9526. smart_home.get_status tìm đèn phòng ngủ nhỏ trên lầu; khớp đúng một thì smart_home.light_set, không có hoặc nhiều thì sys.ask_missing_info cho smart_home.light_set, params device_id."}
+{"id": "train_1320", "note": "Nón lá là item_06 ở lượt trước, shopping_list.remove. Tắt điều hoà phòng khách ac_living bằng smart_home.climate_set mode off."}
+{"id": "train_1322", "note": "chat_ott.read_chat chat_5631 của Sếp David; maps.search_place tìm Juniper Lane; maps.get_route đi xe hơi từ công ty."}
+{"id": "train_1323", "note": "Quán Cô Ba là rest_408 với bún bò đặc biệt rest_01_m1 số lượng 2. Nhà Mèo là rest_683 với trà đào cam sả rest_04_m2 số lượng 2. Hai lần food_delivery.place_order."}
+{"id": "train_1324", "note": "Người dùng ở Đà Nẵng, bài cước tàu Đà Nẵng đi Bangkok ở lượt trước là art_5512. news.save."}
+{"id": "train_1325", "note": "Việc gửi proposal cho Brightwave Studio ở lượt trước là task_4410. tasks.complete hoàn thành công việc."}
+{"id": "train_1326", "note": "Bảo tàng Dân tộc học là mch_5302. Có 6 học sinh (7 - 1) × 20000 + 1 người lớn 40000 = 160000. ewallet.pay_qr."}
+{"id": "train_1327", "note": "Tập Toronto là ep_5139 (lượt trước). podcast_radio.queue ep_5139 vào hàng chờ."}
+{"id": "train_1328", "note": "maps.search_place và maps.get_route xem thời gian đi bộ có dưới 20 phút không; dưới 20 phút thì chat_ott.send_message và tasks.complete, không thì thôi."}
+{"id": "train_1329", "note": "Ví có 620000 hơn 500000 từ lượt trước. Dọn nhà vệ sinh là chore_602. household_chores.assign giao chore_602 cho Olivia Brown."}
+{"id": "train_1330", "note": "weather.get_forecast ngày 11/12 xem có mưa không; không mưa thì ride_hailing.cancel chuyến xe 5:30 (ride_01), có mưa thì thôi."}
+{"id": "train_1333", "note": "Gọi thợ sửa máy bơm là task_174 từ lượt trước. tasks.complete task_174; notes.list tìm nước công tác, chưa rõ thì sys.ask_missing_info cho exchange_rate.get_rate, params from_currency."}
+{"id": "train_1334", "note": "medication.list tìm lịch Omega-3; khớp đúng một thì medication.remove rồi contacts.search tìm Lan, ewallet.transfer 350000, không có hoặc nhiều thì sys.ask_missing_info cho medication.remove, params schedule_id."}
+{"id": "train_1335", "note": "Thuốc long đờm là Acetylcystein med_283. Họp release note xong lúc 12:45 ngày 7/11 (lượt trước). medication.log_taken."}
+{"id": "train_1337", "note": "Lượt trước Sếp Kim nhắn Harbor Point Partners tính bằng euro (EUR). exchange_rate.get_rate từ EUR sang VND."}
+{"id": "train_1338", "note": "gold_price.get_price xem giá vàng nhẫn; họp Liam Porter lúc 19:00 mai 15/11 - 2 tiếng = 17:00, reminders.create nhắc đi mua vàng lúc 15/11 17:00."}
+{"id": "train_1340", "note": "Sáu trăm bốn chục nghìn = 640000, ba trăm hai chục nghìn = 320000. weather.get_current xem TP.HCM có mưa không; mưa thì contacts.search Hằng rồi ewallet.transfer 640000, không mưa thì contacts.search Hằng rồi ewallet.transfer 320000."}
+{"id": "train_1343", "note": "medication.list tìm Clearwater Pharma; khớp đúng một thì medication.log_taken, không có hoặc nhiều thì sys.ask_missing_info cho medication.log_taken, params schedule_id."}
+{"id": "train_1344", "note": "food_delivery.order_history xem đơn bún bò đã giao chưa; đã giao thì home_security.acknowledge_alert cảnh báo cổng, chưa thì home_security.arm chế độ vắng nhà."}
+{"id": "train_1345", "note": "Ngày dùng nhiều nhất tuần là 14 kWh (11/10); 14 × 30 = 420. home_energy.set_alert đặt ngưỡng 420."}
+{"id": "train_1346", "note": "lottery.get_results đài TP.HCM ngày 29/11 xem vé Laura Costa trúng không; trúng thì tasks.add đổi thưởng, không thì tasks.complete task_06."}
+{"id": "train_1348", "note": "video_meeting.list_meetings tìm cuộc họp Roadmap Review sáng nay; khớp đúng một thì video_meeting.join, không có hoặc nhiều thì sys.ask_missing_info cho video_meeting.join, params meeting_id."}
+{"id": "train_1349", "note": "contacts.search lấy email Tom Baker; email.send xác nhận cho Gavin Price và cc Tom Baker. 6:30 - 1 tiếng = 5:30, alarm.create lúc 5:30 ngày 30/10."}
+{"id": "train_1351", "note": "Người dùng chia sẻ thông tin về việc đặt phòng, không có yêu cầu thao tác nên không gọi tool."}
+{"id": "train_1352", "note": "fuel_price.get_price tra ron95; podcast_radio.search tìm Liam Shaw, khớp đúng một thì podcast_radio.play, không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.play, params episode_id."}
+{"id": "train_1355", "note": "Giá E5 là 21900 (lượt trước), 21900 + 1000 = 22900. fuel_price.get_price ron95 xem giá cao hơn 22900 không; đắt hơn thì loyalty.get_points rồi loyalty.redeem đổi voucher, không thì thôi."}
+{"id": "train_1357", "note": "Anh Sáu hẹn thứ Năm 5/11 (lượt trước). reminders.list xem danh sách nhắc việc ngày 5/11."}
+{"id": "train_1358", "note": "Lượt trước đã chuyển 180000 tiền điện cho Trang rồi nên không gọi tool."}
+{"id": "train_1361", "note": "Khoản tip là 3600000 từ tài khoản tour acc_740; banking.open_savings kỳ hạn 6 tháng; contacts.search tìm Anh Bình, khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_1362", "note": "chat_ott.list_chats tìm Evergreen Foods; 18:30 tối nay còn dưới 1 tiếng thì chat_ott.call có hình, không thì chat_ott.call thường."}
+{"id": "train_1363", "note": "Bỏ JetXanh; CineViệt không đủ điểm. Đổi quà rẻ nhất đủ điểm: prog_183 lấy rw_02_1, prog_786 lấy rw_01_2, prog_61 lấy rw_03_2 bằng loyalty.redeem."}
+{"id": "train_1366", "note": "Chuông Peter Hale là alert_647, cửa sau là alert_601; gọi home_security.acknowledge_alert. Giờ chở ổng 6:00 mai 21/10 - 45 phút = 5:15; alarm.create."}
+{"id": "train_1367", "note": "Số dư ví lúc nãy là 150000 dưới 200000 nên không gọi tool."}
+{"id": "train_1369", "note": "Xe rẻ hơn ở Thảo Điền là bike_1423 (10000 so với 15000 ở lượt trước). robot_vacuum.stop rồi bike_rental.reserve bike_1423."}
+{"id": "train_1372", "note": "weather.get_current xem trời ráo không; ráo thì chat_ott.send_location cho Trang (chat_290) và Phương Hà (chat_6143), không thì ride_hailing.book xe máy."}
+{"id": "train_1373", "note": "chat_ott.list_chats tìm Nathan Reed; khớp đúng một thì chat_ott.read_chat rồi weather.get_current, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.read_chat, params chat_id."}
+{"id": "train_1375", "note": "bike_rental.find_bikes ở Silverline Media xem có đủ 2 xe điện không; đủ thì bike_rental.reserve từng chiếc trong 2 xe điện, không thì bike_rental.reserve từng chiếc trong 2 xe thường."}
+{"id": "train_1376", "note": "Lịch học với Mrs. Watanabe là 18:00 (meet_6971 từ lượt trước). Gọi food_delivery.order_history để kiểm tra giờ giao cơm."}
+{"id": "train_1380", "note": "fuel_price.get_price xem giá 5 lít dầu rẻ hơn 110000 (xe ride_01) không; đúng thì ride_hailing.cancel xe ride_01, không thì thôi."}
+{"id": "train_1381", "note": "Có 2 cảnh báo có người (alert_5307 và alert_76) nên chưa rõ con Mực ở đâu; sys.ask_missing_info cho home_security.acknowledge_alert, params alert_id."}
+{"id": "train_1382", "note": "Chưa chọn loại xe nên thiếu vehicle. sys.ask_missing_info cho ride_hailing.book, params vehicle."}
+{"id": "train_1385", "note": "Số điện cả tháng 299.8 làm tròn thành 300, cộng 100 = 400. home_energy.set_alert."}
+{"id": "train_1386", "note": "Không có ứng dụng y tế hay đặt lịch khám bác sĩ nên không gọi tool."}
+{"id": "train_1387", "note": "Đổi phòng khách: robot_vacuum.stop dừng lại, rồi robot_vacuum.start cho phòng Ocean View và hành lang."}
+{"id": "train_1388", "note": "Khách đón ở Quận 3 sáng mai 15/10 (rem_01). maps.search_place tìm Crestview Hotels với near là Quận 3."}
+{"id": "train_1389", "note": "Báo thức đi đổ xăng alm_03 lùi 30 phút: 6:00 - 30 phút = 5:30 ngày 6/12, alarm.update. chat_ott.list_chats tìm Peter Collins; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_1390", "note": "Điều hoà phòng ngủ ac_bedroom đang 26 độ, hạ 2 độ = 24, giữ chế độ heat: smart_home.climate_set. Thiếu ngưỡng điện nên sys.ask_missing_info cho home_energy.set_alert, params threshold_kwh."}
+{"id": "train_1392", "note": "calculator.calculate tính 194000+265000; kết quả lớn hơn số dư ví (249000) thì bill_payment.schedule_autopay điện thoại, không thì thôi."}
+{"id": "train_1394", "note": "Mười hai giờ trưa hôm nay 15/11 = 12:00. home_security.list_alerts xem cảnh báo từ 12:00."}
+{"id": "train_1397", "note": "Không rõ máy nào đang giặt khăn Crestview Hotels nên gọi sys.ask_missing_info cho appliances.stop, params appliance_id."}
+{"id": "train_1398", "note": "household_chores.list_chores xem James Wong đã lau nhà xong chưa; xong rồi thì robot_vacuum.stop, chưa thì thôi."}
+{"id": "train_1399", "note": "gold_price.get_price lấy giá một chỉ vàng nhẫn; banking.list_beneficiaries tìm Kim Hưng; khớp đúng một thì banking.transfer, không có hoặc nhiều thì sys.ask_missing_info cho banking.transfer, params beneficiary_id."}
+{"id": "train_1400", "note": "Tiền điện 848000 + tiền nước 206000 = 1054000, nhiều hơn lương 1030000 (lượt trước) nên không đủ cả hai. bill_payment.schedule_autopay bật tiền nước."}
+{"id": "train_1401", "note": "banking.transfer 7800000 từ acc_327 cho ben_2638. chat_ott.list_chats tìm Thảo; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_1402", "note": "appliances.list tìm máy sấy đồ; khớp đúng một thì appliances.stop, không có hoặc nhiều thì sys.ask_missing_info cho appliances.stop, params appliance_id; chiều ni 4/12 bốn giờ chiều = 16:00, rồi tasks.add việc gọi Amber Interiors."}
+{"id": "train_1403", "note": "Xe điện trống là bike_949, xe thường còn lại là bike_5170. bike_rental.reserve 2 xe."}
+{"id": "train_1405", "note": "Người dùng đổi sang 2300 m. calculator.convert_unit quy đổi 2300 từ m sang km."}
+{"id": "train_1406", "note": "Kiểm tra số dư ví xem đủ trả Nhi 230000 không. ewallet.get_balance."}
+{"id": "train_1412", "note": "Tiệm vàng Kim Phúc vừa lưu là place_618. gold_price.get_price xem giá SJC, rồi maps.save_place place_618 cập nhật nhãn bán vàng miếng kèm giá mua vào."}
+{"id": "train_1414", "note": "Cuộc họp Daniel Lee là meet_2914 (lượt trước), video_meeting.join. medication.remove med_01 rồi medication.add chỉ cữ sáng 7:00."}
+{"id": "train_1415", "note": "Voucher đặt hoa là chore_517, đặt bánh kem là chore_2391 (lượt trước). household_chores.assign giao chore_517 cho Bé Na, rồi household_chores.assign giao chore_2391 cho Ba."}
+{"id": "train_1417", "note": "Không giao nấu cơm; việc phơi quần áo chưa ai nhận là chore_383 (lượt trước). household_chores.assign giao chore_383 cho Mẹ."}
+{"id": "train_1419", "note": "Cuộc gọi vừa tạo là meet_03, thằng Út là c_807 (lượt trước). video_meeting.join tham gia rồi sms.send gửi link."}
+{"id": "train_1422", "note": "Thuốc dạ dày là med_02 (lượt trước). Loratadine 10mg uống 21:00. medication.remove med_02 rồi medication.add lúc 21:00."}
+{"id": "train_1423", "note": "Đơn Amsterdam xe lấy hàng thứ Hai 14/12 (note_904), hôm trước là 13/12. reminders.create nhắc kêu bạn hái xoài lúc 6:00 ngày 13/12."}
+{"id": "train_1424", "note": "Có 2 cuốn của Tô Hoài còn sẵn mà Tuấn chưa đọc, chưa rõ chọn cuốn nào → sys.ask_missing_info cho library.reserve, params book_id."}
+{"id": "train_1425", "note": "Vé rẻ nhất 990000 cao hơn mức hoàn 900000. Chị Mai HR Sunbridge Digital là chat_806 (lượt trước). chat_ott.call video."}
+{"id": "train_1426", "note": "maps.search_place Laura Costa ở Hàng Bài xem có không; có thì maps.save_place lưu lớp tiếng Anh cái Bông, không thì thôi."}
+{"id": "train_1427", "note": "Quạt phòng làm việc là fan_office (lượt trước), tắt bằng smart_home.fan_set. Chưa rõ lưu trữ hay xoá nên sys.ask_missing_info cho email.archive, params action."}
+{"id": "train_1429", "note": "appliances.stop dừng máy giặt appl_214 (lượt trước). contacts.search tìm Anh Kha; khớp đúng một người thì sms.send, không có hoặc nhiều người thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_1431", "note": "Họp đoàn Kuala Lumpur 16/12 lúc 19:30; trước 1 tiếng = 18:30 ngày 16/12. contacts.search tìm Thảo; khớp đúng một người thì video_meeting.create, không có hoặc nhiều người thì sys.ask_missing_info cho video_meeting.create, params attendees."}
+{"id": "train_1436", "note": "Không có ứng dụng quản lý danh sách xem phim nên không gọi tool."}
+{"id": "train_1437", "note": "Hai người tên David gọi nhỡ (David Brennan và David Okafor), chưa rõ gọi ai. sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_1440", "note": "banking.list_transactions kiểm tra tiền cọc của Marcus Hale. Tiền hàng = 2 tấn (2000 kg) × 85000; calculator.calculate tính tiền còn thiếu."}
+{"id": "train_1442", "note": "Chiều nay 16/11, đài TP.HCM. lottery.get_results đài TP.HCM ngày 16/11; người hẹn ở Skyline Rooftop Bar là 09381274506 (lượt trước), sms.send gửi kết quả cho 09381274506."}
+{"id": "train_1445", "note": "Chuyến xe đã đặt là ride_01. Giờ hạ cánh trong ghi chú là 9:40 ngày 14/12. ride_hailing.cancel ride_01; ride_hailing.book xe car7 lúc 9:40 ngày 14/12."}
+{"id": "train_1446", "note": "Sáng mốt T6 20/11 lúc 8:00 đã đặt lịch học tiếng Anh ở lượt trước rồi nên không gọi tool."}
+{"id": "train_1452", "note": "Người dùng chỉ chia sẻ thông tin cá nhân, không có yêu cầu thao tác nên không gọi tool."}
+{"id": "train_1453", "note": "Người dùng dặn không thêm phim kẻo bị trùng nên không gọi tool."}
+{"id": "train_1457", "note": "Họp chốt giá xoài lúc 7:15, từ 6:30 đến 7:15 là 45 phút, dưới 1 tiếng nên huỷ đơn ord_01 bằng food_delivery.cancel_order."}
+{"id": "train_1460", "note": "Mai là 17/11. calendar.list_events tìm lịch đón ngày 17/11; trận Việt Nam gặp Thái Lan là prog_871 (lượt trước), tv.record prog_871."}
+{"id": "train_1463", "note": "podcast_radio.search tìm tập 8 của Ryan Cooper; khớp đúng một tập thì podcast_radio.queue, không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.queue, params episode_id."}
+{"id": "train_1464", "note": "weather.get_forecast ngày 12/11 xem có mưa không; mưa thì contacts.search tìm Ben Taylor rồi sms.send, không mưa thì thôi."}
+{"id": "train_1469", "note": "Khoản Frankfurt tx_3108 là 24000000, một nửa = 12000000. Thiếu kỳ hạn gửi nên sys.ask_missing_info cho banking.open_savings, params term_months."}
+{"id": "train_1471", "note": "bill_payment.schedule_autopay cho tiền internet; tám giờ tối mai = 11/12 20:00, tasks.add việc đóng tiền nước."}
+{"id": "train_1474", "note": "Đèn phòng ngủ bật lúc 5:00 sáng (lượt trước). medication.add thêm thuốc Omeprazole vào 5:00."}
+{"id": "train_1475", "note": "Ghi chú cho thấy vé số Trang cầm chưa biết dãy số; sys.ask_missing_info cho lottery.check_ticket, params number."}
+{"id": "train_1481", "note": "contacts.search tìm Peter Hansen; khớp đúng một người thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_1483", "note": "Lịch sử có 2 lần bấm chuông (18:25 và 19:40), không rõ lần nào của Ryan Cooper. sys.ask_missing_info cho home_security.acknowledge_alert, params alert_id."}
+{"id": "train_1484", "note": "Grace Nakamura là chat_918, Grace Nakamoto là chat_3071 (lượt trước). chat_ott.send_message gửi giá dầu cho chat_918, rồi chat_ott.send_message xin lỗi tới chat_3071."}
+{"id": "train_1486", "note": "Xăng anh Long dặn là e5 → fuel_price.get_price. Tập Gửi tiết kiệm hay mua vàng là ep_802 từ lượt trước → podcast_radio.queue."}
+{"id": "train_1490", "note": "Skyline Rooftop Bar là place_5120 ở lượt trước. maps.save_place lưu nhãn chỗ ngắm hoàng hôn."}
+{"id": "train_1491", "note": "Hôm nay 8/12, bỏ qua vé 238812 đã tặng Vy và 134030 đã dò; lottery.check_ticket TP.HCM cho 456671, 990081 và Đồng Nai cho 777195."}
+{"id": "train_1493", "note": "Có 2 kiện hàng chiều nay nên chưa rõ kiện cần hẹn lại; sys.ask_missing_info cho package_tracking.reschedule_delivery, params tracking_id."}
+{"id": "train_1494", "note": "Trời chiều nay không mưa nên người dùng không phải đón Bống; không gọi tool."}
+{"id": "train_1496", "note": "Giờ giao mới 18:30 - 20 phút = 18:10 ngày 12/10. alarm.list tìm báo thức nhận hộp quà; khớp đúng một thì alarm.update, không có hoặc nhiều thì sys.ask_missing_info cho alarm.update, params alarm_id."}
+{"id": "train_1498", "note": "Xe chờ dưới 8 phút gồm bike (4 phút, giá 35000) và car4 (7 phút, giá 85000). exchange_rate.convert đổi 35000 và 85000 từ VND sang USD."}
+{"id": "train_1499", "note": "food_delivery.order_history tìm đơn đang giao; khớp đúng một đơn thì food_delivery.cancel_order, không có hoặc nhiều thì sys.ask_missing_info cho food_delivery.cancel_order, params order_id."}
+{"id": "train_1500", "note": "3 giờ chiều nay 5/11 = 15:00. calendar.create_event; appliances.list tìm máy giặt; khớp đúng một thì appliances.start_cycle, không có hoặc nhiều thì sys.ask_missing_info cho appliances.start_cycle, params appliance_id."}
+{"id": "train_1502", "note": "Xe chở 14 khách có Hưng 29 chỗ và Hoàng 45 chỗ nên chưa rõ ai; sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_1503", "note": "Báo thức đi chợ 21/12 là alm_03 (lượt trước). 7 giờ = 7:00. robot_vacuum.stop rồi alarm.update sang 7:00."}
+{"id": "train_1504", "note": "Croissant bơ trong danh sách đi chợ là item_646 (lượt trước). shopping_list.check."}
+{"id": "train_1505", "note": "ride_hailing.get_ride tra cứu thông tin chuyến xe đã đặt."}
+{"id": "train_1507", "note": "Hội thảo bên Nhật khai mạc 8:00 17/10; trước 1 tiếng = 7:00. alarm.create."}
+{"id": "train_1508", "note": "shopping_list.get tìm sữa tươi; khớp đúng một thì shopping_list.remove, không có hoặc nhiều thì sys.ask_missing_info cho shopping_list.remove, params item_id."}
+{"id": "train_1509", "note": "Bluebird Café là mch_6034 (lượt trước). 2 người × 45000 = 90000. ewallet.pay_qr trả 90000; ride_hailing.book xe car4 về nhà 31 Hàng Bạc, Hoàn Kiếm, Hà Nội."}
+{"id": "train_1510", "note": "Mười hai giờ rưỡi trưa nay 13/10 = 12:30. Viên sắt là med_87, tảo Hawaii là med_5518. medication.log_taken 2 lần."}
+{"id": "train_1511", "note": "5:30 tới 10:00 = 4.5 tiếng. Xe thể thao bike_4417 giá 20000 × 4.5 = 90000 dưới 100000, đắt nhất thoả mãn. bike_rental.reserve."}
+{"id": "train_1512", "note": "notes.list xem ghi chú đồ mang đi Chiang Mai; appliances.list loại washer kiểm tra các chu trình giặt phù hợp."}
+{"id": "train_1513", "note": "Không có ứng dụng đi chợ nên không gọi tool."}
+{"id": "train_1515", "note": "Vé chuyến tối fl_37 giá 990000 (lượt trước). contacts.search Nathan Reed; khớp đúng một thì ewallet.transfer 990000, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_1516", "note": "Tiền điện bill_514 hạn 15/12. calendar.list_events từ 15/12 đến 15/12."}
+{"id": "train_1517", "note": "notes.list lấy số người trong ghi chú Sprint Review, rồi shopping_list.add nước suối theo số lượng đó."}
+{"id": "train_1518", "note": "Không có ứng dụng hỗ trợ chia sẻ tệp tin nên không gọi tool."}
+{"id": "train_1519", "note": "household_chores.list_chores xem có các việc không; có thì household_chores.assign từng việc dọn nhà vệ sinh cho Bé Na và nhận thùng hàng Marigold Foods cho chú Năm, không có việc nào thì thôi."}
+{"id": "train_1520", "note": "exchange_rate.get_rate xem 45 EUR có đủ trả chuyến 9:00 không; đủ thì flights.book chuyến 9:00, không đủ thì flights.book chuyến rẻ nhất."}
+{"id": "train_1521", "note": "Bài Daniel Lee là art_7713; news.save. Tọa đàm 31/10 lúc 20:00 - 30 phút = 19:30; alarm.create."}
+{"id": "train_1522", "note": "Thuốc tối trừ thuốc trước ngủ là med_742 và med_96 (lượt trước). medication.log_taken từng thuốc."}
+{"id": "train_1523", "note": "Playlist vừa thêm Perfume River Nights là Sunset Rooftop (pl_207, lượt trước). music.play với playlist_id pl_207."}
+{"id": "train_1524", "note": "Ví còn 400000 từ lượt trước. bill_payment.list_bills lấy các hoá đơn chưa đóng để thông báo và so sánh với số dư ví."}
+{"id": "train_1526", "note": "maps.search_place tìm The Lemon Tree Café ở Lê Đức Thọ; có thì thôi, không có thì maps.search_place tìm gần Đại học Ngoại thương."}
+{"id": "train_1528", "note": "Thư tiệm in Hoa Sen là mail_847 (lượt trước). email.read mail_847 xem vị trí, sau đó home_security.get_camera tại cổng."}
+{"id": "train_1533", "note": "video_meeting.list_meetings tìm lịch phỏng vấn mai 27/11, rồi video_meeting.create trước giờ đó 1 tiếng; alarm.create báo thức 27/11 12:30."}
+{"id": "train_1538", "note": "Không có ứng dụng nhắn tin hay gọi điện thoại cho Jonas Berg nên không gọi tool."}
+{"id": "train_1540", "note": "Marcus Hale hẹn 8:30 sáng mai; trước 2 tiếng = 6:30. alarm.list xem có báo thức nào bật lúc 6:30."}
+{"id": "train_1541", "note": "Minh nhờ mua 6 quả táo, 2 hộp sữa tươi, 1 gói kẹo dẻo (lượt trước). shopping_list.get xem danh sách đi chợ."}
+{"id": "train_1542", "note": "fuel_price.get_price tra giá dầu diesel. Hạn gửi báo giá task_05 là 17:00 17/12 (lượt trước), trước nửa tiếng = 16:30 ngày 17/12; reminders.create."}
+{"id": "train_1543", "note": "Trạm Bến Ninh Kiều có hai xe rẻ nhất cùng giá 15000 (bike_4842 và bike_253) nên sys.ask_missing_info cho bike_rental.reserve, params bike_id."}
+{"id": "train_1545", "note": "exchange_rate.convert đổi 2000 USD sang VND. contacts.search tìm Oliver Grant; khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_1546", "note": "lottery.get_results xem đài TP.HCM và Đồng Nai hôm nay đã xổ chưa; có kết quả rồi thì đọc giải đặc biệt, chưa có thì báo chưa xổ."}
+{"id": "train_1547", "note": "Xem tiền đơn Lumina Kitchen giao công ty hôm thứ tư: food_delivery.order_history và food_delivery.list_restaurants."}
+{"id": "train_1550", "note": "Vụ thằng Tí là alert_327, Chloe Dubois là alert_1736 từ lượt trước. home_security.acknowledge_alert cho alert_327 và alert_1736."}
+{"id": "train_1551", "note": "Chưa thống nhất mức ngưỡng kWh, sys.ask_missing_info cho home_energy.set_alert, params threshold_kwh."}
+{"id": "train_1555", "note": "Không có ứng dụng quản lý máy rửa chén nên không gọi tool."}
+{"id": "train_1556", "note": "email.list tìm email lucky draw mới nhất; khớp đúng một thì email.read lấy số vé rồi lottery.check_ticket đài Đà Nẵng, không có hoặc nhiều thì sys.ask_missing_info cho email.read, params email_id."}
+{"id": "train_1557", "note": "Note vừa nãy là note_05. lottery.get_results đài Đà Nẵng, rồi notes.append vào note_05."}
+{"id": "train_1558", "note": "home_security.arm tắt bảo vệ. Thợ tới 16:30 + 1 tiếng rưỡi = 18:00 ngày 2/11 → reminders.create nhắc bật lại chế độ vắng nhà."}
+{"id": "train_1560", "note": "Bóng rổ Northwind Trading Cup trên S+ Sport, bóng đá Northwind Challenge trên VTV6 (trùng kênh bóng chuyền đã hẹn ghi). tv.tune chuyển S+ Sport."}
+{"id": "train_1561", "note": "Phòng họp chốt booking tàu là meet_04 (lượt trước) → video_meeting.join meet_04. contacts.search Sếp Dũng; khớp đúng một thì sms.send link phòng, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_1562", "note": "Vé của team là bk_01; 3 × 1850000 = 5550000 lớn hơn 5000000 nên gọi flights.cancel bk_01."}
+{"id": "train_1563", "note": "home_energy.get_usage lấy điện tiêu thụ tháng này và điều hoà, rồi home_energy.set_alert với ngưỡng bằng tổng điện tháng trừ điện điều hoà."}
+{"id": "train_1566", "note": "Zenith Partners vào sân sau theo alert_4462 ở lượt trước. home_security.get_camera sân sau."}
+{"id": "train_1567", "note": "bike_rental.find_bikes ở Mỹ Đình xem có xe đạp thường không; có thì bike_rental.reserve xe đạp thường, không thì bike_rental.reserve xe rẻ nhất."}
+{"id": "train_1569", "note": "banking.get_balance xem tài khoản thanh toán trừ 5000000 còn đủ 8000000 tiền cọc không; đủ thì banking.open_savings từ tài khoản thanh toán, không đủ thì banking.open_savings từ tài khoản lương kỳ hạn 9 tháng."}
+{"id": "train_1570", "note": "Có nhiều gói Taipei trừ tiền ngày 10/12, chưa rõ gói cần huỷ → sys.ask_missing_info cho subscriptions.cancel, params subscription_id."}
+{"id": "train_1572", "note": "Không có ứng dụng quản lý kho thực phẩm nên không gọi tool."}
+{"id": "train_1575", "note": "Đơn trà sữa ở lượt trước là ord_02. food_delivery.cancel_order huỷ ord_02."}
+{"id": "train_1577", "note": "Họp Mr. Fujimoto lúc 15:00. Chuyến rẻ nhất hạ cánh 21:10 sau 15:00 nên chọn chuyến sớm nhất fl_630. flights.book đặt 1 vé."}
+{"id": "train_1578", "note": "Chiều nay = 15/12, đài Đồng Nai theo tin nhắn từ Má (chat_9865). lottery.get_results rồi chat_ott.send_message gửi kết quả giải đặc biệt vào chat_9865."}
+{"id": "train_1579", "note": "chat_ott.list_chats tìm thông tin hoá đơn; thiếu số tiền nên sys.ask_missing_info cho ewallet.pay_qr, params amount."}
+{"id": "train_1581", "note": "Mai là 9/12. video_meeting.list_meetings xem lịch họp và contacts.search tìm Meera Kapoor."}
+{"id": "train_1582", "note": "Hoá đơn gửi qua email nhưng thiết bị không có ứng dụng email nên không gọi tool."}
+{"id": "train_1583", "note": "Người gọi trước là Khoa Agency ứng với contact_id c_3390 (lượt trước). sms.read_recent."}
+{"id": "train_1584", "note": "Ghi chú có tiền ăn trưa 1840000 chưa trả, nhưng có 2 quán Coastline nên sys.ask_missing_info cho ewallet.pay_qr, params merchant_id."}
+{"id": "train_1585", "note": "calculator.calculate tính tiền 795000/5; contacts.search tìm Sarah; khớp đúng một thì ewallet.transfer, không có hoặc nhiều thì sys.ask_missing_info cho ewallet.transfer, params contact_id."}
+{"id": "train_1587", "note": "Không có ứng dụng bản đồ hay chỉ đường nên không gọi tool."}
+{"id": "train_1591", "note": "Kiểm tra chế độ giặt đồ len của các thiết bị. appliances.list."}
+{"id": "train_1593", "note": "Tài khoản thanh toán 35200000 - 20000000 = 15200000, bé hơn học phí Bin 16500000 nên không gọi tool."}
+{"id": "train_1594", "note": "robot_vacuum.get_status xem có phòng nào chưa hút bụi không; có thì robot_vacuum.start chạy các phòng đó, không thì thôi."}
+{"id": "train_1598", "note": "Khoản Evergreen Foods tx_8355 là 20000000. Thiếu kỳ hạn gửi nên gọi sys.ask_missing_info cho banking.open_savings, params term_months."}
+{"id": "train_1602", "note": "exchange_rate.convert 400 USD sang VND xem dưới 11000000 không; dưới 11000000 thì banking.get_balance, banking.list_beneficiaries rồi banking.transfer từ tài khoản thanh toán, không thì thôi."}
+{"id": "train_1603", "note": "contacts.search tìm Emily; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_1604", "note": "weather.get_current tại Vựa trái cây Bảy Hồng xem có mưa không; không mưa thì contacts.search tìm Kevin Park rồi sms.send, có mưa thì thôi."}
+{"id": "train_1605", "note": "Có hai đối tác Sunrise (Sunrise Fresh dùng JPY và Sunrise Foods dùng EUR); sys.ask_missing_info cho exchange_rate.get_rate, params from_currency."}
+{"id": "train_1606", "note": "Cuốn sách đã được giữ ở lượt trước (res_01) nên không gọi tool."}
+{"id": "train_1607", "note": "contacts.search tìm Evergreen Foods; khớp đúng một thì sms.send, không có hoặc nhiều thì sys.ask_missing_info cho sms.send, params contact_id."}
+{"id": "train_1608", "note": "weather.get_forecast mai 17/12 xem có mưa không; mưa thì alarm.list tìm báo thức 6:00 rồi alarm.update thành 5:00, không mưa thì thôi."}
+{"id": "train_1609", "note": "food_delivery.order_history xem đơn pizza giao chưa; chưa giao thì food_delivery.cancel_order huỷ đơn, giao rồi thì thôi."}
+{"id": "train_1611", "note": "Lịch sử có hai mail của Vy (mail_283 và mail_5147), chưa rõ mail nào; sys.ask_missing_info cho email.archive, params email_id."}
+{"id": "train_1612", "note": "video_meeting.list_meetings tìm cuộc họp lúc 13:00; khớp đúng một thì video_meeting.join, không có hoặc nhiều thì sys.ask_missing_info cho video_meeting.join, params meeting_id."}
+{"id": "train_1615", "note": "calculator.convert_unit đổi 158 cm sang m, rồi notes.create ghi chú số mới."}
+{"id": "train_1616", "note": "home_security.list_alerts; home_security.acknowledge_alert từng cảnh báo trừ báo khói ở bếp, nếu có báo khói ở bếp thì contacts.search Ba để sms.send."}
+{"id": "train_1617", "note": "home_security.get_camera cổng xem có đang ghi hình không; đang ghi hình thì home_security.list_alerts tìm cảnh báo chuyển động hôm nay rồi home_security.acknowledge_alert, không thì thôi."}
+{"id": "train_1622", "note": "loyalty.get_points xem đủ điểm rạp phim đổi phần bắp nước không; đủ điểm thì loyalty.redeem, không đủ thì thôi."}
+{"id": "train_1626", "note": "Hẹn bật đèn sáng nay là rule_04. Anh Kha là chat_437 (lượt trước). home_automation.delete_rule xoá rule_04, rồi chat_ott.send_message gửi tin cho chat_437."}
+{"id": "train_1628", "note": "weather.get_forecast ngày 14/10 xem chiều nay có mưa không; mưa thì contacts.search tìm anh Hùng rồi email.send nhờ đón con, không mưa thì alarm.create lúc 16:30."}
+{"id": "train_1629", "note": "loyalty.get_points tìm voucher đổi vé đi Taipei của Sen Air; khớp đúng một thì loyalty.redeem, không có hoặc nhiều thì sys.ask_missing_info cho loyalty.redeem, params reward_id."}
+{"id": "train_1630", "note": "Chưa có merchant_id của quán; sys.ask_missing_info cho ewallet.pay_qr, params merchant_id."}
+{"id": "train_1631", "note": "Việc lau nhà chưa ai nhận là chore_5129 (lượt trước). Mai 17/10, hai giờ chiều = 14:00. household_chores.assign chore_5129 cho Mẹ, calendar.create_event check-in lúc 14:00."}
+{"id": "train_1632", "note": "Bảy giờ tối nay = 19:00 (27/11). gold_price.get_price lấy giá mua vàng nhẫn; reminders.create lúc 27/11 19:00 để gọi ông Nathan Reed."}
+{"id": "train_1633", "note": "home_automation.list_rules tìm hẹn giờ tắt đèn bếp 22:00; khớp đúng một thì home_automation.delete_rule, không có hoặc nhiều thì sys.ask_missing_info cho home_automation.delete_rule, params rule_id; 5 giờ chiều = 17:00, tasks.add."}
+{"id": "train_1636", "note": "email.list tìm thư tặng voucher và loyalty.list_vouchers xem hạn sử dụng voucher."}
+{"id": "train_1638", "note": "Không có app tìm công thức. Sáu giờ sáng mai = 6:00 17/11. reminders.create nhắc đi chợ mua cá lóc."}
+{"id": "train_1641", "note": "calendar.list_events ngày 22/10 xem 15:00 có trống không; trống thì calendar.create_event lúc 15:00, không trống thì calendar.create_event lúc 16:00."}
+{"id": "train_1645", "note": "weather.get_forecast hôm nay 19/12 xem có mưa không; mưa thì ride_hailing.book ô tô 4 chỗ tới trường, không mưa thì chat_ott.list_chats tìm Nhi rồi chat_ott.send_location."}
+{"id": "train_1649", "note": "ride_hailing.cancel xe đi công ty ride_02. bill_payment.list_bills tìm hoá đơn tiền điện; khớp đúng một thì bill_payment.pay, không có hoặc nhiều thì sys.ask_missing_info cho bill_payment.pay, params bill_id."}
+{"id": "train_1650", "note": "Tạo phòng họp ngày mai nhưng thiếu giờ bắt đầu; sys.ask_missing_info cho video_meeting.create, params start."}
+{"id": "train_1652", "note": "Nhạc chill buổi tối là pl_30, báo thức 8:00 đi tập là alm_7004 (lượt trước). music.play rồi alarm.delete."}
+{"id": "train_1653", "note": "household_chores.list_chores tìm việc đi chợ; khớp đúng một việc thì household_chores.assign cho mẹ, không có hoặc nhiều thì sys.ask_missing_info cho household_chores.assign, params chore_id."}
+{"id": "train_1654", "note": "Rèm phòng khách hồi chiều là 3.6 m (từ lượt trước); phân = cm. calculator.convert_unit đổi từ m sang cm."}
+{"id": "train_1655", "note": "Không có ứng dụng đặt giữ sách ở thư viện nên không gọi tool."}
+{"id": "train_1657", "note": "notes.list tìm lịch họp Hà Đông; chat_ott.send_message nhắn giờ đón cho Minh chat_9017, rồi chat_ott.send_location."}
+{"id": "train_1658", "note": "tv.control bật tivi; thiếu mức âm lượng quen thuộc nên sys.ask_missing_info cho tv.control, params volume."}
+{"id": "train_1659", "note": "food_delivery.list_restaurants tìm Sydney Grill; food_delivery.order_history tìm đơn combo Sydney Grill; khớp đúng một thì food_delivery.cancel_order, không có hoặc nhiều thì sys.ask_missing_info cho food_delivery.cancel_order, params order_id."}
+{"id": "train_1661", "note": "Người dùng rút lại yêu cầu xem giá xăng nên không gọi tool."}
+{"id": "train_1662", "note": "phone.recent_calls xem số đuôi 868 gọi nhỡ mấy giờ và số lần; nếu nhỡ 2 lần thì phone.call, không thì thôi."}
+{"id": "train_1663", "note": "Hóa đơn Nexora Fiber thuộc loại internet. bill_payment.schedule_autopay rồi tasks.add."}
+{"id": "train_1664", "note": "Lượt trước chưa có việc này. Thứ sáu = 30/10, 12:00 trưa = 12:00. tasks.add."}
+{"id": "train_1665", "note": "Thiếu số bước mục tiêu mới; sys.ask_missing_info cho fitness.set_goal, params steps."}
+{"id": "train_1669", "note": "Chưa rõ học khoá nào nên sys.ask_missing_info cho learning.log_progress, params course_id."}
+{"id": "train_1670", "note": "news.search tìm bài kinh doanh Sydney; khớp đúng một bài thì news.save, không có hoặc nhiều thì sys.ask_missing_info cho news.save, params article_id."}
+{"id": "train_1672", "note": "calendar.list_events ngày 16/10 tìm họp report; khớp đúng một thì calendar.update_event lùi 1 tiếng rồi contacts.search và phone.call cho Sếp Kim, không có hoặc nhiều thì sys.ask_missing_info cho calendar.update_event, params event_id."}
+{"id": "train_1673", "note": "maps.search_place tìm bún bò gần nhà 15 Trần Phú. Nồi cơm điện là appl_9176 từ lượt trước, appliances.stop tắt giữ ấm."}
+{"id": "train_1674", "note": "contacts.search lấy số Michael Chen; xe đạp điện giá 25000/giờ (lượt trước). notes.create ghi chú."}
+{"id": "train_1676", "note": "bill_payment.list_bills xem hoá đơn; chưa rõ loại cần bật nên sys.ask_missing_info cho bill_payment.schedule_autopay."}
+{"id": "train_1677", "note": "Số booking Tam Đảo sửa đuôi thành 09832415068. phone.call."}
+{"id": "train_1678", "note": "medication.list; medication.remove từng lịch thuốc có cữ uống buổi tối."}
+{"id": "train_1679", "note": "weather.get_current; notes.list tìm ghi chú workshop; khớp đúng một thì notes.append, không có hoặc nhiều thì sys.ask_missing_info cho notes.append, params note_id."}
+{"id": "train_1682", "note": "Chuyến bay đi Huế đặt sáng nay là booking_id bk_02. flights.check_in."}
+{"id": "train_1683", "note": "news.search tìm buýt điện Nội Bài; khớp đúng một bài thì news.save, rồi chat_ott.list_chats tìm vợ để chat_ott.send_message giá vé, không có hoặc nhiều bài thì sys.ask_missing_info cho news.save, params article_id."}
+{"id": "train_1685", "note": "banking.get_balance kiểm tra số dư các tài khoản ngân hàng."}
+{"id": "train_1687", "note": "weather.get_current lấy nhiệt độ; notes.list tìm Brightpath, khớp đúng một thì notes.append, không có hoặc nhiều thì sys.ask_missing_info cho notes.append, params note_id."}
+{"id": "train_1688", "note": "Có 2 chương trình nấu ăn của Sophie Martin lúc 8:15 trên SCTV9 và VTV6, thiếu kênh; sys.ask_missing_info cho tv.tune, params channel."}
+{"id": "train_1692", "note": "Thứ Năm = 5/11. calendar.list_events tìm chuyến bay Berlin ngày 5/11, medication.list xem lịch uống thuốc."}
+{"id": "train_1694", "note": "Thiếu số tiền nạp amount. sys.ask_missing_info cho ewallet.topup_mobile, params amount."}
+{"id": "train_1695", "note": "medication.list lấy giờ uống vitamin D sáng nay 19/11, rồi reminders.create nhắc việc đúng giờ đó."}
+{"id": "train_1697", "note": "Dừng robot hút bụi đang dọn dẹp bằng robot_vacuum.stop."}
+{"id": "train_1698", "note": "podcast_radio.search tìm chủ đề gửi tiết kiệm hay mua vàng; khớp đúng một tập thì podcast_radio.play, không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.play, params episode_id."}
+{"id": "train_1700", "note": "news.search tìm bài công nghệ; khớp đúng một bài thì news.save, không có hoặc nhiều bài thì sys.ask_missing_info cho news.save, params article_id."}
+{"id": "train_1701", "note": "Lên Bà Nà với khách Hàn là 4/11 (lượt trước). Tối thứ ba = 3/11 20:00. weather.get_forecast 4/11, rồi reminders.create lúc 20:00."}
+{"id": "train_1702", "note": "music.list_tracks tìm bài của Đức Phúc; khớp đúng một thì music.play, không có hoặc nhiều thì sys.ask_missing_info cho music.play, params track_id."}
+{"id": "train_1703", "note": "7 giờ sáng = 7:00, 10 giờ tối = 22:00 13/12. medication.list tìm thuốc huyết áp; khớp đúng một thì medication.log_taken lúc 7:00 rồi reminders.create lúc 22:00, không có hoặc nhiều thì sys.ask_missing_info cho medication.log_taken, params schedule_id."}
+{"id": "train_1705", "note": "fuel_price.get_price xem giá dầu; contacts.search Lộc tìm liên hệ, khớp đúng một thì phone.call, không có hoặc nhiều thì sys.ask_missing_info cho phone.call, params contact_id."}
+{"id": "train_1706", "note": "Người dùng đổi ý không tạo phòng họp nữa nên không gọi tool."}
+{"id": "train_1707", "note": "Người dùng huỷ yêu cầu kiểm tra camera gara vì đã sửa xong, nên không gọi tool."}
+{"id": "train_1709", "note": "home_automation.delete_rule rule_05. chat_ott.list_chats tìm Mạ; khớp đúng một thì chat_ott.send_message, không có hoặc nhiều thì sys.ask_missing_info cho chat_ott.send_message, params chat_id."}
+{"id": "train_1711", "note": "bike_rental.find_bikes xem trạm Hồ Gươm còn xe đạp điện không; còn thì bike_rental.reserve giữ một xe, không thì thôi."}
+{"id": "train_1712", "note": "bike_rental.find_bikes tìm xe rẻ nhất ở Bến Ninh Kiều; khớp đúng một xe thì bike_rental.reserve, không có hoặc nhiều thì sys.ask_missing_info cho bike_rental.reserve, params bike_id."}
+{"id": "train_1714", "note": "tasks.list tìm voucher khách sạn Nhật, exchange_rate.get_rate cặp JPY sang VND để tính tiền so với 500 USD."}
+{"id": "train_1715", "note": "Chưa có mức âm lượng cụ thể; sys.ask_missing_info cho tv.control, params volume."}
+{"id": "train_1716", "note": "household_chores.list_chores xem ai lo sửa chuông cửa. Chín giờ tối ni = 21:00 4/11; reminders.create nhắc rửa bát lúc 21:00."}
+{"id": "train_1717", "note": "11 giờ đêm = 23:00. light_living đã có hẹn tắt 23:00 từ trước, chỉ tạo hẹn cho light_kitchen: home_automation.create_rule."}
+{"id": "train_1723", "note": "home_security.list_alerts tìm cảnh báo sân sau tối qua; khớp đúng một thì home_security.acknowledge_alert, không có hoặc nhiều thì sys.ask_missing_info cho home_security.acknowledge_alert, params alert_id."}
+{"id": "train_1725", "note": "Mai là 16/11. calendar.list_events tra cứu lịch khám răng trong ngày 16/11."}
+{"id": "train_1728", "note": "Thiếu số bước mới cần đặt. sys.ask_missing_info cho fitness.set_goal, params steps."}
+{"id": "train_1729", "note": "banking.get_balance xem tài khoản thanh toán có đủ 349000 gia hạn Lumina Studio không; không đủ thì subscriptions.cancel huỷ sub_617, đủ thì thôi."}
+{"id": "train_1730", "note": "Số thùng nước suối nhắc anh Lộc từ lượt trước là 2. shopping_list.add thêm nước suối với quantity 2."}
+{"id": "train_1733", "note": "Cuối tháng chưa rõ ngày cụ thể; sys.ask_missing_info cho flights.search, params date."}
+{"id": "train_1734", "note": "chín giờ tối = 21:00; news.search lãi suất tiết kiệm; khớp đúng một bài thì news.save rồi alarm.create 21:00, không có hoặc nhiều bài thì sys.ask_missing_info cho news.save, params article_id."}
+{"id": "train_1736", "note": "household_chores.list_chores lấy danh sách thành viên; chưa rõ giao việc nấu cơm tối cho ai nên sys.ask_missing_info cho household_chores.assign, params assignee."}
+{"id": "train_1738", "note": "notes.list tìm ghi chú feedback; khớp đúng một thì notes.append nội dung góp ý từ lượt trước, không có hoặc nhiều thì sys.ask_missing_info cho notes.append, params note_id."}
+{"id": "train_1740", "note": "podcast_radio.search tìm tập Nhà giả kim; khớp đúng một thì podcast_radio.play, không có hoặc nhiều thì sys.ask_missing_info cho podcast_radio.play, params episode_id."}
+{"id": "train_1741", "note": "Chiều nay có hai kiện hàng nên chưa rõ kiện nào, thiếu tracking_id; sys.ask_missing_info cho package_tracking.reschedule_delivery, params tracking_id."}
+{"id": "train_1743", "note": "contacts.search tìm Minh; khớp đúng một thì contacts.update sửa thành 09385214769, không có hoặc nhiều thì sys.ask_missing_info cho contacts.update, params contact_id."}
+{"id": "train_1749", "note": "household_chores.list_chores xem việc lấy đồ ở Bluebell Laundry ai nhận chưa; chưa ai nhận thì household_chores.assign cho Linh, ai nhận rồi thì thôi."}
+{"id": "train_1750", "note": "Thứ Ba = 1/12, sáu giờ sáng = 6:00. alarm.create lúc 6:00 ngày 1/12; news.headlines đọc tin giải trí."}
+{"id": "train_1751", "note": "Lúc sáng bật 2 máy lọc không khí nên chưa rõ tắt máy nào, thiếu appliance_id. sys.ask_missing_info cho appliances.stop, params appliance_id."}
+{"id": "train_1753", "note": "gold_price.get_price xem giá vàng nhẫn (ring), sau đó tasks.add thêm việc Mua quà cưới."}

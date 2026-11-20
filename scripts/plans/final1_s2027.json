@@ -1,0 +1,5 @@
+{"0":[["train","--out","{out}/final1","--transcripts","auto:medium_train.json","--noisy-only","--tool-drop","0.5","--label-history","--synth","package","--denoise","--epochs","2.0","--max-hours","9.6","--snapshot-epochs","1.0,1.5","--mask-names","0.3","--seed","2027"],
+      ["?infer","--split","public_test","--out","{out}/public_exp7asr","--adapter","{out}/final1/adapter","--transcripts","auto:medium_public_test.json","--shard","0","--shards","1","--budget-s","60","--denoise"]],
+ "1":[["transcribe","--out","{out}/avg5_asr","--model","vinai/PhoWhisper-medium","--adapter","auto:asr_medium/full/best+auto:asr_m10/full/best+auto:b/full/best+auto:s2027/full/best+auto:s2028/full/best","--splits","public_test","--shard","0","--shards","1"],
+      ["waitfor","--path","{out}/final1/metrics.json","--minutes","620"],
+      ["infer","--split","public_test","--out","{out}/public_avg5asr","--adapter","{out}/final1/adapter","--transcripts","{out}/avg5_asr/public_test.json","--shard","0","--shards","1","--budget-s","60","--denoise"]]}

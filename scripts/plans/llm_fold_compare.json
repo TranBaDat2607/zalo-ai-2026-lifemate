@@ -1,0 +1,6 @@
+{"0":[["train","--out","{out}/fold","--holdout-file","splits","--transcripts","auto:medium_train.json","--noisy-only","--tool-drop","0.5","--label-history","--synth","package","--epochs","1.0","--max-hours","3.6"],
+      ["infer","--split","train","--out","{out}/fold_eval","--adapter","{out}/fold/adapter","--transcripts","auto:medium_train.json","--ids-file","splits","--shard","0","--shards","1","--budget-s","60"],
+      ["infer","--split","public_test","--out","{out}/public","--adapter","{out}/fold/adapter","--transcripts","auto:medium_public_test.json","--shard","0","--shards","1","--budget-s","60"]],
+ "1":[["train","--out","{out}/fold_dn","--holdout-file","splits","--transcripts","auto:medium_train.json","--noisy-only","--tool-drop","0.5","--label-history","--synth","package","--epochs","1.0","--max-hours","3.6","--denoise"],
+      ["infer","--split","train","--out","{out}/fold_dn_eval","--adapter","{out}/fold_dn/adapter","--transcripts","auto:medium_train.json","--ids-file","splits","--shard","0","--shards","1","--budget-s","60","--denoise"],
+      ["infer","--split","public_test","--out","{out}/public_dn","--adapter","{out}/fold_dn/adapter","--transcripts","auto:medium_public_test.json","--shard","0","--shards","1","--budget-s","60","--denoise"]]}

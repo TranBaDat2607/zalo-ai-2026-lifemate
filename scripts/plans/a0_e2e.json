@@ -1,0 +1,2 @@
+{"0":[["infer","--split","train","--out","{out}/a0_ctx_eval","--adapter","auto:e1/adapter,auto:e1s2/adapter","--transcripts","auto:a0_ctx_train.json","--ids-file","splits","--shard","0","--shards","1","--budget-s","60","--denoise"]],
+ "1":[["infer","--split","train","--out","{out}/a0_relisten_eval","--adapter","auto:e1/adapter,auto:e1s2/adapter","--transcripts","auto:a0_ctx_train.json","--ids-file","splits","--shard","0","--shards","1","--budget-s","60","--denoise","--relisten-asr","auto:asr_medium/fold{fold}/best"]]}

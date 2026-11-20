@@ -1,0 +1,2 @@
+{"0":[["asr_ctx_eval","--out","{out}/avg5","--adapter","auto:asr_medium/fold{fold}/best+auto:asr_m10/fold{fold}/best+auto:b/fold{fold}/best+auto:s2027/fold{fold}/best+auto:s2028/fold{fold}/best","--fold","0","--fold","2","--plain-only"]],
+ "1":[["asr_ctx_eval","--out","{out}/avg5","--adapter","auto:asr_medium/fold{fold}/best+auto:asr_m10/fold{fold}/best+auto:b/fold{fold}/best+auto:s2027/fold{fold}/best+auto:s2028/fold{fold}/best","--fold","1","--plain-only"]]}

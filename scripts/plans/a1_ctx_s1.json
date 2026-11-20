@@ -1,0 +1,2 @@
+{"0":[["asr_train","--out","{out}/a1","--model","vinai/PhoWhisper-medium","--folds","3","--plan","0","--epochs","5","--max-hours","2.0","--context"]],
+ "1":[["asr_train","--out","{out}/a1","--model","vinai/PhoWhisper-medium","--folds","3","--plan","1","--epochs","5","--max-hours","2.0","--context"]]}
