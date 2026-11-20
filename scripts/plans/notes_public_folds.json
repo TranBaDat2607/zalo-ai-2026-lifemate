@@ -1,0 +1,4 @@
+{"0":[["infer","--out","{out}/public_notes","--split","public_test","--adapter","auto:n1/adapter,auto:n2/adapter","--transcripts","auto:avg5_public_test.json","--budget-s","60","--denoise","--first-tokens","512","--shard","0","--shards","2"],
+      ["infer","--out","{out}/public_base","--split","public_test","--adapter","auto:e1/adapter,auto:e1s2/adapter","--transcripts","auto:avg5_public_test.json","--budget-s","60","--denoise","--shard","0","--shards","2"]],
+ "1":[["infer","--out","{out}/public_notes","--split","public_test","--adapter","auto:n1/adapter,auto:n2/adapter","--transcripts","auto:avg5_public_test.json","--budget-s","60","--denoise","--first-tokens","512","--shard","1","--shards","2"],
+      ["infer","--out","{out}/public_base","--split","public_test","--adapter","auto:e1/adapter,auto:e1s2/adapter","--transcripts","auto:avg5_public_test.json","--budget-s","60","--denoise","--shard","1","--shards","2"]]}

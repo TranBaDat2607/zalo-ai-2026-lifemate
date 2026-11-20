@@ -1,0 +1,31 @@
+{
+ "runs": [
+  "outputs/notes-aux/aux_eval"
+ ],
+ "excluded": "cv:1",
+ "seen": {
+  "money": 18,
+  "date": 43,
+  "id": 255,
+  "datetime": 111,
+  "number": 35,
+  "minutes": 23
+ },
+ "wrong": {
+  "money": 0,
+  "date": 13,
+  "id": 7,
+  "datetime": 18,
+  "number": 7,
+  "minutes": 7
+ },
+ "weights": {
+  "datetime": 0.3147,
+  "date": 0.2273,
+  "hh:mm": 0.0455,
+  "minutes": 0.1224,
+  "money": 0.0455,
+  "number": 0.1224,
+  "id": 0.1224
+ }
+}

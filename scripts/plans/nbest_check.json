@@ -1,0 +1,2 @@
+{"0":[["asr_nbest","--out","{out}/nbest","--adapter","auto:asr_medium/fold{fold}/best+auto:asr_m10/fold{fold}/best+auto:b/fold{fold}/best+auto:s2027/fold{fold}/best+auto:s2028/fold{fold}/best","--fold","0","--fold","2"]],
+ "1":[["asr_nbest","--out","{out}/nbest","--adapter","auto:asr_medium/fold{fold}/best+auto:asr_m10/fold{fold}/best+auto:b/fold{fold}/best+auto:s2027/fold{fold}/best+auto:s2028/fold{fold}/best","--fold","1"]]}

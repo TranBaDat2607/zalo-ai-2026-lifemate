@@ -1,0 +1,2 @@
+{"0":[["synth_tts","--out","{out}","--texts","auto:texts.json","--shard","0","--shards","2"]],
+ "1":[["synth_tts","--out","{out}","--texts","auto:texts.json","--shard","1","--shards","2"]]}

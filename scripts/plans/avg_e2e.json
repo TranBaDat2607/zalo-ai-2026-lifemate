@@ -1,0 +1,2 @@
+{"0":[["infer","--split","train","--out","{out}/avg_eval","--adapter","auto:e1/adapter,auto:e1s2/adapter","--transcripts","auto:avg_train.json","--ids-file","splits","--shard","0","--shards","2","--budget-s","60","--denoise"]],
+ "1":[["infer","--split","train","--out","{out}/avg_eval","--adapter","auto:e1/adapter,auto:e1s2/adapter","--transcripts","auto:avg_train.json","--ids-file","splits","--shard","1","--shards","2","--budget-s","60","--denoise"]]}

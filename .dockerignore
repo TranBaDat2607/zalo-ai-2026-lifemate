@@ -1,0 +1,12 @@
+# The build context is the repository root: send only what docker/Dockerfile copies (the audio and outputs are large).
+*
+!src/lifemate
+!scripts
+!tests
+!pyproject.toml
+!docker/README.md
+!docker/predict.sh
+!docker/requirements.txt
+!package_data
+!models
+**/__pycache__

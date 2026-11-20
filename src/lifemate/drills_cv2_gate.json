@@ -1,0 +1,426 @@
+{
+ "drills": 2500,
+ "packs": 496,
+ "pool": 1122,
+ "D1": {
+  "verify failures": 0,
+  "examples": [],
+  "clock gold": [
+   65,
+   67
+  ],
+  "clock readings": [
+   65,
+   66
+  ],
+  "money gold": [
+   27,
+   28
+  ],
+  "money readings": [
+   24,
+   25
+  ],
+  "clock gold misses": [
+   {
+    "id": "train_0358",
+    "phrase": "năm giờ",
+    "part": "sáng",
+    "gold": [
+     5,
+     30
+    ],
+    "read": [
+     5,
+     0
+    ]
+   },
+   {
+    "id": "train_1647",
+    "phrase": "bảy giờ",
+    "part": "tối",
+    "gold": [
+     7,
+     0
+    ],
+    "read": [
+     19,
+     0
+    ]
+   }
+  ],
+  "money gold misses": [
+   {
+    "id": "train_1166",
+    "phrase": "hai triệu rưỡi",
+    "gold": [
+     2000000
+    ],
+    "read": 2500000
+   }
+  ],
+  "clock reading misses": [
+   {
+    "id": "train_0358",
+    "phrase": "năm giờ",
+    "part": "sáng",
+    "gold": [
+     5,
+     30
+    ],
+    "read": [
+     5,
+     0
+    ]
+   }
+  ],
+  "money reading misses": [
+   {
+    "id": "train_1166",
+    "phrase": "hai triệu rưỡi",
+    "gold": [
+     2000000
+    ],
+    "read": 2500000
+   }
+  ]
+ },
+ "D2": {
+  "pool signatures (>= 2)": 42,
+  "covered": 1.0,
+  "missing (pool count)": {}
+ },
+ "D3": {
+  "clock": {
+   "digits": {
+    "pool": 27,
+    "pool share": 0.112,
+    "drill share": 0.147,
+    "ok": true
+   },
+   "giờ": {
+    "pool": 163,
+    "pool share": 0.674,
+    "drill share": 0.381,
+    "ok": true
+   },
+   "kém": {
+    "pool": 9,
+    "pool share": 0.037,
+    "drill share": 0.103,
+    "ok": true
+   },
+   "rưỡi": {
+    "pool": 32,
+    "pool share": 0.132,
+    "drill share": 0.112,
+    "ok": true
+   },
+   "giờ+phút": {
+    "pool": 11,
+    "pool share": 0.045,
+    "drill share": 0.257,
+    "ok": true
+   }
+  },
+  "day": {
+   "tomorrow": {
+    "pool": 258,
+    "pool share": 0.515,
+    "drill share": 0.387,
+    "ok": true
+   },
+   "today": {
+    "pool": 157,
+    "pool share": 0.313,
+    "drill share": 0.22,
+    "ok": true
+   },
+   "day after": {
+    "pool": 7,
+    "pool share": 0.014,
+    "drill share": 0.076,
+    "ok": true
+   },
+   "weekday": {
+    "pool": 44,
+    "pool share": 0.088,
+    "drill share": 0.144,
+    "ok": true
+   },
+   "yesterday": {
+    "pool": 20,
+    "pool share": 0.04,
+    "drill share": 0.038,
+    "ok": true
+   },
+   "next week": {
+    "pool": 10,
+    "pool share": 0.02,
+    "drill share": 0.025,
+    "ok": true
+   },
+   "day of month": {
+    "pool": 2,
+    "pool share": 0.004,
+    "drill share": 0.078,
+    "ok": true
+   },
+   "day+month": {
+    "pool": 3,
+    "pool share": 0.006,
+    "drill share": 0.031,
+    "ok": true
+   }
+  },
+  "money": {
+   "chục nghìn": {
+    "pool": 19,
+    "pool share": 0.144,
+    "drill share": 0.125,
+    "ok": true
+   },
+   "digits": {
+    "pool": 56,
+    "pool share": 0.424,
+    "drill share": 0.521,
+    "ok": true
+   },
+   "triệu": {
+    "pool": 15,
+    "pool share": 0.114,
+    "drill share": 0.073,
+    "ok": true
+   },
+   "nghìn": {
+    "pool": 40,
+    "pool share": 0.303,
+    "drill share": 0.219,
+    "ok": true
+   },
+   "triệu rưỡi": {
+    "pool": 2,
+    "pool share": 0.015,
+    "drill share": 0.062,
+    "ok": true
+   }
+  }
+ },
+ "D4": {
+  "in pool vocabulary": 0.9972,
+  "out of vocabulary": [
+   [
+    "bấy",
+    27
+   ],
+   [
+    "bệnh",
+    17
+   ],
+   [
+    "bịch",
+    7
+   ],
+   [
+    "khăn",
+    7
+   ],
+   [
+    "táo",
+    5
+   ],
+   [
+    "1,5",
+    5
+   ],
+   [
+    "lốc",
+    3
+   ],
+   [
+    "2,5",
+    2
+   ],
+   [
+    "2,4",
+    2
+   ],
+   [
+    "3,5",
+    1
+   ],
+   [
+    "mắm",
+    1
+   ],
+   [
+    "12,5",
+    1
+   ]
+  ],
+  "app/tool names in text": [],
+  "tool names in data": []
+ },
+ "D5": {
+  "markers": {
+   "nhé": {
+    "pool": 0.316,
+    "drills": 0.278,
+    "ok": true
+   },
+   "nha": {
+    "pool": 0.242,
+    "drills": 0.228,
+    "ok": true
+   },
+   "nghe": {
+    "pool": 0.095,
+    "drills": 0.08,
+    "ok": true
+   },
+   "nghen": {
+    "pool": 0.025,
+    "drills": 0.039,
+    "ok": true
+   },
+   "hen": {
+    "pool": 0.011,
+    "drills": 0.044,
+    "ok": true
+   },
+   "hỉ": {
+    "pool": 0.004,
+    "drills": 0.0,
+    "ok": true
+   },
+   "ạ": {
+    "pool": 0.015,
+    "drills": 0.0,
+    "ok": true
+   },
+   "giùm": {
+    "pool": 0.149,
+    "drills": 0.17,
+    "ok": true
+   },
+   "dùm": {
+    "pool": 0.004,
+    "drills": 0.007,
+    "ok": true
+   },
+   "hộ": {
+    "pool": 0.033,
+    "drills": 0.05,
+    "ok": true
+   },
+   "giúp": {
+    "pool": 0.223,
+    "drills": 0.19,
+    "ok": true
+   },
+   "với": {
+    "pool": 0.166,
+    "drills": 0.161,
+    "ok": true
+   }
+  },
+  "digits": {
+   "giờ": {
+    "pool": "34/214 = 0.16",
+    "drills": "181/925 = 0.20",
+    "ok": true
+   },
+   "phút": {
+    "pool": "22/54 = 0.41",
+    "drills": "164/356 = 0.46",
+    "ok": true
+   },
+   "tiếng": {
+    "pool": "0/43 = 0.00",
+    "drills": "0/233 = 0.00",
+    "ok": true
+   },
+   "nghìn": {
+    "pool": "20/66 = 0.30",
+    "drills": "12/31 = 0.39",
+    "ok": true
+   },
+   "triệu": {
+    "pool": "36/53 = 0.68",
+    "drills": "29/42 = 0.69",
+    "ok": true
+   },
+   "độ": {
+    "pool": "22/29 = 0.76",
+    "drills": "64/82 = 0.78",
+    "ok": true
+   },
+   "phần trăm": {
+    "pool": "12/20 = 0.60",
+    "drills": "29/45 = 0.64",
+    "ok": true
+   },
+   "chỗ": {
+    "pool": "9/43 = 0.21",
+    "drills": "15/54 = 0.28",
+    "ok": true
+   }
+  }
+ },
+ "D6": {
+  "total variation": 0.069
+ },
+ "D7": {
+  "drills with a holdout 8-gram": 0,
+  "examples": []
+ },
+ "D8": {
+  "thứ X = next such day": {
+   "agree": 7,
+   "cases": 7
+  },
+  "thứ X tuần sau (before today's weekday) = next Monday-start week": {
+   "agree": 2,
+   "cases": 2
+  },
+  "mai = +1": {
+   "agree": 88,
+   "cases": 90
+  },
+  "mốt / ngày kia = +2": {
+   "agree": 0,
+   "cases": 0
+  },
+  "bare hundreds = thousands": {
+   "agree": 4,
+   "cases": 4
+  }
+ },
+ "gates": {
+  "D1": true,
+  "D2": true,
+  "D3": true,
+  "D4": true,
+  "D5": true,
+  "D6": true,
+  "D7": true,
+  "D8": true
+ },
+ "decision": "PASS",
+ "made by": {
+  "holdout": "cv:2",
+  "n": 2500,
+  "seed": 1,
+  "mix": "src/lifemate/drills_cv2_mix.json",
+  "families": {
+   "drill_clock": 0.204,
+   "drill_relative": 0.044,
+   "drill_from_data": 0.164,
+   "drill_date": 0.24,
+   "drill_rule": 0.045,
+   "drill_span": 0.154,
+   "drill_amount_money": 0.045,
+   "drill_amount_number": 0.103
+  }
+ }
+}

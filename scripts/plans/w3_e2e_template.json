@@ -1,0 +1,4 @@
+{"0":[["export_models","--out","{out}/models","--llm-adapter","LLM_ADAPTERS","--asr-model","vinai/PhoWhisper-medium","--asr-adapter","ASR_ADAPTER"],
+      ["solve","--data","auto:public_test","--out","{out}/e2e_0","--llm","{out}/models/llm","--asr","ASR_DIRS","--shard","0","--shards","2","SOLVE_FLAGS"]],
+ "1":[["waitfor","--path","{out}/models/parameters.json","--minutes","90"],
+      ["solve","--data","auto:public_test","--out","{out}/e2e_1","--llm","{out}/models/llm","--asr","ASR_DIRS","--shard","1","--shards","2","SOLVE_FLAGS"]]}

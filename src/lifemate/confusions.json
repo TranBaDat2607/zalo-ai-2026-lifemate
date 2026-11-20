@@ -1,0 +1,5593 @@
+{
+"wer": 0.2807536817788045,
+"table": {
+"ờ": [
+"khi",
+"đờ",
+"ở",
+"à",
+"ừ",
+"nhiều",
+"tệ",
+"đờ",
+"ở",
+"à",
+"cờ"
+],
+"hàn": [
+"hàng",
+"hàng",
+"hàng",
+"hàng"
+],
+"ồn": [
+"vội",
+"hoàng"
+],
+"quá": [
+"vã",
+"bách",
+"khoá",
+"quách",
+"quát",
+"vãn",
+"",
+"hóa"
+],
+"nghe": [
+"nhay",
+"nga",
+"ghê",
+"nhà",
+"nghèo",
+"ngày",
+"nghen",
+"nhé",
+"nhé",
+"ngay",
+"ghi",
+"nha",
+"nha",
+"nga",
+"nhang",
+"nha",
+"nhé",
+"nga",
+"nhạy",
+"nhẹ",
+"à",
+"nhé",
+"nha",
+"ghe",
+"nhà",
+"nghèo",
+"nhà",
+"nghen",
+"nhẻm",
+"nhé",
+"yêu",
+"nga",
+"nha",
+"ngang",
+"nga",
+"nhé",
+"nga",
+"nhàn",
+""
+],
+"không": [
+"thông",
+"công",
+"phong",
+"hông",
+"sông",
+"hoàng",
+"phong",
+"ông",
+"mười",
+"phương",
+"thông",
+"sông",
+"",
+"hông",
+"phơ",
+"ông",
+"hoặc",
+"phong"
+],
+"tạm": [
+"thắt",
+"chẳng",
+"đang",
+"chặn"
+],
+"mấy": [
+"mãi",
+"máy",
+"máy",
+"máy",
+"máy",
+"mới",
+"lấy",
+"máy",
+"ấy",
+"ai",
+"máy",
+"mới"
+],
+"ngày": [
+"nghe",
+"rằng",
+"nghề",
+"hoàn",
+"nghệ"
+],
+"tới": [
+"tợn",
+"tắc",
+"thấy",
+"thời",
+"thấy",
+"tái",
+"thời",
+""
+],
+"họp": [
+"học",
+"học",
+"học",
+"học",
+"học",
+"có",
+"học",
+"hợp",
+"học",
+"hát",
+"học",
+"học",
+"hoặc",
+"học",
+"có",
+"họ"
+],
+"với": [
+"và",
+"phới",
+"mới",
+"khớp",
+"uế",
+"viết",
+"bấy",
+"ông",
+"ghế",
+"về",
+"về",
+"mới",
+"gian",
+"tố",
+"phía",
+"bới",
+"quá",
+"về",
+"quế",
+"vế",
+"đấy"
+],
+"bật": [
+"bệnh",
+"đặt",
+"bắt",
+"bạn",
+"vật",
+"bận",
+"bực",
+"mệt",
+"vật",
+"bậc",
+"vặn",
+"bắp",
+"bạc",
+"vật",
+"bận",
+"vật",
+"vực",
+"kế",
+"bọc",
+"mật"
+],
+"hoà": [
+"hồi",
+"hòa",
+"hòa",
+"hòa",
+"hợp",
+"thoại",
+"thoại",
+"hòa",
+"hòa",
+"hợp",
+"hòa",
+"hòa",
+"hòa",
+"hòa",
+"huyệt",
+"thoại",
+"hòa",
+"hà"
+],
+"hóa": [
+"hoa",
+"hoá",
+"hoa",
+"hoa"
+],
+"đơn": [
+"đờn",
+"đường"
+],
+"mạng": [
+"mạn",
+"mặt",
+"mà",
+"mặt",
+"mạ",
+"bạc",
+"mạnh",
+"mẹ",
+"mặt",
+"mòn",
+"mặt"
+],
+"ấy": [
+"ai",
+"đấy",
+"thấy",
+"ý",
+"đấy",
+"ý",
+"",
+"quán",
+"ngay",
+"đấy",
+"thầy",
+"ý",
+"đấy",
+"ếch",
+""
+],
+"ni": [
+"nay",
+"nay",
+"đi",
+"đi",
+"đi",
+"đi",
+"nay",
+"nghè",
+"nè",
+"nay",
+"nay",
+"nay",
+"vữa",
+"nay",
+"đi",
+"đi",
+"đi",
+"như",
+"nay",
+"đi",
+"đi",
+"nay",
+"nay"
+],
+"grace": [
+"ray",
+"rai",
+"ray",
+"ray"
+],
+"nakamoto": [
+"là",
+"nà"
+],
+"mệt": [
+"bà",
+"bệnh",
+"vãn",
+"bệnh",
+"mệnh"
+],
+"trưa": [
+"chưa",
+"trời",
+"chiều",
+"chưa",
+"chưa",
+"chiều",
+"chưa",
+"chưa",
+"chưa",
+"chưa"
+],
+"nóng": [
+"nam"
+],
+"chiều": [
+"",
+"chịu",
+"chiêu",
+"chịu",
+"chưa",
+"cho",
+"trở",
+"trước",
+"chẹo",
+"",
+"chịu",
+"trước",
+"cho",
+"trời",
+"trưa",
+"triều",
+"chuyện"
+],
+"hai": [
+"he",
+"hay",
+"ra",
+"theo",
+"thái",
+"hay",
+"ở",
+"ai",
+"hé"
+],
+"lab": [
+"láp",
+"láp"
+],
+"dẫn": [
+"dặn",
+"giảm"
+],
+"tour": [
+"tôi",
+"thua",
+"tôi",
+"thua"
+],
+"dời": [
+"và",
+"dày",
+"giờ",
+"giờ",
+"về",
+"rời",
+"giời",
+"giờ",
+"giờ"
+],
+"báo": [
+"bỗng",
+"hát",
+"vô",
+"vá",
+"bới",
+"bạo",
+"vào",
+"bó",
+"cát",
+"vào",
+"với",
+"và",
+"thể",
+"váy",
+"han",
+"đôi",
+"vào",
+"mơ",
+"cán",
+"vào",
+"và",
+"đã"
+],
+"có": [
+"các",
+"quá",
+"đi",
+"trách",
+"kế",
+"",
+"các",
+"không",
+"các",
+"",
+"",
+"cả",
+"quá",
+"tôi"
+],
+"podcast": [
+"bách",
+"post",
+"bách",
+"postcard",
+"post"
+],
+"mô": [
+"khác",
+"môn",
+"ôm",
+"mua",
+"mua",
+"mùa",
+"búa",
+"mua",
+"mua",
+"môn",
+"ấm",
+"mơ",
+"môn",
+"mùa",
+"mua",
+"murray",
+"mổ"
+],
+"buồn": [
+"mừng"
+],
+"ngủ": [
+"mủ",
+"hụi",
+"mũi",
+"mũi",
+"bổ",
+"hữu",
+"hữu",
+""
+],
+"ăn": [
+"anh",
+"anh",
+"anh",
+"anh"
+],
+"gì": [
+"việt",
+"lời",
+"việc",
+"trễ",
+"dậy",
+"ngày",
+"vậy",
+"chứ",
+"dễ",
+"lời",
+"",
+"trình",
+"dị"
+],
+"tivi": [
+"ti",
+"vi",
+"ti",
+"thi",
+"ti",
+"ti",
+"ti",
+"ti",
+"vợ",
+"tele",
+"ti",
+"ti",
+"ti"
+],
+"htv7": [
+"hết",
+"chanh"
+],
+"126": [
+"một",
+"một"
+],
+"9": [
+"chín",
+"chín",
+"chính",
+"chín",
+"chín",
+"kiếm",
+"chín",
+"chín",
+"chính",
+"tính"
+],
+"2": [
+"hai",
+"hai",
+"hai",
+"hai"
+],
+"nhận": [
+"những"
+],
+"marigold": [
+"marie",
+"marilyn"
+],
+"foods": [
+"gomez",
+"goldford",
+"xóa"
+],
+"năm": [
+"nam",
+"na",
+"đăng",
+"nằm",
+"lằm",
+"lâm",
+"đang"
+],
+"ơi": [
+"mail",
+"vay",
+"vai",
+"hơi",
+"mời",
+""
+],
+"email": [
+"em"
+],
+"emily": [
+"ly"
+],
+"bên": [
+"bắt",
+"bệnh",
+"người",
+"về",
+"mình",
+"vinh",
+"bán",
+"lê",
+"về",
+"minh",
+"bình"
+],
+"nớ": [
+"nữ",
+"nữ"
+],
+"khi": [
+"bị",
+"thì",
+"ký"
+],
+"thôi": [
+"tôi",
+"thời",
+"tôi",
+"thời",
+"thơ"
+],
+"thế": [
+"thấy",
+"thấy",
+"thì",
+"anh",
+"linh",
+"thêm",
+"thấy",
+"giá",
+"thấy",
+"cái",
+"thấy",
+"hàng",
+"then",
+"thấy",
+"theo"
+],
+"mưa": [
+"ngơ",
+"mơ",
+"buông",
+"bưa",
+"mê",
+"",
+"nơi"
+],
+"huỷ": [
+"là",
+"gửi",
+"hủy",
+"hủy",
+"hủy",
+"về",
+"là",
+"ủy",
+"hủy",
+"hủy",
+"hủy",
+"về"
+],
+"lịch": [
+"đặt",
+"lễ",
+"lệnh",
+"lật",
+"định",
+"là",
+"liệt",
+"đền",
+"được",
+"liệt",
+"là",
+"được",
+"lực",
+"lệch",
+"lệnh",
+"thể",
+"lượt",
+"để",
+"liền",
+"được",
+"ly",
+"lệch",
+"địch",
+"lệch"
+],
+"mai": [
+"nay",
+"tuần",
+"may",
+"may",
+"nay",
+"may",
+"mà",
+"mây",
+"bơ",
+"mài",
+"mày",
+"nay",
+"mơ",
+"nay",
+"may",
+"mày",
+"",
+"may",
+"mê",
+"hai",
+"mi",
+"mê",
+"mê",
+"mày",
+"mài",
+"tuần",
+"mà",
+"may",
+"nay",
+"mà",
+"mà",
+"bay",
+"may",
+"mê",
+"nay",
+"nay",
+"mê",
+"nay",
+"mày",
+"máy",
+"mày",
+"",
+"may",
+"mê",
+"ngày",
+"mây",
+"nay",
+"mê",
+"mê",
+"máy"
+],
+"nhé": [
+"luôn",
+"nhá",
+"nhẹ",
+"nghe",
+"hướng",
+"giếng"
+],
+"nữa": [
+"nhuận",
+"nhỗ"
+],
+"nhắc": [
+"nhóc",
+"nhau",
+"giác",
+"nhóc",
+"nhất",
+"trách",
+"nhắn",
+"nhấp",
+"nhất",
+"nhận",
+"nhốt",
+"nhấp",
+"nhất",
+"nhấc",
+"giấc",
+"nhất",
+"nhứt",
+"nhóc",
+"nhà",
+"giấc",
+"nhất",
+"",
+"rách",
+"dấu",
+"nhấp",
+"nhất",
+"nhấc",
+"nhận",
+"nhốt",
+"nhớ",
+"nhấp",
+"nhấc",
+"giác",
+"nhận",
+"nhất"
+],
+"khách": [
+"khăn",
+"khát",
+"thắt",
+"sách",
+"sách",
+"các",
+"lỗ",
+"cách",
+"theo",
+"khắp",
+"phát",
+"thạch",
+"sắp",
+"cách",
+"khánh",
+"sách",
+"chắc"
+],
+"lúc": [
+"đúc",
+"ở",
+"chục",
+"ốp",
+"ở",
+"trượt",
+"gúp"
+],
+"8": [
+"tháng",
+"tám",
+"tháng",
+"tám"
+],
+"15": [
+"mười",
+"mười",
+"về",
+"mười",
+"mười",
+"mười",
+"với",
+"mươi"
+],
+"tối": [
+"lăm",
+"tới",
+"đẻ",
+"tớ",
+"",
+"tôi",
+"thôi",
+"đến",
+"lăm",
+"thối",
+"tớ",
+"",
+"tỏ",
+"thôi",
+"này",
+"thuốc",
+"cấu"
+],
+"join": [
+"cho",
+"cho"
+],
+"phát": [
+"sai",
+"các",
+"các",
+"các"
+],
+"bài": [
+"phải",
+"mày",
+"bạn",
+"đào",
+"bày",
+"đài",
+"bạch",
+"mãi",
+"biểu",
+"đã",
+"bày"
+],
+"chắc": [
+"sức",
+"thích",
+"sức",
+"chết"
+],
+"đi": [
+"đây",
+"thể",
+"kỹ",
+"cho",
+"niềm",
+"my",
+"bi",
+"anh",
+"y",
+"gì",
+"đe",
+"đen",
+"đen",
+"trẻ",
+"tiên",
+"việt",
+"",
+"bi",
+"tem",
+"yên",
+"vì"
+],
+"dùm": [
+"giùm",
+"chừng",
+"giùm",
+"giùm",
+"dăm",
+"giùm",
+"nhầm",
+"giùm",
+"giùm",
+"cho",
+"dòm",
+"dịp",
+"dù",
+"giùm",
+"giùm",
+"giùm",
+"giùm",
+"giùm"
+],
+"yên": [
+"yếu",
+"em",
+"yêu"
+],
+"hôm": [
+"không",
+"sạn",
+"hôn",
+"những",
+"không",
+"hơn",
+"không",
+"không",
+"hộp",
+"hôn",
+"thân",
+"trên",
+"thuê",
+"hoàng",
+"hồng",
+"không",
+"không",
+"hơn"
+],
+"vậy": [
+"về",
+"bởi",
+"trình",
+"",
+"phải",
+"dễ",
+"nhỉ",
+"",
+"thầy",
+"về",
+"về",
+"tinh",
+"",
+"phải",
+"về",
+"",
+"",
+"",
+"phải"
+],
+"nha": [
+"nhà",
+"nhà",
+"ra",
+"nghe",
+"nhá",
+"nhà",
+"vùng",
+"nhé",
+"nhà",
+"nhau",
+"nhà",
+"nhà",
+"nhé",
+"nhà",
+"ạ",
+"nhé",
+"nhạc",
+"nhé",
+"trên",
+"nhà",
+"nhé",
+"nhà",
+"nhà",
+"nhà",
+"nhé",
+"ngang",
+"nhà",
+"nhé",
+"nhà",
+"nhà",
+"nhé",
+"nghe",
+"nhé",
+"nhé",
+"thì",
+"vuông",
+"nhé",
+"nhau",
+"nhà",
+"nhà",
+"nhé",
+"nhà",
+"ạ",
+"nhà",
+"nhé",
+"nhà",
+"chính",
+"nhang",
+"nhà",
+"do",
+"nghệ",
+"ba",
+"nhan",
+"nhà",
+"nhé",
+"nhà",
+"nhà",
+"nhà",
+"nhé",
+"nhà"
+],
+"dọn": [
+"nhổ",
+"dẫu"
+],
+"phòng": [
+"phàn",
+"còn",
+"phục",
+"phóng",
+"phần",
+"phần",
+"phần",
+"phần",
+"phạt",
+"phẩm",
+"phần",
+"phục",
+"phóng",
+"phóng",
+"phan",
+"phần",
+"",
+"phần"
+],
+"ba": [
+"boa",
+"bà",
+"qua",
+"vàng",
+"bay",
+"bé",
+"mai",
+"boa",
+"bà",
+"bày",
+"qua",
+"vào",
+"bà",
+"bay",
+"vai",
+"be",
+"bay"
+],
+"ghi": [
+"ly",
+"ghe",
+"nghi",
+"khi",
+"ghê",
+"đi",
+"vi",
+"vi",
+"số",
+"kia",
+"y",
+"vi",
+"vi",
+"ly",
+"gây",
+"khi",
+"ghê",
+"giver",
+"đi",
+"vi",
+"vì",
+"gì",
+"quay",
+"kia",
+"y",
+"việc",
+"việc",
+"gái"
+],
+"tôi": [
+"thôi",
+"tổng",
+"từ",
+"to",
+"thôi",
+"thờ",
+"thôi",
+"thôi",
+"",
+"tao",
+"thôi",
+"thôi",
+"thôi",
+"thuê",
+"từ",
+"chờ",
+"tờ",
+"tờ",
+"cho",
+"thôi",
+"thuê",
+"thôi",
+"thôi",
+"đòi",
+"chấm",
+"thôi",
+"tối",
+"thôi",
+"tuổi",
+"thôi",
+"thuê",
+"lắng",
+"tớ",
+"tui",
+"tuổi",
+"câu",
+"cho",
+"thôi"
+],
+"đủ": [
+"nợ",
+"đổi",
+"đổi",
+"đỡ"
+],
+"giùm": [
+"dùng",
+"dùm",
+"dù",
+"trường",
+"dùng",
+"dụm",
+"dùm",
+"dòng",
+"nghiêm",
+"dùm",
+"dùm",
+"sừng",
+"dầm",
+"dụng",
+"dùng",
+"dăm",
+"rừng",
+"dùm",
+"gìn",
+"dùng",
+"dụng",
+"dùm",
+"dùm",
+"dần",
+"dùng",
+"chung",
+"dùng",
+"dũng",
+"trong",
+"dùm",
+"hữu",
+"dùng",
+"dùm",
+"dùm",
+"dùng",
+"sùm",
+"dần",
+"dụng",
+"dùng",
+"đêm",
+"chừng",
+"rừng",
+"những",
+"dùng"
+],
+"ra": [
+"lên",
+"quan",
+"cây",
+"cho",
+"dàn",
+"lên",
+"sen",
+"cho",
+"đi"
+],
+"à": [
+"ả",
+"ai",
+"và",
+"",
+"rạng",
+"",
+"ả",
+"an",
+"ạ",
+"đa",
+"",
+"đạn",
+"hà"
+],
+"cái": [
+"thích",
+"phát",
+"các",
+"thay",
+"các",
+"gáy",
+"khải",
+"các",
+"khá",
+"khai",
+"kết",
+"cách",
+"kết",
+"cháy",
+"cá",
+"cài",
+"khem",
+"thay",
+"trái",
+"các",
+"cấy",
+"gái",
+"khánh",
+"các",
+"cánh",
+"các",
+"kế",
+"kê",
+"hoạch",
+"chém",
+"két",
+"trai"
+],
+"thức": [
+"bá",
+"rất",
+"thuyết",
+"sốt",
+"trước",
+"tích",
+"xuất",
+"thuốc",
+"tức",
+"trước",
+"ước",
+"phích",
+"trước"
+],
+"nhắn": [
+"dẫn",
+"dẫn",
+"nhà",
+"nhấn",
+"nhánh",
+"nhẫn",
+"nhận",
+"nhớ",
+"nhà",
+"nhấn",
+"ngắn",
+"những",
+"giắn",
+"nhấn",
+"dành",
+"nhẫn",
+"nhánh",
+"nhận",
+"nhưng",
+"nhà",
+"nhấn",
+"ngắn",
+"nhấn"
+],
+"zalo": [
+"dạy",
+"gia",
+"ra",
+"yellow",
+"nhả",
+"giao",
+"xe",
+"theo",
+"nhờ",
+"giao",
+"vài",
+"giấy",
+"giao",
+"giao",
+"nhả",
+"giao",
+"xe",
+"theo",
+"giao"
+],
+"vtv6": [
+"ve",
+"vtv",
+"về",
+"về"
+],
+"trên": [
+"ti",
+"tay",
+"chân"
+],
+"mình": [
+"tôi",
+"mạnh",
+"ai",
+"mạnh",
+"bình",
+"ảnh",
+"mền"
+],
+"hồ": [
+"hò",
+"bố",
+"hộ",
+"hô",
+"bộ"
+],
+"tây": [
+"tay",
+"tay"
+],
+"đúng": [
+"đóng",
+"đủ",
+"đố",
+"đông"
+],
+"nhỉ": [
+"nhĩ",
+"nhiễm",
+"nhé",
+"nhẹ",
+"nhảy",
+"nghĩ",
+"nhé",
+"nghỉ",
+"dĩ",
+"gỉ",
+"nữ",
+"ngị",
+"diễn",
+"nhẽ",
+"nhé",
+"gì"
+],
+"rứa": [
+"với",
+"rồi",
+"rồi",
+"trước",
+"rưỡi",
+"lúa",
+"trưa",
+"rác",
+"thế",
+"rồi",
+"đưa",
+"rửa",
+"lứa",
+"trưa"
+],
+"chị": [
+"chìa",
+"chịu",
+"sĩ",
+"chỉ",
+"trẻ",
+"chỉ",
+"chỉnh",
+"trẻ",
+"trẻ",
+"đến",
+"chí",
+"chí",
+"chỉ",
+"merkel",
+"",
+"chịu",
+"chi",
+"chịu",
+"sĩ",
+"chỉ",
+"trễ",
+"chỉ",
+"chỉ",
+"chỉ",
+"chịu",
+"trị",
+"trẻ",
+"xăm",
+"chỉ",
+"chỉ",
+"chỉ",
+"chạy",
+"chỉ",
+"chỉ",
+"trị",
+"mê",
+"",
+"chịu",
+"chỉ",
+"trẻ",
+"chịu",
+"trịnh"
+],
+"chín": [
+"chim",
+"chính",
+"chính",
+"chính",
+"chính",
+"chính",
+"sanaka",
+"chính",
+"chính"
+],
+"nay": [
+"này",
+"anh",
+"nấy",
+"làn",
+"này",
+"này",
+"nên",
+"nên",
+"lại",
+"lẽ",
+"nên",
+"ai",
+"này",
+"ra",
+"làng",
+"nên",
+"la",
+"anh",
+"ly"
+],
+"nhiêu": [
+"nhiều",
+"như",
+"nhiều",
+"yêu",
+"nhiều",
+"nhiều",
+"nhiều",
+"như",
+"liu",
+"nhiều",
+"nhiều",
+"nhiều",
+"như",
+"nhiều",
+"như"
+],
+"cho": [
+"chào",
+"dân",
+"lôi",
+"mã",
+"thái",
+"chở",
+"cha",
+"tràn",
+"rảnh",
+"trên",
+"chăn",
+"các",
+"trong",
+"cha",
+"rồi",
+"trâm",
+"trò",
+"rờ",
+"đô",
+"dân",
+"trở",
+"mãi",
+"sen",
+"chở",
+"tra",
+"tràn",
+"rảnh",
+"ra",
+"trang",
+"chống",
+"để",
+"chồng",
+"trên",
+"sẽ",
+"cha",
+"chụp",
+"điều",
+"rời"
+],
+"ký": [
+"kí",
+""
+],
+"khóa": [
+"khoá",
+"khoái",
+"khoái",
+"khoác",
+"khoa",
+"khoá",
+"khoá",
+"khoác",
+"khoa"
+],
+"cứu": [
+"cũ"
+],
+"tiền": [
+"tiện",
+"chìm",
+"ấy",
+"tèn",
+"lấy",
+"trình",
+"chị",
+"chị",
+"",
+"từng",
+"thì",
+"thuê"
+],
+"điện": [
+"đi",
+"điểm",
+"thiệt",
+"truyện",
+"điểm",
+"dụ",
+"thiệt",
+"truyện",
+"biên"
+],
+"trang": [
+"anh",
+"cháy",
+"anh",
+"trai"
+],
+"tớ": [
+"tới",
+"tới",
+"tắc",
+"thế",
+"tôi",
+"tới",
+"trai",
+"tới",
+"tới",
+"tá",
+"thế",
+"tôi",
+"té"
+],
+"chuyển": [
+"chuyến",
+"tốn",
+"chỉnh",
+"chứng",
+"chuyện",
+"kiểng",
+"diệp",
+"thì",
+"chuyện",
+"chuyện",
+"tới",
+"truyển",
+"chuyện",
+"chỉnh",
+"chuyện",
+"chẳng",
+"chuyện",
+"kiểng",
+"diện",
+"chỉ",
+"chuyện",
+"chuyện"
+],
+"golden": [
+"gô",
+"gọi"
+],
+"lotus": [
+"đình",
+"lopez",
+"đừng",
+"lâu"
+],
+"hall": [
+"long",
+"lo"
+],
+"xổ": [
+"",
+"sữa",
+"sĩ"
+],
+"đà": [
+"số",
+"đàn"
+],
+"nẵng": [
+"đàn",
+"em"
+],
+"qua": [
+"thuế",
+"quá",
+"quà",
+"vào",
+"quá",
+"vai",
+"hoa",
+"quá",
+"quái",
+"quan",
+"quanh",
+"vật",
+"với",
+"choang",
+"con",
+"quan",
+"lo",
+"vai"
+],
+"ừ": [
+"ờ",
+"ờ",
+"ờ",
+"ôi",
+"từ",
+"thay",
+"ờ",
+"ờ",
+"ở",
+"ờ",
+"ờ",
+"ờ",
+"khách",
+"từ",
+"à",
+"ờ"
+],
+"cảm": [
+"cám",
+"trả",
+"cám",
+"cám",
+"đã"
+],
+"anh": [
+"ăn",
+"ăn",
+"mang",
+"ander",
+"ấy",
+"an",
+"ăn",
+"an",
+"ăn",
+"mời",
+"nặng",
+"năng",
+"",
+"chạm",
+"lại",
+"",
+"ăn",
+"vý",
+"lao",
+"minh",
+"nhẹ",
+"ăn",
+"ăn",
+"ăn",
+"an",
+"an",
+"mời",
+"",
+"",
+"bành",
+"tanh",
+"trạm",
+"lại"
+],
+"meeting": [
+"máy",
+"ít"
+],
+"em": [
+"bèn",
+"hay",
+"mẹ",
+"ai",
+"ăn",
+"anh",
+"ăn",
+"anh",
+"ăn",
+"ý",
+"êm",
+"y",
+"anh",
+"anh",
+"chỗ",
+"cho",
+"anh",
+"ăn",
+"m",
+"hiếm",
+"vẹn",
+"hai",
+"ăn",
+"mẹ",
+"ankern",
+"anthabre",
+"anh",
+"e",
+"anh",
+"áp",
+"anh",
+"ăn",
+"ăn",
+"y",
+"choi",
+"e",
+"thêm",
+"cho",
+"",
+"e",
+""
+],
+"ê": [
+"hề",
+"hề"
+],
+"tô": [
+"tôi",
+"cơm",
+"tôi",
+"có"
+],
+"phở": [
+"vẫn",
+"phạm"
+],
+"sáng": [
+"sẵn",
+"xã",
+"xe",
+"xem",
+"sến",
+"xa",
+"sẽ",
+"chẳng",
+"xe",
+"sữa",
+"phát",
+"xá",
+"sánh",
+"xem",
+"xe",
+"sánh",
+"xếp"
+],
+"tưởng": [
+"tới",
+"tới"
+],
+"đó": [
+"đất",
+"đau",
+"nó",
+"tòa",
+"tới",
+"đau",
+"nói",
+"ấy",
+"nói",
+"đáng",
+"nó",
+"ở",
+"đóu",
+"nói",
+"",
+"lớp",
+"đâu",
+"nó",
+"đã",
+"nấp",
+"đói",
+"đựng",
+"hết",
+"lối",
+"đáng",
+"nó",
+"nó",
+"ở",
+"nói"
+],
+"tháng": [
+"háng",
+"khén",
+"thể",
+"hát",
+"thế",
+"thêng",
+"thánh",
+"thế",
+"thế"
+],
+"này": [
+"ngày",
+"tiệm"
+],
+"lô": [
+"lo",
+"lối"
+],
+"hàng": [
+"hẳn",
+"nha",
+"thì",
+"hành",
+"hạn",
+"hay"
+],
+"cảng": [
+"cán",
+"cán"
+],
+"muốn": [
+"uống",
+"cũng"
+],
+"xỉu": [
+"sữa"
+],
+"vào": [
+"và",
+"về",
+"hả",
+"với",
+"và",
+"bị",
+"vỏ"
+],
+"hả": [
+"há",
+"á",
+"há",
+"há"
+],
+"bún": [
+"uống",
+"muốn",
+"mỗi"
+],
+"bò": [
+"màu",
+"vòi",
+"bỏ",
+"bà",
+"bà",
+"món",
+"vò",
+"vò",
+"bà",
+"bà"
+],
+"quán": [
+"khoán",
+"quả",
+"quầy",
+"ván"
+],
+"cô": [
+"của",
+"của",
+"có",
+"có",
+"con",
+"thô",
+"của",
+"khơi",
+"của",
+"khoảng",
+"tôi",
+"thu",
+"của"
+],
+"mái": [
+"máy",
+"máy",
+"máy",
+"máy"
+],
+"cấp": [
+"cắp"
+],
+"tên": [
+"nên",
+"trên",
+"nên",
+"tranh"
+],
+"xài": [
+"say",
+"dài",
+"say",
+"thời",
+"xây",
+"thể"
+],
+"sjc": [
+"sgg",
+"sdc",
+"sct",
+"cát",
+"ét",
+"ét",
+"scc",
+"hết",
+"sgc",
+"stg",
+"sdc",
+"stg",
+"ép",
+"st",
+"st",
+"s",
+"hết",
+"stc"
+],
+"tắt": [
+"thắt",
+"cánh",
+"tách",
+"lắc",
+"thắp",
+"thắt",
+"thắt",
+"thắc",
+"tắc",
+"tránh",
+"tách",
+"tắc",
+"cắt",
+"tắc",
+"tách",
+"tách",
+"tách"
+],
+"khỏi": [
+"khói",
+"khởi"
+],
+"ốm": [
+"ấm",
+"ấm"
+],
+"ở": [
+"vào",
+"ấm",
+"áo",
+"em",
+"và",
+"tết",
+"áo",
+"hỏi"
+],
+"bạch": [
+"vật",
+"bẩn",
+"vạch",
+"bạt"
+],
+"đường": [
+"đừng",
+"đừng",
+"đừng"
+],
+"xong": [
+"song",
+"son",
+"song",
+"xâm",
+"soi",
+"xông",
+"song",
+"song",
+"son",
+"song",
+"xăm",
+"sau"
+],
+"the": [
+"la",
+"là"
+],
+"lemon": [
+"minh",
+"mình"
+],
+"tree": [
+"tri",
+"tri"
+],
+"café": [
+"cà",
+"bridge",
+"bớt",
+"cốc",
+"coffee"
+],
+"tết": [
+"tế",
+"tấy"
+],
+"gam": [
+"gôn",
+"gôn"
+],
+"cài": [
+"cả",
+"cả"
+],
+"trần": [
+"dẫn",
+"sản"
+],
+"chỉnh": [
+"chuyển",
+"chuyển"
+],
+"tấm": [
+"thánh",
+"thấm",
+"thấm",
+"thấm",
+"thấm"
+],
+"trà": [
+"chà"
+],
+"đào": [
+"đạp",
+"đậu"
+],
+"cam": [
+"canh",
+"canh",
+"cắm"
+],
+"sả": [
+"xạ",
+"xả",
+"sẽ",
+"xá"
+],
+"s": [
+"aston",
+"express",
+"ép",
+"ác",
+"chọn",
+"ashton",
+"express",
+"ép",
+"",
+"trọn"
+],
+"sport": [
+"park",
+"có",
+"cộng",
+"spurs",
+"for",
+"cộng",
+"sports"
+],
+"đèn": [
+"đàn",
+"tiền",
+"đề",
+"đằng",
+"đằng",
+"thác",
+"đằng",
+"đằng",
+"đang",
+"tiền",
+"bàn",
+"đề",
+"đặng",
+"đặng",
+"hoạch",
+"tiền"
+],
+"om": [
+"ôm",
+"ôm"
+],
+"ví": [
+"viễn",
+"vía",
+"bí",
+"viết",
+"vì",
+"bị",
+"quỹ",
+"phí",
+"phía",
+"phí",
+"phí",
+"vía",
+"vít",
+"",
+"vé",
+"vé",
+"vĩ",
+"túi",
+"lý",
+"máy",
+"bì",
+"vì",
+"chói",
+"quý",
+"viên",
+"phía",
+"phí",
+"phí",
+"biết",
+"",
+"vế",
+"bé"
+],
+"còn": [
+"cần",
+"xộng",
+"cọng",
+"con",
+"thọn",
+"",
+"có",
+"cồng",
+"công",
+"cần",
+"phần",
+"khoảng",
+"khoảng",
+"có",
+"thoảng",
+"con",
+"còng",
+"cầm",
+"khoản",
+"khách",
+"khoảng"
+],
+"vàng": [
+"vành",
+"vàm",
+"phàn",
+"vạn",
+"vạn",
+"vạn"
+],
+"team": [
+"ông",
+"tiệm",
+"chim",
+"nhưng",
+"tiệm",
+"chim"
+],
+"ướt": [
+"ước"
+],
+"bảy": [
+"cả",
+"bấy",
+"cả"
+],
+"chở": [
+"chạy",
+"chạy",
+"phải"
+],
+"bống": [
+"bóng",
+"bóng",
+"bóng",
+"bóng",
+"bóng",
+"bọn"
+],
+"vì": [
+"về"
+],
+"trời": [
+"chờ",
+"sợ",
+"chịu",
+"người",
+"chờ",
+"chài",
+"chả",
+"trưa",
+"chế",
+"cho",
+"trà",
+"chảy"
+],
+"cafe": [
+"cà",
+"cà"
+],
+"1": [
+"mò",
+"một",
+"mòn",
+"một"
+],
+"ngồi": [
+"ngoài",
+"ở",
+"ngòi",
+"ở",
+""
+],
+"làm": [
+"làng",
+"làng"
+],
+"slide": [
+"sờ",
+"sai"
+],
+"được": [
+"lai",
+"để",
+"thiếu"
+],
+"nguyên": [
+"quen"
+],
+"check": [
+"trách",
+"chắc",
+"chết",
+"chức",
+"chất",
+"chắc",
+"chết"
+],
+"na": [
+"nga",
+"đay",
+"a"
+],
+"dế": [
+"giấy",
+"giá"
+],
+"mèn": [
+"miệng",
+"mèng"
+],
+"phiêu": [
+"theo",
+"thêm"
+],
+"lưu": [
+"lứa",
+"lâu",
+"lùi",
+"yêu",
+"nước",
+"lu",
+"lâu",
+"lùi"
+],
+"nhi": [
+"vi",
+"nhìn",
+"nghi"
+],
+"bữa": [
+"vớ",
+"vỡ",
+"gen",
+"vớ"
+],
+"á": [
+"dễ"
+],
+"giữ": [
+"dùng",
+"dữ",
+"dữ",
+"lễ"
+],
+"mở": [
+"mỗi",
+"ở",
+"mãi",
+"ở",
+"mọi",
+"vỡ",
+"michael",
+"mới",
+"mễ",
+"bữa",
+"mự",
+"mãi",
+"mỗi",
+"vỡ",
+"michael",
+"mấy",
+"mễ"
+],
+"nở": [
+"nữ",
+"nữ"
+],
+"màu": [
+"mòn",
+"mòn"
+],
+"coi": [
+"cơ",
+"có",
+"ấy",
+"có",
+"tao",
+"con",
+"có",
+"cậu",
+"có",
+"có",
+"quen",
+"nanh",
+"cải",
+"con",
+"có",
+"có",
+"cậu"
+],
+"của": [
+"",
+"quanh",
+"khỏi",
+"",
+"cũng",
+"cô",
+"có",
+"quanh",
+"",
+"cũng",
+"cô"
+],
+"hẹn": [
+"hàng",
+"nghỉ",
+"hàng",
+"hàng",
+"hàng",
+"hễ",
+"hạng",
+"hàng",
+"hàng",
+"",
+"hàng",
+"hạn",
+"hàng",
+"hạng",
+"xóa",
+"hàng",
+"ạng",
+"hét",
+"hét"
+],
+"đón": [
+"sáng",
+"đợi",
+"đó",
+"tháng",
+"đậu",
+"đó",
+"bán"
+],
+"mang": [
+"năn",
+"nâng"
+],
+"laptop": [
+"nát",
+"góc",
+"lắp"
+],
+"dò": [
+"giờ",
+"vợ",
+"do",
+"vợ"
+],
+"vé": [
+"bé",
+"bé",
+"bé",
+"thấy"
+],
+"kỳ": [
+"thì",
+"thì"
+],
+"nhất": [
+"nhắc",
+"nhắc",
+"nét"
+],
+"trúng": [
+"tôi"
+],
+"thì": [
+"chuyện",
+"điều",
+"chị",
+"để",
+"thể",
+"",
+"",
+"tem",
+"điều",
+"thể",
+"",
+"thể",
+"sẽ",
+"thi"
+],
+"khao": [
+"thao",
+"thâu"
+],
+"nó": [
+"nữa",
+"phát",
+"trọng",
+"nữa",
+"nói",
+"nói",
+"anh"
+],
+"từ": [
+"tụi",
+"tiền",
+"tự",
+"",
+"",
+"rẻ",
+"thuê",
+"về",
+"tụi",
+"thuế",
+"tới",
+"",
+"về",
+""
+],
+"rẫy": [
+"bẩy",
+"ấy"
+],
+"buổi": [
+"bữa",
+"bùi",
+"nửa",
+"bụi",
+"bữa",
+"nửa"
+],
+"task": [
+"tái",
+"tán"
+],
+"trợ": [
+"chả",
+"chả",
+"chợt"
+],
+"lý": [
+"ly"
+],
+"giò": [
+"",
+"quay",
+"và",
+"già"
+],
+"huế": [
+"ghế",
+"nếu",
+"về",
+"",
+"ấy",
+"",
+"",
+"ế",
+""
+],
+"chat": [
+"chắt",
+"sát",
+"thắt",
+"chắc"
+],
+"là": [
+"làm",
+"đã",
+"lại",
+"ra",
+"làm",
+"và",
+"và",
+"tại",
+"lại"
+],
+"gửi": [
+"quỳnh",
+"người",
+"kẹt"
+],
+"file": [
+"phai",
+"sai",
+"pha"
+],
+"ok": [
+"oky",
+"ô",
+"oke"
+],
+"cơm": [
+"con",
+"con"
+],
+"đặt": [
+"đả",
+"đã",
+"đặc",
+"tặng",
+"bận",
+"đã",
+"thể",
+"đã",
+"đại",
+"là",
+"đáng",
+"cận",
+"bần",
+"đạp",
+"đặc",
+"lại",
+"đã",
+"đạt"
+],
+"hủy": [
+"huy",
+"huệ",
+"để",
+"hồi",
+"huỷ",
+"hãy",
+"ghé"
+],
+"gym": [
+"nghiêm",
+"ghêm"
+],
+"tá": [
+"thảo",
+"tháo"
+],
+"rồi": [
+"vừa",
+"ngôi",
+"về",
+"rời",
+"đời",
+"rạn",
+"đồ",
+"là",
+"rào",
+"rôi",
+"rời",
+"",
+"vừa",
+"lời",
+"bà",
+"rời",
+"và",
+"và",
+"lời",
+"rô",
+"đồi",
+"là",
+"và",
+"vậy"
+],
+"thêm": [
+"hen",
+"thấy",
+"quân",
+"thềm",
+"thanh",
+"hen",
+"em",
+"vua",
+"thềm",
+"thanh"
+],
+"giờ": [
+"giày",
+"cho",
+"dà",
+"giải",
+"nhà",
+"giữa",
+"sở",
+"ở",
+"vào",
+"rồi",
+"giới",
+"giày",
+"là",
+"và",
+"",
+"dậy",
+"dưa",
+"rời",
+"cho",
+"cho",
+"rồi",
+"rồi",
+"sở"
+],
+"gói": [
+"phối",
+"gỡ",
+"vớt",
+"gối",
+"với",
+"gỡ",
+"phó",
+"gối"
+],
+"cọc": [
+"thọc",
+"cộng",
+"thọ",
+"cộng"
+],
+"costa": [
+"kurdstad"
+],
+"lan": [
+"",
+"cho",
+"lên",
+"lại",
+"estral"
+],
+"kênh": [
+"tành",
+"em",
+"ních",
+"vi",
+"canh",
+"tành",
+"em",
+"vi",
+"canh",
+"canh",
+"nếp"
+],
+"sms": [
+"cái",
+"internet",
+"anamét",
+"fnx",
+"ét",
+"email",
+"a"
+],
+"dũng": [
+"nhận",
+"dốt",
+"dụng",
+"nhận",
+"rút"
+],
+"hộ": [
+"hồ",
+"họ",
+"mẫu",
+"góp",
+"họ",
+"mọc",
+"hộp"
+],
+"kitchen": [
+"khách",
+"kroos"
+],
+"thứ": [
+"hộp",
+"xưa",
+"hết",
+"thế",
+"né",
+"lớn",
+"tứ",
+"xưa",
+"hàng",
+"tuần"
+],
+"tư": [
+"giữ",
+"trao"
+],
+"giao": [
+"từ",
+"cho",
+"do",
+"do",
+"gieo",
+"",
+"chồng",
+"giai",
+"cho",
+"dao",
+"",
+"heo",
+"chào"
+],
+"hùng": [
+"hồng",
+"hồng",
+"hồng"
+],
+"mười": [
+"mấy",
+"ghen",
+"mấy",
+"mùa",
+"mùi",
+"hàng"
+],
+"khác": [
+"khá",
+"hát"
+],
+"mạ": [
+"giúp",
+"lại",
+"nạ",
+"giúp",
+"mạng",
+"mẹ"
+],
+"vụ": [
+"vỗ",
+"vội",
+"hủ",
+"ngủ"
+],
+"cả": [
+"đà",
+"đà"
+],
+"mục": [
+"một",
+"một",
+"một",
+"một"
+],
+"su": [
+"xuôi",
+"xua"
+],
+"hộp": [
+"hột",
+"hộc"
+],
+"tính": [
+"tứ",
+"chính",
+"tiếng",
+"sĩnh",
+"đến",
+"chẳng",
+"tĩnh",
+"tứ",
+"chính",
+"chính",
+"sỉnh",
+"tới",
+"tránh"
+],
+"hút": [
+"",
+"phục",
+"khuất",
+"bùi",
+"bối",
+"hodgson"
+],
+"đóng": [
+"tấm",
+"dòng",
+"làm",
+"tống",
+"đáng"
+],
+"soát": [
+"xét",
+"xử",
+"thoát"
+],
+"mekong": [
+"macon"
+],
+"riverside": [
+"river",
+"river"
+],
+"hotel": [
+"xa",
+"xã"
+],
+"chỗ": [
+"hútel",
+"cỗ",
+"hội",
+"trổ"
+],
+"bằng": [
+"và",
+"lòng",
+"lãng",
+"bạn",
+"mình",
+"lãng",
+"vào"
+],
+"nhỡ": [
+"nhỏ",
+"nhỏ"
+],
+"giúp": [
+"rút",
+"rút",
+"sức",
+"rất",
+"rút",
+"nhúc",
+"ghép",
+"cho",
+"thủy",
+"chúc",
+"vay",
+"sức",
+"giấc",
+"rút",
+"nhấp",
+"dụ"
+],
+"đoàn": [
+"hơn",
+"đậu",
+"đến",
+"đậu"
+],
+"tầng": [
+"thằng",
+"thần",
+"cần",
+"từng"
+],
+"hết": [
+"khách",
+"ép",
+"ếch",
+"cách"
+],
+"nào": [
+"nọ",
+"",
+"nằm",
+"đậm",
+"",
+"nỏ",
+"nữa",
+"này",
+"linh",
+"",
+"đầu"
+],
+"26": [
+"hai",
+"hai",
+"hai",
+"hai",
+"hai",
+"hai"
+],
+"vtv1": [
+"vtv",
+"kate",
+"cần",
+"kpp"
+],
+"hè": [
+"hề",
+"hèn",
+"hèn"
+],
+"ơ": [
+"tôi",
+"tối",
+"tôi",
+"có"
+],
+"mà": [
+"này",
+"là",
+"mạt",
+"và"
+],
+"phân": [
+"xoay",
+"thân"
+],
+"vân": [
+"quanh"
+],
+"luôn": [
+"thôi",
+"núi",
+"đồn",
+"ơn",
+"lẫn",
+"uốn",
+"đôn",
+"nuôi",
+"có",
+"hôn",
+"ngay",
+"lùi",
+"lùng",
+"luân",
+"đúng",
+"lên",
+"núi",
+"đúng",
+"buồn",
+"luân",
+"",
+"nuôi",
+"hơn",
+"ngay"
+],
+"tử": [
+"thoại",
+"thử",
+"rút"
+],
+"cảnh": [
+"cặn",
+"cặp"
+],
+"kho": [
+"khoang",
+"ho",
+"không",
+"khoang",
+"khoa",
+"hoa",
+"khoa",
+"cơ",
+"không"
+],
+"xe": [
+"xá",
+"sàn",
+"xã",
+"xa",
+"trục",
+"xà",
+"pha"
+],
+"homestay": [
+"hậu",
+"thanh",
+"hồ",
+"âm"
+],
+"ga": [
+"rằng",
+""
+],
+"cứ": [
+"",
+"các",
+"",
+"có"
+],
+"số": [
+"sữa",
+"xấu",
+"sữa",
+"sớ",
+"sô",
+"sớm",
+"chào",
+"sao",
+"suối",
+"sứa",
+"xuống",
+"johnny"
+],
+"cộng": [
+"cộn"
+],
+"trăm": [
+"trăng",
+"trong",
+"trông",
+"thằm",
+"thâm",
+"trăn",
+"trang",
+"sam",
+"thăng"
+],
+"nghen": [
+"ngang",
+"nheng",
+"nhạc",
+"tự",
+"nhan",
+"nhang",
+"ngàn",
+"nghiêng",
+"nha",
+"nha",
+"tơn",
+"nhang",
+"ngàn"
+],
+"hằng": [
+"hàng",
+"hàng",
+"hàng",
+"hàng"
+],
+"thoại": [
+"hại",
+"hại",
+"phát"
+],
+"mẹ": [
+"máy",
+"mạng"
+],
+"ờm": [
+"",
+"ờ",
+"à"
+],
+"long": [
+"lâu"
+],
+"hông": [
+"không",
+"không",
+"không",
+"thân",
+"không",
+"không",
+"không",
+"không",
+"không",
+"không",
+"hồng",
+"không",
+"không",
+"không",
+"không",
+"không",
+"không",
+"không",
+"không",
+"không"
+],
+"cineviệt": [
+"xin",
+"xin",
+"xin",
+"xin",
+"xin",
+"xin"
+],
+"combo": [
+"con",
+"công",
+"",
+"gòm",
+"con",
+"thông"
+],
+"bắp": [
+"bò",
+"bơ",
+"bò",
+"bơm",
+"báo"
+],
+"nước": [
+"gấp",
+"luốc",
+"lẻ",
+"gắp",
+"đứng",
+"nếu"
+],
+"quà": [
+"khoải",
+"khoài"
+],
+"bưu": [
+"đô",
+"thưa"
+],
+"17": [
+"mười",
+"mười"
+],
+"tui": [
+"tôi",
+"tôi",
+"tôi",
+"tôi",
+"tôi"
+],
+"4": [
+"bốn",
+"bốn",
+"bốn",
+"bốn",
+"bốn",
+"vốn"
+],
+"45": [
+"bốn",
+"bốn",
+"bốn",
+"bốn",
+"bốn",
+"vốn"
+],
+"tiết": [
+"tiếc",
+"tiếc",
+"thiếu",
+"kích"
+],
+"trạm": [
+"chăm",
+"chẳng",
+"tham"
+],
+"thảo": [
+"thở",
+"tháo",
+"tháo",
+"gia"
+],
+"điền": [
+"điện",
+"đến"
+],
+"vòng": [
+"dòng"
+],
+"lăm": [
+"năm",
+"làm"
+],
+"phút": [
+"phụ",
+"bức",
+"lòng"
+],
+"học": [
+"tướng",
+"hộp"
+],
+"30": [
+"ba",
+"ba"
+],
+"quạt": [
+"quả",
+"quẹt",
+"quả",
+"quà"
+],
+"chuyến": [
+"chiến",
+"chuẩn",
+"trình"
+],
+"rẻ": [
+"rẽ",
+"đã",
+"rã",
+"rạn"
+],
+"vy": [
+"vi",
+"vi"
+],
+"vtv3": [
+"vtv",
+"về",
+"vtv",
+"vtv"
+],
+"tờ": [
+"thờ",
+"thờ"
+],
+"fordham": [
+"foreham",
+"fulham"
+],
+"ảnh": [
+"anh"
+],
+"xem": [
+"",
+"xin",
+"thấy",
+"oanh",
+"",
+"thân",
+"xin",
+"sẽ",
+"sẽ"
+],
+"tuần": [
+"phần",
+"phần",
+"tùng"
+],
+"ghê": [
+"gây",
+"ghen",
+"do",
+"ga"
+],
+"một": [
+"thuốc",
+"mặc",
+"quét",
+"ở",
+"mặc",
+"mộc",
+"mình",
+"hoặc"
+],
+"đô": [
+"đua",
+"đồ",
+"đua"
+],
+"giá": [
+"dạ",
+"giả",
+"giả",
+"da"
+],
+"cước": [
+"cướp",
+"cướp",
+"cướp",
+"cướp"
+],
+"mr": [
+"mị",
+"mấy"
+],
+"tanaka": [
+"tơ",
+"sanaka",
+"tên"
+],
+"hạn": [
+"tá",
+"hại",
+"hàng",
+"hàng",
+"",
+"hẳn"
+],
+"vô": [
+"cô",
+"bố",
+"sắp",
+"vào",
+"cô",
+"bỏ",
+"vốn",
+"sắp",
+"tổn"
+],
+"tủ": [
+"thu",
+"tuổi"
+],
+"phuket": [
+"phượt",
+"phương"
+],
+"bốn": [
+"bố",
+"búng",
+"bón",
+"bột",
+"bố",
+"vốn"
+],
+"nắng": [
+"nặng"
+],
+"danh": [
+"bản",
+"nay"
+],
+"bạ": [
+"youtube",
+"bạn"
+],
+"đọc": [
+"đặt",
+"bật",
+"đọt",
+"tập",
+"đọt",
+"bọc",
+"dọc"
+],
+"chủ": [
+"chưởng"
+],
+"việc": [
+"vì",
+"nghiệp"
+],
+"ưu": [
+"ồ",
+"khổ"
+],
+"nhược": [
+"nhọc",
+"nhục"
+],
+"điểm": [
+"điếm",
+"tiếng"
+],
+"cuốn": [
+"cú"
+],
+"trả": [
+"sở",
+"đó",
+"chó",
+"sẽ",
+"thả",
+"chả",
+"choi",
+"thả"
+],
+"trước": [
+"rước",
+"chịu",
+"suốt",
+"tới",
+"tắp",
+"chút",
+"chịu",
+"suốt",
+"trớt",
+"suốt"
+],
+"đổi": [
+"đổ",
+"thổi",
+"đỡ",
+"đội",
+"đã",
+"đỗ",
+"thổi",
+"đỡ"
+],
+"trực": [
+"rực",
+"chụp",
+"thật",
+"thực"
+],
+"chốt": [
+"chiếu",
+"chúc",
+"chúa",
+"chúa",
+"trú",
+"trốn",
+"trò"
+],
+"bụi": [
+"bồi"
+],
+"pin": [
+"bin",
+"binh",
+"bên",
+"binh",
+"ra"
+],
+"lộc": [
+"lọt",
+"lọt",
+"lọt"
+],
+"con": [
+"cô",
+"thông",
+"cao",
+"có",
+"thoan",
+"tám",
+"",
+"ông",
+"có"
+],
+"y": [
+""
+],
+"trừ": [
+"chưa",
+"trồi",
+"chờ",
+"trước",
+"trổ"
+],
+"thằng": [
+"đằng",
+"hạnh",
+"thành",
+"hàn"
+],
+"book": [
+"bút",
+"búc"
+],
+"tí": [
+"tỉa",
+"tía",
+"tía",
+"tỉ",
+"tía",
+"tía"
+],
+"xăng": [
+"sẵn",
+"sang",
+"sang",
+"sang",
+"xăngtimét",
+"sân",
+"sàng",
+"xanh",
+"xanh",
+"sang"
+],
+"ron95": [
+"rồi",
+"rờn"
+],
+"chi": [
+"gì",
+"lô",
+"lô",
+"chê"
+],
+"khoản": [
+"khoán",
+"lo",
+"quán",
+"hạn",
+"quán"
+],
+"quanh": [
+"oăn",
+"oăn",
+"của",
+"ngoan",
+"ngoãn",
+"của"
+],
+"khu": [
+"khô",
+"khô"
+],
+"trúc": [
+"chút"
+],
+"mươi": [
+"",
+""
+],
+"sctv9": [
+"sg",
+"sctv",
+"sgtv",
+"sctv"
+],
+"ngoài": [
+"mọi",
+"ngồi",
+"ở",
+"ngồi",
+"bầu"
+],
+"đội": [
+"đôi",
+"là",
+"đôi",
+"đại"
+],
+"thi": [
+"khi",
+"thì",
+"khi"
+],
+"công": [
+"không",
+"không"
+],
+"60": [
+"sáu",
+"sáu"
+],
+"nhờ": [
+"giờ",
+"dời"
+],
+"nhà": [
+"nhẹ",
+"dàn",
+"ngày",
+"nhạc"
+],
+"khoá": [
+"khoát",
+"",
+"quá",
+"có",
+"có",
+"khoác",
+"",
+"quá",
+"khoai"
+],
+"ca": [
+"cai",
+"cai",
+"cao"
+],
+"mail": [
+"meo",
+"meo"
+],
+"tưới": [
+"tước"
+],
+"vựa": [
+"vợ",
+"vữa"
+],
+"ráo": [
+"lão",
+"nếu"
+],
+"đám": [
+"áo",
+"máy"
+],
+"mây": [
+"may",
+"may"
+],
+"tám": [
+"đánh",
+"thắm",
+"tạm",
+"nằm",
+"thắm",
+"thành"
+],
+"olivia": [
+"olivier"
+],
+"brown": [
+"braun"
+],
+"note": [
+"nốt",
+"lớn"
+],
+"nhớt": [
+"nhỡ",
+"nhớ"
+],
+"bản": [
+"bảng"
+],
+"nhẹ": [
+"dễ",
+"dạy"
+],
+"nhàng": [
+"dàng",
+"dạng"
+],
+"tĩnh": [
+"triển",
+"tiễn"
+],
+"chợ": [
+"chèo",
+"trợ",
+"trở",
+"trời",
+"trợ",
+"trở"
+],
+"6": [
+"sáu",
+"sau",
+"sáu",
+"sáu",
+"sau",
+"sáu"
+],
+"giỏi": [
+"dở",
+"dự"
+],
+"khen": [
+"kiến",
+"khuyên"
+],
+"lòng": [
+"mạnh",
+"mạnh"
+],
+"muado": [
+"mua",
+"mua"
+],
+"bì": [
+"bị",
+"bị"
+],
+"chả": [
+"cháy",
+"chà",
+"trà"
+],
+"bán": [
+"bóng",
+"vạn",
+"bắn",
+"bón",
+"libya",
+"ván"
+],
+"27": [
+"hai",
+"hai"
+],
+"độ": [
+"mươi",
+"đỏ"
+],
+"chúng": [
+"trúng"
+],
+"ta": [
+"toa",
+"tôi"
+],
+"răng": [
+"rạn",
+"anh",
+"ráng",
+"đánh"
+],
+"hoàn": [
+"vàng",
+"vàng"
+],
+"họ": [
+"hát",
+"hót"
+],
+"workshop": [
+"quần",
+"quật",
+"hột",
+"quạt"
+],
+"dạ": [
+"giả",
+"giả"
+],
+"nhẫn": [
+"những",
+"dẫn",
+"dẫn",
+"những",
+"dẫn",
+"dẫn"
+],
+"porter": [
+"potter",
+"porto"
+],
+"nhỏ": [
+"nhã",
+"nhả",
+""
+],
+"sunrise": [
+"sinh",
+"san"
+],
+"fresh": [
+"rice",
+"jay"
+],
+"tấn": [
+"đống",
+"đống"
+],
+"sáu": [
+"sau",
+"xấu"
+],
+"rưỡi": [
+"buổi",
+"đợi",
+"rỉ",
+"rủi",
+"đội",
+"rỉ",
+"rủi"
+],
+"gọi": [
+"ý",
+"ngồi",
+"gợi",
+"tối",
+"gợi",
+"khởi",
+"gợi",
+"đổi"
+],
+"huy": [
+"khi",
+"khi"
+],
+"tiện": [
+"tiểu",
+"phiền",
+"tiểu",
+"chuyện"
+],
+"thể": [
+"thê",
+"thị"
+],
+"suối": [
+"su"
+],
+"tổng": [
+"toán",
+"quái"
+],
+"xoá": [
+"xoáy",
+"xóa",
+"soái",
+"kế"
+],
+"daniel": [
+"đai",
+"đai"
+],
+"lee": [
+"nhồi",
+"nhồi"
+],
+"ổng": [
+"ông",
+"ông"
+],
+"rv221": [
+"rời",
+"rv"
+],
+"lau": [
+"lơn",
+"lo",
+"lâu",
+"lo"
+],
+"những": [
+"nhận"
+],
+"điều": [
+"điện",
+"điện",
+"liệu",
+"liệu",
+"điện"
+],
+"chào": [
+"trà",
+"chả"
+],
+"soạn": [
+"sắm",
+"soát",
+"sáng",
+"shop"
+],
+"sơ": [
+"sứ",
+"sứ"
+],
+"khỏe": [
+"khoẻ",
+"khoẻ"
+],
+"sang": [
+"vi",
+"vi"
+],
+"hà": [
+"hàng",
+"hành",
+"hẳn",
+"lộ"
+],
+"nội": [
+"ngày",
+"đội",
+"đội",
+"luôn"
+],
+"bluebird": [
+"blue",
+"tu",
+"bluebecks",
+"coffee"
+],
+"buýt": [
+"viết",
+"viết",
+"bus"
+],
+"để": [
+"tạo",
+"gặp"
+],
+"vợ": [
+"và",
+"và"
+],
+"tuyến": [
+"tiến",
+"tiếng"
+],
+"ơn": [
+"ứng",
+"món",
+"ngừng",
+"ngon"
+],
+"bộ": [
+"bỏ",
+"vội",
+"vọ",
+"vội"
+],
+"sếp": [
+"sức",
+"sít",
+"xét",
+"xét",
+"xác",
+"xếp",
+"xét",
+"xét"
+],
+"uống": [
+"bún",
+"bốn"
+],
+"magie": [
+"ma",
+"mai"
+],
+"robot": [
+"robert",
+"robert",
+"vô",
+"rô",
+"robert",
+"robert",
+"robert",
+"chú"
+],
+"e5": [
+"e",
+"e",
+"e",
+"e",
+"e",
+"e",
+"e",
+"e"
+],
+"95": [
+"chứng",
+"chín",
+"chín",
+"chín"
+],
+"chừng": [
+"cụng",
+""
+],
+"cửa": [
+"kiểu",
+"cỡ",
+"cử",
+"cử",
+"kẻ",
+"cụ",
+"cử",
+"cử"
+],
+"sau": [
+"sao",
+"sao"
+],
+"lại": [
+"lợi",
+"làn",
+"lãi",
+"lợi",
+"nặng",
+"đã",
+"lâu"
+],
+"canxi": [
+"tang"
+],
+"tin": [
+"tính",
+"tính",
+"tinh",
+"tính",
+"tinh"
+],
+"nếu": [
+"điều",
+"điều"
+],
+"123": [
+"một",
+"một",
+"một",
+"một"
+],
+"design": [
+"lì",
+"đi"
+],
+"bao": [
+"mười",
+"bào",
+"bay",
+"vô",
+"mua",
+"vàng"
+],
+"hoá": [
+"hóa",
+"hóa",
+"có",
+"hóa"
+],
+"tài": [
+"tránh",
+""
+],
+"ngân": [
+"ngại",
+"dành"
+],
+"thực": [
+"thịt",
+"thịt"
+],
+"dự": [
+"tiểu",
+"thiện"
+],
+"chú": [
+"thú",
+"thú",
+"xuống"
+],
+"phần": [
+""
+],
+"chênh": [
+"",
+"thiên"
+],
+"lệch": [
+"",
+"lai"
+],
+"chưa": [
+"trưa",
+"kia",
+"chừa",
+"chứ",
+"chờ",
+"cho",
+"cho",
+"chơ"
+],
+"dưới": [
+"chảy"
+],
+"119": [
+"một",
+""
+],
+"minhmart": [
+"minmass",
+"minmass",
+"minh",
+"min",
+"trơ",
+"minh"
+],
+"voucher": [
+"poster",
+"vào",
+"vóc",
+"bao"
+],
+"đổ": [
+"đổi",
+"đọ",
+"đũa",
+"đọt"
+],
+"máy": [
+"mấy",
+"mấy",
+"mấy"
+],
+"bảo": [
+"báo",
+"đại"
+],
+"aff": [
+"á",
+"a"
+],
+"cup": [
+"ép",
+"ép"
+],
+"đỡ": [
+"thợ",
+"tờ"
+],
+"python": [
+"phi",
+"phim"
+],
+"fiber": [
+"fire",
+"5ừa"
+],
+"nghìn": [
+"ngàn",
+"ngàn",
+"gan"
+],
+"lê": [
+"liên"
+],
+"nhớ": [
+"giở",
+"dỡ"
+],
+"xếp": [
+"sếp"
+],
+"dữ": [
+"dở",
+"chữ",
+"lữ",
+"dễ",
+"chữ"
+],
+"khuya": [
+"ga",
+"nga"
+],
+"kha": [
+"khoe",
+"khan",
+"khoe"
+],
+"tự": [
+"thự",
+"tủi",
+"tiêu"
+],
+"chạy": [
+"chị",
+"trị",
+"trại",
+"trả"
+],
+"hay": [
+"hai",
+"ngay"
+],
+"đấy": [
+"đếch",
+"ấy",
+"ấy"
+],
+"lít": [
+"nít",
+"đít"
+],
+"quý": [
+"vì"
+],
+"online": [
+"lịch",
+"anh",
+"lịch"
+],
+"meera": [
+"lớp",
+"ra"
+],
+"hễ": [
+"kể"
+],
+"wong": [
+"won",
+"won"
+],
+"về": [
+"vì",
+"để",
+"với"
+],
+"sạc": [
+"sợ",
+"xà"
+],
+"thay": [
+"thai",
+"thi",
+"thai"
+],
+"vừa": [
+"vậy",
+"về",
+"vì"
+],
+"thật": [
+"thực",
+"tật",
+"thịt"
+],
+"lên": [
+"đen",
+"đây",
+"lanh",
+"tại",
+"lần",
+"",
+"đây"
+],
+"gia": [
+"giờ",
+"da",
+"ra",
+"cho"
+],
+"bay": [
+"bị",
+"bày"
+],
+"dừng": [
+"chuyện",
+"chường"
+],
+"nhạc": [
+"nhà",
+"nhạt",
+"hạt",
+"nhạt"
+],
+"đã": [
+"tao"
+],
+"hỉ": [
+"thì",
+"thị"
+],
+"góp": [
+"góc",
+"góc"
+],
+"ngàn": [
+"nhận",
+"nhăm"
+],
+"hổng": [
+"không"
+],
+"bớt": [
+"bước"
+],
+"dây": [
+"giây"
+],
+"giáo": [
+"gái",
+"gái"
+],
+"miles": [
+"mai",
+"may"
+],
+"trễ": [
+"trẻ"
+],
+"kick": [
+"kít",
+"kết"
+],
+"nói": [
+"coi",
+"coi"
+],
+"se": [
+"cesare",
+"siêu",
+"siêu"
+],
+"trong": [
+"chôn",
+"trung"
+],
+"riêng": [
+"đi",
+"leo"
+],
+"ít": [
+"thích",
+"thích"
+],
+"hen": [
+"thì",
+"hèn",
+"an",
+"hình"
+],
+"cơ": [
+"cớ"
+],
+"đá": [
+"đã",
+"đã"
+],
+"banh": [
+"bằng",
+"bành"
+],
+"mã": [
+"mạng",
+"mạnh"
+],
+"qr": [
+"quý",
+"quy"
+],
+"đâu": [
+"đậu",
+"đổ"
+],
+"út": [
+"úc",
+"phúc",
+"úc",
+"úc"
+],
+"124": [
+"một"
+],
+"khoẻ": [
+"khỏe",
+"khỏe"
+],
+"bị": [
+"bì"
+],
+"5": [
+"năm",
+"năm"
+],
+"fischer": [
+"victor",
+"carrick"
+],
+"nộp": [
+"đợt"
+],
+"gạch": [
+"gạt",
+"giành"
+],
+"hồi": [
+"vừa",
+"hoài",
+"vừa"
+],
+"25": [
+"hai",
+"hai"
+],
+"7": [
+"bẩy",
+"tại"
+],
+"hì": [
+"khi",
+"khi"
+],
+"dụng": [
+"dục"
+],
+"chương": [
+"trung"
+],
+"tìm": [
+"tiền",
+"tiếng",
+"tiệm"
+],
+"diesel": [
+"đi"
+],
+"bé": [
+"vía"
+],
+"thùng": [
+"thuận"
+],
+"đây": [
+"đầy"
+],
+"việt": [
+"việc"
+],
+"in": [
+"chuyên"
+],
+"xã": [
+"sẽ"
+],
+"cũng": [
+"cúng"
+],
+"kịp": [
+"kiệm"
+],
+"cưới": [
+"cưa"
+],
+"sao": [
+"sào",
+"dao",
+"sau",
+"sau"
+],
+"dân": [
+"doanh"
+],
+"tộc": [
+"toàn"
+],
+"bệnh": [
+"mạnh"
+],
+"viện": [
+"mẽ"
+],
+"bít": [
+"biết"
+],
+"nhóm": [
+"dòng"
+],
+"nhật": [
+"khắc"
+],
+"mua": [
+"nhất",
+"thu",
+"mơ"
+],
+"người": [
+"ngờ"
+],
+"tuấn": [
+"tốn"
+],
+"chiếc": [
+"chị",
+"chướng"
+],
+"đình": [
+"vì"
+],
+"minh": [
+"mình",
+"mênh",
+"mình",
+"mình",
+"hình"
+],
+"lát": [
+"nhát"
+],
+"bếp": [
+"đỡ"
+],
+"lumina": [
+"lumia"
+],
+"bác": [
+"bắt"
+],
+"bấm": [
+"bắn"
+],
+"lực": [
+"lượng"
+],
+"lâu": [
+"lô"
+],
+"theo": [
+"thì"
+],
+"dõi": [
+"rõ"
+],
+"đừng": [
+"từng"
+],
+"lạnh": [
+"lần"
+],
+"phim": [
+"phía"
+],
+"ạ": [
+"à",
+"dạ"
+],
+"cần": [
+"càng"
+],
+"thơ": [
+"hơn"
+],
+"phơi": [
+"phây"
+],
+"dừa": [
+"đừa"
+],
+"bỏ": [
+"gọi"
+],
+"chọn": [
+"chồng"
+],
+"sửa": [
+"sẽ"
+],
+"phụ": [
+"vụ",
+"vụ"
+],
+"tiêu": [
+"tia",
+"tiên"
+],
+"cao": [
+""
+],
+"đói": [
+"đổi"
+],
+"chia": [
+"thì"
+],
+"sẻ": [
+"sẽ"
+],
+"mất": [
+"mới"
+],
+"giặt": [
+"dặt"
+],
+"sườn": [
+"chuẩn"
+],
+"hiện": [
+"hiền"
+],
+"tại": [
+"tệ"
+],
+"thấy": [
+""
+],
+"hiểm": [
+"diện"
+],
+"đánh": [
+"nắm"
+],
+"dấu": [
+"giấy"
+],
+"tròn": [
+"tròm"
+],
+"sạn": [
+"sẵn"
+],
+"tiếp": [
+"chấp"
+],
+"ổn": [
+"còn",
+"ồn"
+],
+"cuộc": [
+"cô"
+],
+"nạp": [
+"nàng"
+],
+"vắng": [
+"ván"
+],
+"động": [
+"độc"
+],
+"thanh": [
+"anh"
+],
+"ly": [
+"lý"
+],
+"evergreen": [
+"evergreenwood"
+],
+"cây": [
+"khi"
+],
+"truyền": [
+"điện"
+],
+"kapoor": [
+"khôn"
+],
+"gara": [
+"giao",
+"ra"
+],
+"tạo": [
+"tạm"
+],
+"mới": [
+"mình"
+],
+"sư": [
+"sớm"
+],
+"lâm": [
+"lăm"
+],
+"râm": [
+"răm"
+],
+"xoài": [
+"soài"
+],
+"mối": [
+"mới"
+],
+"đang": [
+"đăng"
+],
+"tan": [
+"ta"
+],
+"loại": [
+"lại"
+],
+"huấn": [
+"huẩn"
+],
+"mia": [
+"alexis"
+],
+"sớm": [
+""
+],
+"martin": [
+"mattine"
+]
+},
+"seen": {
+"ờ": 34,
+"khách": 68,
+"hàn": 6,
+"tới": 56,
+"sớm": 16,
+"rồi": 212,
+"con": 68,
+"robot": 20,
+"ồn": 6,
+"quá": 26,
+"ờm": 4,
+"mà": 42,
+"còn": 122,
+"trên": 16,
+"nửa": 10,
+"pin": 8,
+"thì": 168,
+"cho": 240,
+"hắn": 4,
+"dọn": 8,
+"trước": 44,
+"chỗ": 36,
+"tụi": 2,
+"em": 316,
+"ngồi": 14,
+"học": 22,
+"nghe": 84,
+"không": 186,
+"thôi": 54,
+"bài": 40,
+"hoa": 8,
+"nở": 6,
+"màu": 6,
+"đi": 192,
+"mở": 42,
+"lên": 42,
+"ủa": 4,
+"cái": 120,
+"đèn": 50,
+"phòng": 70,
+"tạm": 4,
+"tắt": 26,
+"hồi": 12,
+"nào": 72,
+"vậy": 48,
+"ta": 14,
+"mấy": 62,
+"ngày": 38,
+"anh": 190,
+"có": 170,
+"họp": 26,
+"online": 10,
+"với": 110,
+"việc": 52,
+"chi": 18,
+"phải": 10,
+"làm": 42,
+"bật": 62,
+"điều": 18,
+"hoà": 18,
+"hai": 86,
+"mươi": 24,
+"sáu": 42,
+"độ": 20,
+"nhà": 98,
+"tôi": 166,
+"hóa": 4,
+"đơn": 14,
+"mạng": 20,
+"chưa": 54,
+"đóng": 20,
+"ấy": 44,
+"nhỉ": 40,
+"xem": 46,
+"giúp": 98,
+"coi": 68,
+"giá": 36,
+"dầu": 6,
+"diesel": 4,
+"bữa": 20,
+"ni": 24,
+"nhắn": 64,
+"zalo": 24,
+"grace": 4,
+"nakamoto": 2,
+"đó": 94,
+"cơm": 16,
+"tấm": 8,
+"bên": 26,
+"món": 14,
+"gì": 66,
+"hôm": 82,
+"nay": 140,
+"mệt": 10,
+"cả": 20,
+"toàn": 8,
+"số": 62,
+"liệu": 4,
+"trưa": 34,
+"nóng": 8,
+"xỉu": 4,
+"chiều": 58,
+"tiết": 20,
+"lab": 2,
+"nữa": 18,
+"mai": 172,
+"dẫn": 4,
+"tour": 4,
+"dời": 10,
+"báo": 74,
+"thức": 40,
+"qua": 54,
+"năm": 46,
+"giờ": 198,
+"rưỡi": 30,
+"podcast": 6,
+"mô": 22,
+"về": 40,
+"du": 2,
+"lịch": 50,
+"kiếm": 4,
+"thêm": 54,
+"chuyện": 10,
+"kể": 4,
+"buồn": 6,
+"ngủ": 22,
+"ăn": 24,
+"tỉnh": 2,
+"tivi": 18,
+"kênh": 22,
+"htv7": 2,
+"giùm": 84,
+"bán": 16,
+"ra": 54,
+"126": 2,
+"triệu": 18,
+"9": 12,
+"sáng": 134,
+"nhắc": 70,
+"vàng": 36,
+"chuyển": 58,
+"2": 4,
+"từ": 48,
+"tài": 34,
+"khoản": 36,
+"thanh": 20,
+"toán": 22,
+"trần": 6,
+"văn": 4,
+"tuấn": 8,
+"tiền": 114,
+"góp": 6,
+"mua": 28,
+"vệ": 4,
+"sinh": 8,
+"giao": 50,
+"bé": 6,
+"na": 6,
+"nhận": 20,
+"thùng": 6,
+"hàng": 58,
+"marigold": 2,
+"foods": 4,
+"chú": 18,
+"nha": 132,
+"ơi": 44,
+"email": 6,
+"emily": 4,
+"gửi": 20,
+"nói": 20,
+"đoàn": 6,
+"nớ": 2,
+"người": 20,
+"khi": 4,
+"rứa": 26,
+"thế": 60,
+"là": 72,
+"ổn": 8,
+"cảm": 18,
+"ơn": 18,
+"nhé": 126,
+"nếu": 34,
+"mưa": 54,
+"huỷ": 14,
+"chơi": 10,
+"công": 32,
+"viên": 8,
+"của": 46,
+"chị": 134,
+"mình": 66,
+"gọi": 54,
+"lại": 48,
+"lúc": 26,
+"8": 4,
+"kém": 4,
+"15": 8,
+"tối": 64,
+"ok": 16,
+"join": 2,
+"đầu": 12,
+"tiên": 8,
+"vô": 20,
+"chờ": 4,
+"phát": 8,
+"chắc": 6,
+"yêu": 2,
+"đây": 24,
+"dùm": 24,
+"một": 80,
+"yên": 12,
+"nhật": 14,
+"đổi": 22,
+"được": 48,
+"bao": 76,
+"nhiêu": 92,
+"việt": 8,
+"ba": 60,
+"check": 14,
+"in": 8,
+"ghi": 52,
+"phụ": 8,
+"huynh": 4,
+"đang": 34,
+"trả": 28,
+"điện": 60,
+"bằng": 30,
+"ví": 72,
+"đủ": 30,
+"lấy": 38,
+"ngân": 24,
+"vé": 18,
+"hà": 16,
+"nội": 20,
+"cô": 52,
+"à": 38,
+"ông": 4,
+"xã": 2,
+"sân": 6,
+"bay": 22,
+"cũng": 6,
+"kịp": 2,
+"khỏi": 10,
+"hết": 38,
+"cỡ": 2,
+"hen": 8,
+"thằng": 8,
+"minh": 24,
+"thoại": 10,
+"mẹ": 14,
+"chào": 4,
+"dữ": 8,
+"vtv6": 4,
+"chạy": 30,
+"hồ": 12,
+"tây": 14,
+"đúng": 44,
+"ai": 16,
+"hát": 2,
+"đăng": 4,
+"ký": 14,
+"luôn": 76,
+"khoá": 10,
+"đấy": 18,
+"xăng": 16,
+"chín": 46,
+"lăm": 22,
+"lan": 18,
+"khóa": 14,
+"sơ": 8,
+"cứu": 4,
+"cộng": 8,
+"đồng": 2,
+"trang": 6,
+"tớ": 18,
+"cưới": 2,
+"ở": 48,
+"golden": 2,
+"lotus": 4,
+"hall": 2,
+"xổ": 4,
+"đà": 6,
+"nẵng": 6,
+"sài": 6,
+"gòn": 6,
+"trời": 34,
+"sao": 24,
+"ừ": 46,
+"meeting": 2,
+"ê": 6,
+"tô": 12,
+"phở": 2,
+"ngon": 4,
+"hơn": 6,
+"tưởng": 2,
+"nhiều": 6,
+"nakamura": 2,
+"rủ": 2,
+"nhóm": 14,
+"thi": 4,
+"bộ": 10,
+"tháng": 36,
+"này": 46,
+"nâng": 4,
+"mục": 10,
+"tiêu": 10,
+"bước": 24,
+"mỗi": 10,
+"nghìn": 22,
+"lô": 6,
+"cảng": 2,
+"trễ": 4,
+"muốn": 8,
+"vào": 34,
+"cửa": 34,
+"dân": 2,
+"tộc": 2,
+"hả": 4,
+"tạo": 10,
+"đọc": 32,
+"danh": 22,
+"sách": 20,
+"chợ": 18,
+"đặt": 76,
+"bún": 24,
+"bò": 24,
+"đặc": 2,
+"biệt": 2,
+"quán": 34,
+"thợ": 4,
+"sửa": 12,
+"mái": 4,
+"mới": 20,
+"lận": 2,
+"cấp": 4,
+"mã": 10,
+"kho": 20,
+"tên": 6,
+"xài": 12,
+"đám": 4,
+"giỗ": 2,
+"sjc": 18,
+"hẹn": 42,
+"uống": 8,
+"thuốc": 6,
+"bảy": 28,
+"ốm": 2,
+"khám": 2,
+"bệnh": 2,
+"viện": 6,
+"bạch": 4,
+"đường": 4,
+"xong": 42,
+"tám": 16,
+"mười": 32,
+"the": 2,
+"lemon": 2,
+"tree": 2,
+"café": 6,
+"bít": 2,
+"tết": 2,
+"phần": 22,
+"gam": 2,
+"dùng": 10,
+"tiện": 6,
+"cài": 2,
+"hằng": 6,
+"tự": 10,
+"chỉnh": 2,
+"xuống": 6,
+"bốn": 36,
+"trăm": 44,
+"xoài": 8,
+"gần": 6,
+"cốc": 2,
+"trà": 6,
+"đào": 4,
+"cam": 4,
+"sả": 4,
+"mèo": 6,
+"sang": 12,
+"s": 10,
+"sport": 8,
+"om": 4,
+"đô": 12,
+"mỹ": 8,
+"dư": 2,
+"team": 6,
+"ướt": 2,
+"ngoài": 16,
+"đem": 4,
+"máy": 34,
+"sấy": 2,
+"chở": 6,
+"bống": 6,
+"vì": 2,
+"cafe": 2,
+"quận": 2,
+"1": 4,
+"slide": 2,
+"nguyên": 2,
+"list": 2,
+"giữ": 12,
+"cuốn": 10,
+"dế": 2,
+"mèn": 2,
+"phiêu": 2,
+"lưu": 24,
+"nhi": 4,
+"hỏi": 2,
+"mượn": 2,
+"á": 2,
+"xếp": 4,
+"nồi": 2,
+"nấu": 4,
+"cháo": 2,
+"thứ": 26,
+"ghê": 10,
+"hè": 6,
+"tìm": 14,
+"trong": 28,
+"bạ": 6,
+"xe": 50,
+"ty": 16,
+"cà": 8,
+"phê": 8,
+"gia": 14,
+"đình": 8,
+"đón": 20,
+"tiếng": 18,
+"mang": 8,
+"laptop": 6,
+"phút": 30,
+"dò": 4,
+"kỳ": 4,
+"nhất": 12,
+"trúng": 2,
+"ít": 10,
+"khao": 2,
+"nó": 16,
+"rẫy": 2,
+"sếp": 10,
+"dũng": 12,
+"buổi": 18,
+"task": 2,
+"trợ": 14,
+"lý": 18,
+"chiếc": 4,
+"giò": 8,
+"huế": 16,
+"chat": 4,
+"tính": 26,
+"file": 4,
+"đâu": 12,
+"gà": 2,
+"nấm": 2,
+"lần": 2,
+"thời": 2,
+"hủy": 8,
+"gym": 2,
+"dạo": 4,
+"dồn": 2,
+"dập": 2,
+"tập": 22,
+"nổi": 2,
+"bưu": 4,
+"tá": 4,
+"như": 6,
+"vừa": 8,
+"chuẩn": 4,
+"bị": 6,
+"gói": 12,
+"đồ": 12,
+"cá": 2,
+"lóc": 2,
+"nhanh": 4,
+"lát": 2,
+"cọc": 4,
+"laura": 2,
+"costa": 2,
+"bếp": 10,
+"tin": 16,
+"tử": 12,
+"sms": 14,
+"hộ": 10,
+"lumina": 2,
+"kitchen": 2,
+"tư": 2,
+"nhầm": 2,
+"bác": 6,
+"chủ": 12,
+"phạm": 8,
+"hùng": 10,
+"siêu": 2,
+"thị": 4,
+"khác": 4,
+"mạ": 6,
+"vụ": 6,
+"đá": 6,
+"bóng": 6,
+"bỏ": 8,
+"bánh": 6,
+"su": 2,
+"kem": 2,
+"hộp": 6,
+"sữa": 8,
+"chua": 4,
+"ơ": 6,
+"bấm": 2,
+"chuông": 2,
+"kìa": 2,
+"camera": 4,
+"diện": 2,
+"đứng": 2,
+"nước": 28,
+"lê": 6,
+"rút": 2,
+"kiệm": 12,
+"để": 26,
+"hút": 12,
+"bụi": 8,
+"rửa": 2,
+"bát": 4,
+"đối": 4,
+"soát": 4,
+"lực": 4,
+"mekong": 2,
+"riverside": 2,
+"hotel": 2,
+"lâu": 8,
+"trừ": 8,
+"nhỡ": 4,
+"thành": 6,
+"phố": 6,
+"theo": 2,
+"dõi": 2,
+"cần": 20,
+"tầng": 4,
+"chỉ": 4,
+"quạt": 8,
+"quay": 2,
+"26": 6,
+"mất": 6,
+"đừng": 4,
+"cứ": 14,
+"vtv1": 4,
+"tuần": 26,
+"sau": 16,
+"cuộc": 6,
+"phân": 4,
+"vân": 2,
+"biết": 4,
+"giặt": 14,
+"thường": 2,
+"đã": 8,
+"cảnh": 8,
+"chuyến": 16,
+"homestay": 4,
+"ga": 2,
+"tròn": 4,
+"nghen": 14,
+"tokyo": 2,
+"lạnh": 6,
+"lắm": 8,
+"phim": 4,
+"long": 2,
+"hông": 22,
+"điểm": 14,
+"cineviệt": 6,
+"combo": 6,
+"bắp": 6,
+"hò": 2,
+"quà": 4,
+"bó": 2,
+"hồng": 2,
+"17": 2,
+"nguyễn": 4,
+"huệ": 2,
+"vũng": 2,
+"tàu": 4,
+"huy": 4,
+"tui": 6,
+"ạ": 10,
+"mật": 2,
+"khẩu": 4,
+"wifi": 2,
+"ngoại": 2,
+"ô": 8,
+"4": 6,
+"đến": 8,
+"45": 6,
+"dạy": 6,
+"liền": 2,
+"trạm": 6,
+"thảo": 6,
+"điền": 2,
+"đạp": 2,
+"vòng": 2,
+"thơ": 4,
+"chục": 12,
+"ngàn": 8,
+"mốt": 4,
+"nắng": 8,
+"hay": 6,
+"30": 2,
+"phơi": 2,
+"đánh": 8,
+"dấu": 8,
+"rẻ": 8,
+"hành": 2,
+"vy": 2,
+"ti": 4,
+"vi": 2,
+"vtv3": 4,
+"quanh": 14,
+"khu": 4,
+"tờ": 2,
+"ryan": 2,
+"fordham": 2,
+"tặng": 2,
+"đài": 2,
+"tác": 2,
+"ảnh": 4,
+"lọc": 2,
+"tôm": 2,
+"se": 6,
+"dễ": 2,
+"chịu": 2,
+"bố": 2,
+"cước": 4,
+"mr": 4,
+"tanaka": 4,
+"hạn": 12,
+"tủ": 2,
+"thực": 4,
+"phẩm": 2,
+"dừa": 2,
+"phuket": 2,
+"kiểm": 6,
+"tra": 6,
+"lo": 2,
+"chay": 2,
+"tĩnh": 6,
+"chút": 4,
+"bạn": 2,
+"muộn": 6,
+"ưu": 2,
+"nhược": 2,
+"chọn": 2,
+"nhau": 2,
+"tốt": 4,
+"hương": 2,
+"trực": 10,
+"chốt": 10,
+"lộc": 8,
+"tiệm": 2,
+"hiệu": 2,
+"những": 8,
+"cao": 6,
+"y": 2,
+"út": 8,
+"book": 2,
+"vợ": 8,
+"gara": 6,
+"offline": 6,
+"tí": 6,
+"ron95": 2,
+"đói": 4,
+"dạ": 4,
+"trúc": 2,
+"lớp": 2,
+"sctv9": 4,
+"đội": 4,
+"60": 2,
+"chương": 4,
+"trình": 2,
+"nhờ": 2,
+"tuyển": 2,
+"ban": 4,
+"xác": 4,
+"bàn": 2,
+"ca": 4,
+"mail": 4,
+"tưới": 2,
+"cây": 4,
+"vựa": 4,
+"berlin": 2,
+"ráo": 2,
+"chia": 2,
+"sẻ": 2,
+"mây": 2,
+"video": 2,
+"sẵn": 4,
+"olivia": 2,
+"brown": 2,
+"note": 2,
+"thay": 4,
+"nhớt": 2,
+"thích": 2,
+"bản": 6,
+"nhẹ": 2,
+"nhàng": 2,
+"cuối": 6,
+"tươi": 2,
+"6": 6,
+"giỏi": 4,
+"khen": 2,
+"thật": 4,
+"lòng": 2,
+"thư": 6,
+"muado": 2,
+"trữ": 2,
+"sườn": 2,
+"bì": 2,
+"chả": 4,
+"27": 2,
+"chúng": 4,
+"hiện": 4,
+"tại": 4,
+"răng": 4,
+"hoàn": 2,
+"họ": 2,
+"thấy": 4,
+"khỏe": 4,
+"bảo": 10,
+"hiểm": 2,
+"miếng": 2,
+"nộp": 4,
+"lá": 2,
+"chuối": 2,
+"nếp": 2,
+"workshop": 4,
+"ha": 4,
+"nhẫn": 6,
+"liam": 2,
+"porter": 2,
+"lời": 2,
+"sẽ": 2,
+"mặt": 2,
+"nhỏ": 4,
+"sunrise": 2,
+"fresh": 2,
+"tấn": 4,
+"thể": 4,
+"chai": 2,
+"suối": 6,
+"lớn": 2,
+"excel": 4,
+"tổng": 4,
+"xoá": 6,
+"nhập": 2,
+"daniel": 2,
+"lee": 2,
+"tọa": 2,
+"đàm": 2,
+"ổng": 2,
+"rv221": 2,
+"lau": 10,
+"sạn": 2,
+"rời": 2,
+"soạn": 4,
+"câu": 6,
+"sức": 2,
+"tiếp": 2,
+"bluebird": 4,
+"buýt": 4,
+"tuyến": 4,
+"yoga": 6,
+"magie": 2,
+"dừng": 4,
+"lít": 6,
+"e5": 8,
+"95": 4,
+"viết": 2,
+"chừng": 4,
+"nạp": 4,
+"chồng": 2,
+"canxi": 2,
+"thao": 2,
+"cua": 2,
+"dưới": 10,
+"123": 4,
+"chế": 2,
+"vắng": 4,
+"design": 2,
+"hoá": 4,
+"mức": 2,
+"kế": 2,
+"dự": 4,
+"trù": 2,
+"chênh": 2,
+"lệch": 2,
+"pizza": 4,
+"119": 2,
+"minhmart": 6,
+"giảm": 4,
+"voucher": 4,
+"góc": 2,
+"đổ": 4,
+"yếu": 2,
+"án": 2,
+"aff": 2,
+"cup": 2,
+"bangkok": 2,
+"tích": 2,
+"đụng": 2,
+"cắt": 2,
+"đỡ": 2,
+"xế": 2,
+"python": 2,
+"redwood": 2,
+"fiber": 2,
+"động": 4,
+"vẫn": 4,
+"xử": 4,
+"gió": 2,
+"sót": 2,
+"an": 6,
+"demo": 2,
+"sàng": 2,
+"vượt": 4,
+"nhớ": 2,
+"lễ": 2,
+"tân": 2,
+"nghỉ": 4,
+"ly": 4,
+"lucas": 2,
+"lái": 2,
+"evergreen": 2,
+"kha": 4,
+"khuya": 2,
+"xa": 4,
+"ngắn": 2,
+"truyền": 2,
+"hình": 2,
+"bến": 2,
+"phía": 2,
+"bắc": 2,
+"quý": 2,
+"trường": 6,
+"meera": 2,
+"kapoor": 2,
+"hoài": 2,
+"hễ": 2,
+"cậu": 2,
+"james": 2,
+"wong": 2,
+"biểu": 2,
+"ngưng": 2,
+"sạc": 2,
+"thủ": 2,
+"quỹ": 6,
+"lạc": 2,
+"miễn": 2,
+"nè": 2,
+"nãy": 4,
+"chính": 2,
+"khoan": 2,
+"sư": 2,
+"nhạc": 4,
+"gạo": 2,
+"lâm": 2,
+"râm": 2,
+"hỉ": 2,
+"bình": 2,
+"chung": 2,
+"mối": 4,
+"kêu": 4,
+"hổng": 2,
+"bớt": 2,
+"trứng": 2,
+"mét": 4,
+"dây": 4,
+"sắm": 2,
+"cuộn": 2,
+"dài": 2,
+"taxi": 2,
+"giáo": 2,
+"tan": 2,
+"rồng": 2,
+"miles": 2,
+"lương": 2,
+"giải": 2,
+"trí": 2,
+"kick": 2,
+"off": 2,
+"thử": 4,
+"ri": 2,
+"ấm": 2,
+"bụng": 2,
+"và": 4,
+"vui": 2,
+"nông": 4,
+"nghiệp": 4,
+"cung": 2,
+"hoàng": 2,
+"riêng": 2,
+"thuê": 2,
+"sắp": 2,
+"loại": 2,
+"cơ": 2,
+"banh": 2,
+"qr": 2,
+"124": 2,
+"khoẻ": 2,
+"chứ": 2,
+"huấn": 2,
+"5": 2,
+"mia": 2,
+"fischer": 2,
+"đức": 2,
+"cáo": 2,
+"gạch": 4,
+"25": 2,
+"7": 2,
+"hạ": 2,
+"gặp": 2,
+"hì": 2,
+"đưa": 2,
+"sophie": 2,
+"martin": 2,
+"cùng": 2,
+"dụng": 2,
+"căn": 2
+}
+}

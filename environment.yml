@@ -1,0 +1,28 @@
+# Conda environment for local dev: the lifemate package, its tests and the Kaggle CLI.
+#
+# CPU-only: this machine has no NVIDIA GPU, so all GPU training and inference runs on Kaggle.
+#
+# Create:   conda env create -f environment.yml
+# Update:   conda env update -f environment.yml --prune
+# Activate: conda activate lifemate
+name: lifemate
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - python-dotenv
+  - ipykernel
+  - pytest
+  - pip:
+      # CPU-only wheels -- no local CUDA/GPU needed; training runs on Kaggle.
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch
+      - transformers
+      - peft
+      - accelerate
+      - soundfile
+      - kaggle
+      - -e .[dev]

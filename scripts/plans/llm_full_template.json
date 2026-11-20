@@ -1,0 +1,2 @@
+{"0":[["train","--out","{out}/llm_full","--transcripts","auto:medium_train.json","--noisy-only","--tool-drop","0.5","--label-history","--synth","package","--epochs","1.0","--max-hours","4.5"],
+      ["infer","--split","public_test","--out","{out}/public","--adapter","{out}/llm_full/adapter","--transcripts","auto:medium_public_test.json","--shard","0","--shards","1","--budget-s","60"]]}

@@ -1,0 +1,52 @@
+{
+ "0": [
+  [
+   "probe",
+   "--out",
+   "{out}/probe_f3a",
+   "--adapter",
+   "auto:f3a/adapter",
+   "--ids-file",
+   "fold:3",
+   "--split",
+   "train",
+   "--transcripts",
+   "auto:avg5_train.json",
+   "--samples",
+   "4",
+   "--temperature",
+   "0.8",
+   "--top-p",
+   "0.95",
+   "--max-hours",
+   "8.5",
+   "--seed",
+   "2026"
+  ]
+ ],
+ "1": [
+  [
+   "probe",
+   "--out",
+   "{out}/probe_f3b",
+   "--adapter",
+   "auto:f3b/adapter",
+   "--ids-file",
+   "fold:3",
+   "--split",
+   "train",
+   "--transcripts",
+   "auto:avg5_train.json",
+   "--samples",
+   "4",
+   "--temperature",
+   "0.8",
+   "--top-p",
+   "0.95",
+   "--max-hours",
+   "8.5",
+   "--seed",
+   "2026"
+  ]
+ ]
+}

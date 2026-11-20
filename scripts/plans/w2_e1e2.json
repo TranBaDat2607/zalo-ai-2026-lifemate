@@ -1,0 +1,4 @@
+{"0":[["train","--out","{out}/e1","--holdout-file","splits","--transcripts","auto:medium_train.json","--noisy-only","--tool-drop","0.5","--label-history","--synth","package","--denoise","--epochs","2.0","--max-hours","8.3","--snapshot-epochs","1.0,1.5","--mask-names","0.3"],
+      ["?infer","--split","train","--out","{out}/e1_eval","--adapter","{out}/e1/adapter","--transcripts","auto:medium_train.json","--ids-file","splits","--shard","0","--shards","1","--budget-s","60","--denoise"]],
+ "1":[["train","--out","{out}/e2","--holdout-file","splits","--transcripts","auto:medium_train.json","--noisy-only","--tool-drop","0.5","--label-history","--synth","package,held","--denoise","--epochs","2.0","--max-hours","8.3","--snapshot-epochs","1.0,1.5"],
+      ["?infer","--split","train","--out","{out}/e2_eval","--adapter","{out}/e2/adapter","--transcripts","auto:medium_train.json","--ids-file","splits","--shard","0","--shards","1","--budget-s","60","--denoise"]]}

@@ -1,0 +1,3 @@
+{"0":[["asr_train","--out","{out}/b","--model","vinai/PhoWhisper-medium","--folds","3","--plan","2","--epochs","5","--max-hours","3.2","--synth","--synth-keep","auto:synth_keep.json"],
+      ["asr_ctx_eval","--out","{out}/b_ctx","--adapter","{out}/b/fold{fold}/best","--fold","2"]],
+ "1":[["asr_train","--out","{out}/b","--model","vinai/PhoWhisper-medium","--plan","full","--epochs","5","--max-hours","4.0","--synth","--synth-keep","auto:synth_keep.json"]]}
